@@ -136,6 +136,22 @@ function servicesFor(entryIds) {
 
 // ---------- views ----------
 const HINTS = ["kontrolle", "geld", "psychisch", "aufenthalt"];
+const hintText = (i) => (ui[lang].hints || ui.de.hints)[i];
+
+// Home ask field: cycle the examples through the placeholder ("e.g. …") so they read as ideas.
+let hintTimer = 0;
+function startHintCycle() {
+  clearInterval(hintTimer);
+  const input = document.getElementById("homeAskInput");
+  if (!input || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  let i = 0;
+  const show = () => { input.placeholder = `${t("eg")} ${hintText(i)}`; i = (i + 1) % HINTS.length; };
+  hintTimer = setInterval(() => {
+    if (!document.body.contains(input)) return clearInterval(hintTimer);
+    if (document.activeElement === input || input.value) return;
+    show();
+  }, 3200);
+}
 const POPULAR = ["kontrolle", "geld", "aufenthalt", "zwangsheirat"];
 
 function askForm(id, placeholder) {
@@ -153,8 +169,9 @@ function viewHome() {
     <div class="illu" aria-hidden="true">${illustration()}</div>
     <div class="wrap hero-inner">
       <h1 class="enter">${esc(t("heroTitle"))}<span>${esc(t("heroSub"))}</span></h1>
-      <ul class="hints enter enter-2">${HINTS.map((id, i) => `<li><a href="#thema-${id}">${esc((ui[lang].hints || ui.de.hints)[i])}</a></li>`).join("")}</ul>
-      <div class="enter enter-2">${askForm("homeAsk", t("askPlaceholder"))}</div>
+      <div class="enter enter-2 hero-ask">${askForm("homeAsk", t("askPlaceholder"))}
+        <ul class="hints">${HINTS.map((id, i) => `<li><a href="#thema-${id}">${esc(hintText(i))}</a></li>`).join("")}</ul>
+      </div>
       <div class="quick enter enter-3">
         <a class="btn btn-line" href="#check">${esc(t("quickCheck"))} <span class="mins">${esc(t("minutes"))}</span></a>
         <a class="textlink" href="#themen">${esc(t("quickRights"))} ${ICON.arrow}</a>
@@ -340,6 +357,7 @@ function render() {
   const page = route.startsWith("thema-") ? "thema" : route;
   const views = { check: viewCheck, frage: viewAsk, hilfe: viewHelp, themen: viewTopics, thema: () => viewEntry(route.slice(6)) };
   main.innerHTML = (views[page] || viewHome)();
+  startHintCycle();
   document.querySelectorAll(".menu a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${page || "start"}`));
 }
 

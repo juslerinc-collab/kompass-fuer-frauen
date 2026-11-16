@@ -71,7 +71,8 @@
       "Ich habe kein eigenes Geld",
       "Ich habe Angst, Nein zu sagen",
       "Angst um meine Bewilligung"
-    ]
+    ],
+    "eg": "z. B."
   },
   "en": {
     "langName": "English",
@@ -145,7 +146,8 @@
       "I have no money of my own",
       "I'm afraid to say no",
       "Worried about my permit"
-    ]
+    ],
+    "eg": "e.g."
   },
   "ar": {
     "langName": "العربية",
@@ -219,7 +221,8 @@
       "ليس لدي مال خاص بي",
       "أخاف أن أقول لا",
       "قلقة على تصريح إقامتي"
-    ]
+    ],
+    "eg": "مثلًا:"
   },
   "ti": {
     "langName": "ትግርኛ",
@@ -293,7 +296,8 @@
       "ናይ ገዛእ ርእሰይ ገንዘብ የብለይን",
       "ኣይፋል ክብል እፈርህ",
       "ብዛዕባ ፍቓድ መንበሪየ እሻቐል"
-    ]
+    ],
+    "eg": "ንኣብነት:"
   },
   "tr": {
     "langName": "Türkçe",
@@ -367,7 +371,8 @@
       "Kendi param yok",
       "Hayır demekten korkuyorum",
       "Oturma iznim için endişeliyim"
-    ]
+    ],
+    "eg": "örn."
   },
   "uk": {
     "langName": "Українська",
@@ -441,6 +446,7 @@
       "У мене немає власних грошей",
       "Я боюся сказати «ні»",
       "Боюся за свій дозвіл"
-    ]
+    ],
+    "eg": "напр."
   }
 }
