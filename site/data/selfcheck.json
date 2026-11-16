@@ -12,7 +12,8 @@
       },
       "leadsTo": [
         "kontrolle",
-        "stalking"
+        "stalking",
+        "digitale-gewalt"
       ]
     },
     {
@@ -100,7 +101,8 @@
         "uk": "Твоя родина тисне на тебе, щоб ти вийшла заміж, або вирішує, за кого?"
       },
       "leadsTo": [
-        "zwangsheirat"
+        "zwangsheirat",
+        "familie-ehre"
       ]
     },
     {
@@ -131,7 +133,9 @@
       "leadsTo": [
         "schutz",
         "anzeige",
-        "notfall"
+        "notfall",
+        "sexuelle-gewalt",
+        "sicherheitsplan"
       ]
     }
   ],

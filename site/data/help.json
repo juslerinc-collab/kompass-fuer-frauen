@@ -59,7 +59,12 @@
         "opferhilfe-geld",
         "notfall",
         "kontrolle",
-        "psychisch"
+        "psychisch",
+        "hilfe-schweiz",
+        "helfen",
+        "frauenhaus",
+        "sicherheitsplan",
+        "sexuelle-gewalt"
       ],
       "src": [
         "beob-142",
@@ -108,7 +113,12 @@
         "schutz",
         "anzeige",
         "kinder",
-        "stalking"
+        "stalking",
+        "digitale-gewalt",
+        "sicherheitsplan",
+        "sexuelle-gewalt",
+        "frauenhaus",
+        "helfen"
       ],
       "src": [
         "bif-faq",
@@ -214,7 +224,10 @@
         "schutz",
         "notfall",
         "spirale",
-        "kinder"
+        "kinder",
+        "frauenhaus",
+        "sicherheitsplan",
+        "familie-ehre"
       ],
       "src": [
         "bif-not",
@@ -241,7 +254,8 @@
       },
       "phone": "0800 800 007",
       "tags": [
-        "zwangsheirat"
+        "zwangsheirat",
+        "familie-ehre"
       ],
       "src": [
         "zh-zwang"
@@ -276,7 +290,8 @@
         "uk": "kokon-zh.ch"
       },
       "tags": [
-        "kinder"
+        "kinder",
+        "familie-ehre"
       ],
       "src": [
         "zh-opferberatung"
@@ -304,11 +319,334 @@
       "tags": [
         "anzeige",
         "aufenthalt-nachweis",
-        "notfall"
+        "notfall",
+        "sexuelle-gewalt"
       ],
       "src": [
         "bif-not",
         "zh-hilfe"
+      ]
+    },
+    {
+      "id": "frauenberatung-sg",
+      "name": {
+        "de": "Frauenberatung sexuelle Gewalt Zürich",
+        "en": "Frauenberatung sexuelle Gewalt Zürich (counselling after sexual violence)",
+        "ar": "Frauenberatung sexuelle Gewalt Zürich (استشارة بعد العنف الجنسي)",
+        "ti": "Frauenberatung sexuelle Gewalt Zürich (ምኽሪ ድሕሪ ጾታዊ ዓመጽ)",
+        "tr": "Frauenberatung sexuelle Gewalt Zürich (cinsel şiddet sonrası danışmanlık)",
+        "uk": "Frauenberatung sexuelle Gewalt Zürich (консультації після сексуального насильства)"
+      },
+      "what": {
+        "de": "Beratung für Frauen nach sexueller, körperlicher oder psychischer Gewalt. Kostenlos und vertraulich.",
+        "en": "Counselling for women after sexual, physical or psychological violence. Free and confidential.",
+        "ar": "استشارة للنساء بعد العنف الجنسي أو الجسدي أو النفسي. مجانية وسرية.",
+        "ti": "ድሕሪ ጾታዊ፡ ኣካላዊ ወይ ስነ-ኣእምሮኣዊ ዓመጽ ንደቀንስትዮ ምኽሪ። ብነጻን ምስጢራውን።",
+        "tr": "Cinsel, bedensel veya psikolojik şiddet yaşayan kadınlar için danışmanlık. Ücretsiz ve gizli.",
+        "uk": "Консультації для жінок після сексуального, фізичного чи психологічного насильства. Безкоштовно й конфіденційно."
+      },
+      "phone": "044 291 46 46",
+      "url": "https://www.frauenberatung.ch",
+      "urlLabel": {
+        "de": "frauenberatung.ch",
+        "en": "frauenberatung.ch",
+        "ar": "frauenberatung.ch",
+        "ti": "frauenberatung.ch",
+        "tr": "frauenberatung.ch",
+        "uk": "frauenberatung.ch"
+      },
+      "tags": [
+        "sexuelle-gewalt"
+      ],
+      "src": [
+        "zh-opferberatung"
+      ]
+    },
+    {
+      "id": "frauenhaus-winterthur",
+      "name": {
+        "de": "Frauenhaus Winterthur",
+        "en": "Women's shelter Winterthur",
+        "ar": "دار حماية النساء في فينترتور",
+        "ti": "ገዛ ሓለዋ ደቀንስትዮ ቪንተርቱር",
+        "tr": "Winterthur Kadın Sığınma Evi",
+        "uk": "Жіночий притулок Вінтертур"
+      },
+      "what": {
+        "de": "Geschützte Unterkunft für Frauen und Kinder. Tag und Nacht erreichbar.",
+        "en": "Safe accommodation for women and children. Available day and night.",
+        "ar": "سكن آمن للنساء والأطفال. متاح ليلًا ونهارًا.",
+        "ti": "ንደቀንስትዮን ቆልዑን ውሑስ መንበሪ። መዓልትን ለይትን ይርከብ።",
+        "tr": "Kadınlar ve çocuklar için güvenli konaklama. Gece gündüz ulaşılabilir.",
+        "uk": "Безпечне житло для жінок і дітей. Доступний вдень і вночі."
+      },
+      "phone": "052 213 08 78",
+      "tags": [
+        "frauenhaus",
+        "notfall"
+      ],
+      "src": [
+        "dao"
+      ]
+    },
+    {
+      "id": "frauenhaus-oberland",
+      "name": {
+        "de": "Frauenhaus Zürcher Oberland",
+        "en": "Women's shelter Zürcher Oberland",
+        "ar": "دار حماية النساء Zürcher Oberland",
+        "ti": "ገዛ ሓለዋ ደቀንስትዮ Zürcher Oberland",
+        "tr": "Zürcher Oberland Kadın Sığınma Evi",
+        "uk": "Жіночий притулок Zürcher Oberland"
+      },
+      "what": {
+        "de": "Geschützte Unterkunft für Frauen und Kinder. Tag und Nacht erreichbar.",
+        "en": "Safe accommodation for women and children. Available day and night.",
+        "ar": "سكن آمن للنساء والأطفال. متاح ليلًا ونهارًا.",
+        "ti": "ንደቀንስትዮን ቆልዑን ውሑስ መንበሪ። መዓልትን ለይትን ይርከብ።",
+        "tr": "Kadınlar ve çocuklar için güvenli konaklama. Gece gündüz ulaşılabilir.",
+        "uk": "Безпечне житло для жінок і дітей. Доступний вдень і вночі."
+      },
+      "phone": "044 994 40 94",
+      "tags": [
+        "frauenhaus",
+        "notfall"
+      ],
+      "src": [
+        "dao"
+      ]
+    },
+    {
+      "id": "maedchenhaus",
+      "name": {
+        "de": "Mädchenhaus Zürich",
+        "en": "Mädchenhaus Zürich (girls' house)",
+        "ar": "Mädchenhaus Zürich (بيت الفتيات)",
+        "ti": "Mädchenhaus Zürich (ገዛ ኣዋልድ)",
+        "tr": "Mädchenhaus Zürich (kız evi)",
+        "uk": "Mädchenhaus Zürich (дім для дівчат)"
+      },
+      "what": {
+        "de": "Schutz und Unterkunft für Mädchen und junge Frauen, zum Beispiel bei Gewalt oder Druck in der Familie.",
+        "en": "Protection and accommodation for girls and young women, for example with violence or pressure in the family.",
+        "ar": "حماية وسكن للفتيات والشابات، مثلًا عند العنف أو الضغط في العائلة.",
+        "ti": "ንኣዋልድን መንእሰያት ደቀንስትዮን ሓለዋን መንበርን፡ ንኣብነት ኣብ ስድራ ዓመጽ ወይ ጸቕጢ እንተሎ።",
+        "tr": "Kızlar ve genç kadınlar için koruma ve konaklama, örneğin ailede şiddet veya baskı olduğunda.",
+        "uk": "Захист і житло для дівчат і молодих жінок, наприклад у разі насильства чи тиску в родині."
+      },
+      "phone": "044 341 49 45",
+      "tags": [
+        "familie-ehre",
+        "zwangsheirat"
+      ],
+      "src": [
+        "dao",
+        "zh-hilfe"
+      ]
+    },
+    {
+      "id": "frauenhaeuser-ch",
+      "name": {
+        "de": "Frauenhäuser in der ganzen Schweiz (DAO)",
+        "en": "Women's shelters all over Switzerland (DAO)",
+        "ar": "دور حماية النساء في كل سويسرا (DAO)",
+        "ti": "ገዛውቲ ሓለዋ ደቀንስትዮ ኣብ ኩሉ ስዊዘርላንድ (DAO)",
+        "tr": "Tüm İsviçre'deki kadın sığınma evleri (DAO)",
+        "uk": "Жіночі притулки по всій Швейцарії (DAO)"
+      },
+      "what": {
+        "de": "Liste aller Frauenhäuser in der Schweiz und in Liechtenstein, mit Telefonnummern.",
+        "en": "List of all women's shelters in Switzerland and Liechtenstein, with phone numbers.",
+        "ar": "قائمة بكل دور حماية النساء في سويسرا وليختنشتاين، مع أرقام الهواتف.",
+        "ti": "ዝርዝር ኩሎም ገዛውቲ ሓለዋ ደቀንስትዮ ኣብ ስዊዘርላንድን ሊኽተንሽታይንን፡ ምስ ቁጽሪ ተሌፎን።",
+        "tr": "İsviçre ve Lihtenştayn'daki tüm kadın sığınma evlerinin telefon numaralı listesi.",
+        "uk": "Список усіх жіночих притулків у Швейцарії та Ліхтенштейні з номерами телефонів."
+      },
+      "url": "https://www.frauenhaeuser.ch/de",
+      "urlLabel": {
+        "de": "frauenhaeuser.ch",
+        "en": "frauenhaeuser.ch",
+        "ar": "frauenhaeuser.ch",
+        "ti": "frauenhaeuser.ch",
+        "tr": "frauenhaeuser.ch",
+        "uk": "frauenhaeuser.ch"
+      },
+      "tags": [
+        "hilfe-schweiz",
+        "frauenhaus"
+      ],
+      "src": [
+        "dao"
+      ]
+    },
+    {
+      "id": "opferhilfe-ch",
+      "name": {
+        "de": "Opferhilfe Schweiz: Beratungsstellen in allen Kantonen",
+        "en": "Victim Support Switzerland: counselling centres in all cantons",
+        "ar": "Opferhilfe Schweiz: مراكز استشارة في كل الكانتونات",
+        "ti": "Opferhilfe Schweiz: ማእከላት ምኽሪ ኣብ ኩሎም ካንቶናት",
+        "tr": "Opferhilfe Schweiz: Tüm kantonlardaki danışma merkezleri",
+        "uk": "Opferhilfe Schweiz: консультаційні служби в усіх кантонах"
+      },
+      "what": {
+        "de": "Finde eine Opferberatungsstelle in deinem Kanton. Kostenlos und vertraulich. Du darfst die Stelle frei wählen.",
+        "en": "Find a victim counselling centre in your canton. Free and confidential. You may choose the centre freely.",
+        "ar": "ابحثي عن مركز استشارة للضحايا في كانتونك. مجاني وسري. يمكنك اختيار المركز بحرية.",
+        "ti": "ኣብ ካንቶንኪ ማእከል ምኽሪ ግዳያት ድለዪ። ብነጻን ምስጢራውን። ነቲ ማእከል ብናጻ ክትመርጽዮ ትኽእሊ።",
+        "tr": "Kantonundaki bir mağdur danışma merkezini bul. Ücretsiz ve gizli. Merkezi serbestçe seçebilirsin.",
+        "uk": "Знайди консультаційну службу для потерпілих у своєму кантоні. Безкоштовно й конфіденційно. Службу можна обрати вільно."
+      },
+      "url": "https://www.opferhilfe-schweiz.ch/de/wo-finde-ich-hilfe/",
+      "urlLabel": {
+        "de": "opferhilfe-schweiz.ch",
+        "en": "opferhilfe-schweiz.ch",
+        "ar": "opferhilfe-schweiz.ch",
+        "ti": "opferhilfe-schweiz.ch",
+        "tr": "opferhilfe-schweiz.ch",
+        "uk": "opferhilfe-schweiz.ch"
+      },
+      "tags": [
+        "hilfe-schweiz",
+        "opferhilfe",
+        "opferhilfe-geld"
+      ],
+      "src": [
+        "ohs-wo"
+      ]
+    },
+    {
+      "id": "onlineberatung",
+      "name": {
+        "de": "Onlineberatung der Opferhilfe (Deutschschweiz)",
+        "en": "Online counselling of victim support (German-speaking Switzerland)",
+        "ar": "الاستشارة عبر الإنترنت لمساعدة الضحايا (سويسرا الناطقة بالألمانية)",
+        "ti": "ናይ ኢንተርነት ምኽሪ ሓገዝ ግዳያት (ጀርመንኛ ዝዛረብ ስዊዘርላንድ)",
+        "tr": "Mağdur yardımı online danışmanlık (Almanca konuşulan İsviçre)",
+        "uk": "Онлайн-консультації служби допомоги жертвам (німецькомовна Швейцарія)"
+      },
+      "what": {
+        "de": "Beratung per Chat und online, wenn du lieber schreibst als telefonierst.",
+        "en": "Counselling by chat and online, if you prefer writing to phoning.",
+        "ar": "استشارة عبر الدردشة والإنترنت، إذا كنت تفضلين الكتابة على الاتصال.",
+        "ti": "ካብ ምድዋል ምጽሓፍ እንተ መሪጽኪ፡ ብቻትን ብኢንተርነትን ምኽሪ።",
+        "tr": "Telefon yerine yazmayı tercih ediyorsan sohbet ve online danışmanlık.",
+        "uk": "Консультації в чаті та онлайн, якщо тобі зручніше писати, ніж телефонувати."
+      },
+      "url": "https://www.onlineopferberatung.ch",
+      "urlLabel": {
+        "de": "onlineopferberatung.ch",
+        "en": "onlineopferberatung.ch",
+        "ar": "onlineopferberatung.ch",
+        "ti": "onlineopferberatung.ch",
+        "tr": "onlineopferberatung.ch",
+        "uk": "onlineopferberatung.ch"
+      },
+      "tags": [
+        "hilfe-schweiz",
+        "opferhilfe",
+        "digitale-gewalt"
+      ],
+      "src": [
+        "ohs-wo"
+      ]
+    },
+    {
+      "id": "fgc",
+      "name": {
+        "de": "Netzwerk gegen Mädchenbeschneidung Schweiz",
+        "en": "Network against Female Genital Cutting Switzerland",
+        "ar": "شبكة مكافحة ختان الإناث في سويسرا",
+        "ti": "መርበብ ኣንጻር ምግዛር ኣዋልድ ስዊዘርላንድ",
+        "tr": "Kız Çocuklarının Sünnetine Karşı Ağ İsviçre",
+        "uk": "Мережа проти жіночого обрізання Швейцарії"
+      },
+      "what": {
+        "de": "Kostenlose, vertrauliche Beratung zu Mädchenbeschneidung, auf Wunsch anonym und mit Dolmetscherin.",
+        "en": "Free, confidential advice on female genital cutting, anonymous if you wish and with an interpreter.",
+        "ar": "استشارة مجانية وسرية حول ختان الإناث، مجهولة الهوية إذا رغبت ومع مترجمة.",
+        "ti": "ብዛዕባ ምግዛር ደቀንስትዮ ብነጻን ምስጢራውን ምኽሪ፡ እንተ ደሊኺ ብዘይ ስምን ምስ ተርጓሚትን።",
+        "tr": "Kadın sünneti hakkında ücretsiz, gizli danışmanlık, istersen isimsiz ve tercümanla.",
+        "uk": "Безкоштовні конфіденційні консультації щодо жіночого обрізання, за бажанням анонімно та з перекладачкою."
+      },
+      "phone": "041 419 23 55",
+      "url": "https://www.female-genital-cutting.ch/",
+      "urlLabel": {
+        "de": "female-genital-cutting.ch",
+        "en": "female-genital-cutting.ch",
+        "ar": "female-genital-cutting.ch",
+        "ti": "female-genital-cutting.ch",
+        "tr": "female-genital-cutting.ch",
+        "uk": "female-genital-cutting.ch"
+      },
+      "tags": [
+        "beschneidung"
+      ],
+      "src": [
+        "fgc-netz"
+      ]
+    },
+    {
+      "id": "fiz",
+      "name": {
+        "de": "FIZ – Opferschutz Menschenhandel",
+        "en": "FIZ – victim protection for human trafficking",
+        "ar": "FIZ – حماية ضحايا الاتجار بالبشر",
+        "ti": "FIZ – ሓለዋ ግዳያት ዝውውር ደቂ ሰባት",
+        "tr": "FIZ – İnsan ticareti mağdurlarının korunması",
+        "uk": "FIZ – захист жертв торгівлі людьми"
+      },
+      "what": {
+        "de": "Beratung und Begleitung für Betroffene von Menschenhandel und Ausbeutung.",
+        "en": "Counselling and support for people affected by human trafficking and exploitation.",
+        "ar": "استشارة ومرافقة للمتضررين من الاتجار بالبشر والاستغلال.",
+        "ti": "ንግዳያት ዝውውር ደቂ ሰባትን ምዝማዝን ምኽርን ደገፍን።",
+        "tr": "İnsan ticareti ve sömürüden etkilenen kişiler için danışmanlık ve destek.",
+        "uk": "Консультації та супровід для постраждалих від торгівлі людьми та експлуатації."
+      },
+      "phone": "044 436 90 00",
+      "url": "https://www.fiz-info.ch",
+      "urlLabel": {
+        "de": "fiz-info.ch",
+        "en": "fiz-info.ch",
+        "ar": "fiz-info.ch",
+        "ti": "fiz-info.ch",
+        "tr": "fiz-info.ch",
+        "uk": "fiz-info.ch"
+      },
+      "tags": [
+        "hilfe-schweiz"
+      ],
+      "src": [
+        "zh-opferberatung"
+      ]
+    },
+    {
+      "id": "143",
+      "name": {
+        "de": "Die Dargebotene Hand 143",
+        "en": "Die Dargebotene Hand 143 (helpline)",
+        "ar": "Die Dargebotene Hand 143 (خط المساعدة)",
+        "ti": "Die Dargebotene Hand 143 (ተሌፎን ሓገዝ)",
+        "tr": "Die Dargebotene Hand 143 (yardım hattı)",
+        "uk": "Die Dargebotene Hand 143 (телефон довіри)"
+      },
+      "what": {
+        "de": "Telefonberatung in Krisen, rund um die Uhr.",
+        "en": "Phone counselling in a crisis, around the clock.",
+        "ar": "استشارة هاتفية في الأزمات، على مدار الساعة.",
+        "ti": "ኣብ ቅልውላው ብተሌፎን ምኽሪ፡ 24 ሰዓት።",
+        "tr": "Kriz durumunda telefonla danışmanlık, 24 saat.",
+        "uk": "Телефонні консультації в кризових ситуаціях, цілодобово."
+      },
+      "phone": "143",
+      "tags": [
+        "helfen",
+        "notfall"
+      ],
+      "src": [
+        "bs-zivilcourage",
+        "fgc-netz"
       ]
     }
   ]

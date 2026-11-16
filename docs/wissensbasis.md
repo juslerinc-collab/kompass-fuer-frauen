@@ -1,8 +1,8 @@
 # Wissensbasis Kompass – Leseversion zum Prüfen
 
-> **Prototyp – Inhalte ungeprüft, keine Rechtsberatung.** Stand 2026-11-16. Nur Deutsch (Original), Übersetzungen folgen. Diese Datei wird aus `site/data/knowledge.json` erzeugt; Änderungen bitte dort.
+> **Prototyp – Inhalte ungeprüft, keine Rechtsberatung.** Stand 2026-11-16. Hier nur Deutsch (Original). en, ar, ti, tr, uk: maschinell übersetzt (KI, 2026-11-16), ungeprüft. de ist das Original. Diese Datei wird aus `site/data/knowledge.json` erzeugt; Änderungen bitte dort.
 
-Prüfhinweis: Jeder Absatz zeigt seine Quellen als [Kürzel]. Eine Fachperson (z.B. BIF oder Opferhilfe) sollte besonders die Einträge *Aufenthalt*, *Nachweis* und *Getrennt leben* gegenlesen.
+Prüfhinweis: Jeder Absatz zeigt seine Quellen als [Kürzel]. Eine Fachperson sollte besonders *Aufenthalt*, *Nachweis*, *Getrennt leben*, *Sexuelle Gewalt* und *Mädchenbeschneidung* gegenlesen.
 
 ## Erkennen
 
@@ -45,6 +45,36 @@ _Stalking ist in der Schweiz seit 2026 strafbar, auch digital._
 - Stalking heisst: Jemand verfolgt, belästigt oder bedroht dich immer wieder, zum Beispiel mit ständigen Anrufen und Nachrichten oder über andere Personen. Auch Standort-Überwachung und falsche Profile gehören dazu. [bif-def]
 - Seit dem 1. Januar 2026 ist Stalking als «Nachstellung» strafbar (Art. 181b StGB). Hilfreich: klare Grenzen setzen, auf weitere Kontakte nicht reagieren, alles in einem Tagebuch aufschreiben und keine Beweise löschen. [bif-faq]
 
+### Sex gegen deinen Willen ist Gewalt, auch in der Ehe  `#sexuelle-gewalt`
+
+_Seit 2024 gilt in der Schweiz: Nein heisst Nein. Auch wenn du vor Angst erstarrst, ist das ein Nein._
+
+- Seit dem 1. Juli 2024 gilt ein neues Sexualstrafrecht. Für eine Vergewaltigung braucht es keine Gewalt und keine Drohung mehr. Strafbar ist, wer sich über ein Nein hinwegsetzt. Das Nein kann mit Worten oder Gesten gezeigt werden. [bs-sexgewalt]
+- Wenn du vor Angst erstarrst und dich nicht wehren kannst, gilt das auch als Nein, wenn er es erkannt hat. [bs-sexgewalt]
+- Heimlich das Kondom abziehen oder weglassen, obwohl ihr etwas anderes abgemacht habt, ist ebenfalls strafbar. [bs-sexgewalt]
+- Vergewaltigung und sexuelle Nötigung in der Ehe oder Partnerschaft werden von Amtes wegen verfolgt, auch ohne Anzeige des Opfers. [sz-fragen]
+- Lass Verletzungen möglichst schnell untersuchen, am besten innerhalb von 72 Stunden. Bewahre Beweise wie Fotos oder Kleidung auf. Forensic Nurses sichern Spuren kostenlos, auch ohne Anzeige. [be-zusammen-sicher, bif-faq]
+- Im Kanton Zürich berät die Frauenberatung sexuelle Gewalt Frauen nach sexueller Gewalt: 044 291 46 46. [zh-opferberatung]
+
+### Dein Handy: Wenn er mitliest oder weiss, wo du bist  `#digitale-gewalt`
+
+_Überwachung übers Handy ist Gewalt. Einiges kannst du selbst prüfen, aber überlege zuerst, ob er es merkt._
+
+- Zu digitaler Gewalt gehören zum Beispiel: intime Bilder ohne Erlaubnis verbreiten, gefälschte Bilder (Deepfakes), Cyber-Stalking, Spionage-Apps und Tracker. [ag-was-ist-hg]
+- Prüfe die Standortfreigaben: auf dem iPhone unter «Wo ist?», auf Android in Google Maps unter «Standortfreigabe». Prüfe auch den Live-Standort in WhatsApp, Telegram oder Snapchat. [ag-digital]
+- Ändere die PIN deines Handys, denn oft kennt er sie. Nutze für jedes Konto ein eigenes, starkes Passwort. Geteilte Konten und Passwörter sind der häufigste Weg, wie jemand mitliest. [ag-digital]
+- Schau nach, wo deine Konten angemeldet sind, und melde unbekannte Geräte ab. Auf dem iPhone hilft der «Sicherheitscheck», auf Android der «Sicherheitscheck» in den Einstellungen. [ag-digital]
+- Mach Screenshots als Beweis, bevor du etwas änderst. Und handle nicht überstürzt: Überlege mit einer Beratungsstelle, ob und wann du einen Zugang trennst. [ag-digital]
+
+### Wenn die Familie dich kontrolliert oder bedroht  `#familie-ehre`
+
+_Gewalt kommt nicht nur vom Partner. Auch Eltern, Brüder oder Verwandte dürfen dich nicht bedrohen oder einsperren._
+
+- Häusliche Gewalt gibt es nicht nur in Paaren. Sie kommt auch zwischen Eltern und Kindern oder unter Geschwistern vor, zum Beispiel wenn ein Bruder seine Schwester bedroht und schlägt. [ag-was-ist-hg]
+- Manchmal setzt die Familie eine junge Frau mit Drohungen unter Druck, zum Beispiel damit sie sich von ihrem Freund trennt. [ag-was-ist-hg]
+- Die Fachstelle Zwangsheirat berät auch bei Heiratsverschleppung ins Ausland, bei Gewalt im Namen der Ehre und bei Druck wegen Sexualität und Jungfräulichkeit: 0800 800 007. [fs-zwangsheirat]
+- Frauenhäuser helfen auch jungen Frauen und minderjährigen Mädchen, eine Unterkunft weg von den Eltern zu finden. In Zürich gibt es dafür das Mädchenhaus: 044 341 49 45. [dao]
+
 ## Deine Rechte
 
 ### Verliere ich meine Bewilligung, wenn ich mich trenne?  `#aufenthalt`
@@ -78,6 +108,7 @@ _Die Beratung ist gratis und vertraulich, auch ohne Anzeige bei der Polizei._
 - Die Opferhilfe hilft dir und deinen Kindern auch, einen sicheren Ort zu finden, zum Beispiel ein Frauenhaus. [ohs-hg]
 - Bei der BIF bestimmst du das Tempo selbst. Beratung ist per Telefon, online oder persönlich möglich. [bif-faq]
 - Die Opferhilfe-Nummer 142 ist Tag und Nacht erreichbar und kostenlos. [beob-142, zh-hilfe-ls]
+- Woher du kommst und welchen Aufenthaltsstatus du hast, spielt keine Rolle. Auch Angehörige und nahestehende Personen können Opferhilfe bekommen. [ohs-wer]
 
 ### Die Opferhilfe kann Kosten übernehmen  `#opferhilfe-geld`
 
@@ -118,6 +149,24 @@ _Kinder leiden mit, auch wenn sie Gewalt «nur» miterleben. Es gibt Hilfe für 
 - Bei einer Trennung regelt das Gericht, bei wem die Kinder wohnen und wie oft sie den anderen Elternteil sehen. Das Sorgerecht bleibt meistens bei beiden Eltern. [zh-gericht-eheschutz]
 - Bei Trennungen werden Kinder manchmal als Druckmittel benutzt, zum Beispiel mit Drohungen. Plane eine Trennung darum am besten mit einer Beratungsstelle. [bif-dyn]
 
+### Mädchenbeschneidung ist in der Schweiz verboten  `#beschneidung`
+
+_Jede Form von Beschneidung ist strafbar, auch wenn sie im Ausland gemacht wird. Es gibt vertrauliche Beratung._
+
+- Weibliche Genitalbeschneidung ist in der Schweiz verboten. Seit 2012 gibt es dafür ein eigenes Strafgesetz (Art. 124 StGB). In der Schweiz sind schätzungsweise rund 24'600 Frauen und Mädchen betroffen oder gefährdet. [bag-fgm]
+- Verboten sind alle Formen. Strafbar macht sich auch, wer es im Ausland machen lässt oder es als Elternteil zulässt, zum Beispiel während der Ferien im Herkunftsland. [fgc-netz]
+- Das Netzwerk gegen Mädchenbeschneidung berät kostenlos und vertraulich, auf Wunsch anonym und mit Dolmetscherin: 041 419 23 55. Im Kanton Zürich gibt es die Anlaufstelle FGMhelp. [fgc-netz, zh-fgmhelp]
+- Wenn du beschnitten bist, gibt es erfahrene Ärztinnen und Hebammen. Eine Operation zum Öffnen (Defibulation) bezahlt die Krankenkasse. [fgc-netz]
+
+### Du wohnst nicht in Zürich? Hilfe gibt es überall  `#hilfe-schweiz`
+
+_In jedem Kanton gibt es Opferberatungsstellen und Frauenhäuser. Die 142 funktioniert in der ganzen Schweiz._
+
+- Seit dem 1. Mai 2026 erreichst du die Opferhilfe in der ganzen Schweiz rund um die Uhr unter 142. Aus dem Ausland geht 142 nicht. Dann wähle 116 006 oder 116 016. [ohs-wo]
+- Opferberatungsstellen gibt es in allen Kantonen. Du darfst die Stelle frei wählen, auch ausserhalb deines Wohnkantons. Eine Liste nach Kanton findest du bei Opferhilfe Schweiz. [ohs-wo]
+- In der Deutschschweiz gibt es auch eine Chat- und Onlineberatung: onlineopferberatung.ch. [ohs-wo]
+- Frauenhäuser gibt es in vielen Regionen, zum Beispiel in Bern, Basel, Luzern, St. Gallen, Aargau und Winterthur. Alle Adressen findest du bei der Dachorganisation der Frauenhäuser. [dao, ebg-hilfe]
+
 ## Schutz
 
 ### Die Polizei kann ihn aus der Wohnung weisen  `#schutz`
@@ -140,6 +189,26 @@ _Die meisten Taten bei häuslicher Gewalt werden von Amtes wegen verfolgt. Spure
 - Bei einigen Taten in der Partnerschaft (zum Beispiel einfache Körperverletzung, Drohung, Nötigung) kannst du verlangen, dass das Verfahren pausiert, höchstens 6 Monate. Du kannst verlangen, dass es wieder weitergeht. Der Partner muss in dieser Zeit eventuell ein Lernprogramm gegen Gewalt besuchen. [fedlex-stgb55a]
 - Spuren wie Verletzungen können Forensic Nurses kostenlos und rund um die Uhr sichern, auch ohne Anzeige (0800 09 09 09). Sie können später als Beweis dienen. [bif-faq, zh-hilfe]
 - Unsicher? Ein Beratungsgespräch hilft, bevor du dich entscheidest. [bif-faq]
+- Bist du verheiratet oder lebst du mit ihm zusammen, darfst du die Aussage gegen deinen Partner verweigern. Du kannst auch später noch aussagen. Ohne deine Aussage ist die Tat aber oft schwerer zu beweisen. [sz-fragen]
+
+### Sicher bleiben: Einen Notfallplan machen  `#sicherheitsplan`
+
+_Plane voraus: wichtige Nummern, Kopien deiner Dokumente bei einer Vertrauensperson, und wohin du im Notfall gehen kannst._
+
+- Überlege dir vorher, wo du im Notfall Hilfe bekommst, zum Beispiel bei einer Nachbarin. Schreib wichtige Nummern auf und halte sie griffbereit: Polizei 117 und die Nummern von Vertrauenspersonen. [be-zusammen-sicher]
+- Gib Kopien deiner wichtigen Dokumente und der Dokumente deiner Kinder einer Vertrauensperson. [be-zusammen-sicher]
+- Wenn es gefährlich wird: Geh möglichst schnell weg, statt auszuharren. [beob-machtlos]
+- Die Zeit der Trennung ist besonders gefährlich. Plane eine Trennung darum mit einer Beratungsstelle. Sie hilft auch, einen geschützten Ort zu finden. [ag-was-ist-hg, bif-dyn, beob-machtlos]
+
+### Frauenhaus: Ein sicherer Ort für dich und deine Kinder  `#frauenhaus`
+
+_Ins Frauenhaus kannst du auch ohne Geld, egal welcher Nationalität und mit welchem Aufenthaltsstatus._
+
+- Frauenhäuser sind Schutzorte für Frauen und ihre Kinder, die körperliche, psychische oder sexuelle Gewalt erleben. Die Adresse ist geheim. [dao, be-zusammen-sicher]
+- Ob du hingehen darfst, hängt nicht von deiner Nationalität, deinem Aufenthaltsstatus oder deinem Einkommen ab. Du kannst auch ohne Geld kommen. Meist bezahlt die Opferhilfe den ersten Aufenthalt, eine Anzeige ist nicht nötig. [dao]
+- Deine Kinder kommen mit dir und bekommen auch Unterstützung. Bei häuslicher Gewalt hast du das Recht und die Pflicht, deine Kinder in Sicherheit zu bringen. [dao]
+- Wenn du die Sprache nicht sprichst, arbeiten die Frauenhäuser mit Dolmetscherinnen. [dao]
+- Ruf die 142 an oder direkt ein Frauenhaus. Frauenhäuser sind Tag und Nacht erreichbar. Zürich: 044 350 04 04, Winterthur: 052 213 08 78, Zürcher Oberland: 044 994 40 94. [dao, zh-hilfe]
 
 ## Notfall
 
@@ -153,16 +222,38 @@ _Bei Gefahr: Polizei 117. Für Beratung Tag und Nacht: 142._
 - Wurdest du verletzt? Geh ins Spital. Forensic Nurses sichern Spuren, auch ohne Anzeige. Telefon: 0800 09 09 09. [zh-hilfe-ls, bif-not]
 - Ein Anruf bei der 142 erscheint nicht auf der Telefonrechnung. Er steht aber in der Anrufliste auf deinem Handy. Diese kannst du von Hand löschen. [ohs-beratung]
 
+## Anderen helfen
+
+### Du machst dir Sorgen um eine Freundin?  `#helfen`
+
+_Hör zu, verurteile sie nicht und dräng sie nicht. Bei akuter Gefahr ruf die Polizei: 117._
+
+- Hörst du Schreie, Schläge oder weinende Kinder? Ruf die Polizei an: 117. Die Polizei sorgt dafür, dass niemand erfährt, wer angerufen hat. Geh nicht selbst dazwischen. [bs-zivilcourage]
+- Sprich die Frau möglichst allein an. Sag zum Beispiel: «Ich mache mir Sorgen um dich.» Hör zu und frag, wie du helfen kannst. Sie entscheidet selbst. [bs-zivilcourage]
+- Hab Geduld, wenn sie sich nicht sofort trennt. Oft braucht es mehrere Anläufe. Kritisiere die Gewalt, nicht sie. [bs-zivilcourage]
+- Praktische Hilfe, wenn sie das will: zur Beratung begleiten, Dokumente oder Geld für sie aufbewahren, auf die Kinder aufpassen. [bs-zivilcourage]
+- Auch als Angehörige oder Freundin kannst du dich bei der Opferhilfe beraten lassen, zum Beispiel unter 142. [ohs-wer, beob-machtlos]
+
 ## Hilfsstellen (help.json)
 
 - **Opferhilfe-Telefon 142**, 142: Erste Anlaufstelle bei Gewalt. Tag und Nacht, kostenlos, auf Wunsch anonym. Vermittelt dich an eine passende Beratungsstelle. [beob-142, zh-hilfe-ls, zh-142]
-- **BIF – Beratungsstelle für Frauen gegen Gewalt in Ehe und Partnerschaft**, 044 278 99 99: Beratung für Frauen im Kanton Zürich, per Telefon, online oder persönlich. Kostenlos, vertraulich, freiwillig. Vermittelt auch Fachstellen für Migrationsrecht. [bif-faq, zh-opferberatung]
-- **Opferberatung Zürich**, 044 299 40 50: Opferberatungsstelle für alle Menschen, auch bei häuslicher Gewalt. Kostenlos und vertraulich. [zh-opferberatung]
-- **fiera Opferberatung Winterthur**, 052 213 61 61: Beratung für Frauen bei körperlicher, sexueller oder psychischer Gewalt und häuslicher Gewalt, Region Winterthur. [zh-opferberatung]
+- **BIF – Beratungsstelle für Frauen gegen Gewalt in Ehe und Partnerschaft**, 044 278 99 99 – https://online.bif-frauenberatung.ch: Beratung für Frauen im Kanton Zürich, per Telefon, online oder persönlich. Kostenlos, vertraulich, freiwillig. Vermittelt auch Fachstellen für Migrationsrecht. [bif-faq, zh-opferberatung]
+- **Opferberatung Zürich**, 044 299 40 50 – https://www.obzh.ch: Opferberatungsstelle für alle Menschen, auch bei häuslicher Gewalt. Kostenlos und vertraulich. [zh-opferberatung]
+- **fiera Opferberatung Winterthur**, 052 213 61 61 – https://www.fiera-opferberatung.ch: Beratung für Frauen bei körperlicher, sexueller oder psychischer Gewalt und häuslicher Gewalt, Region Winterthur. [zh-opferberatung]
 - **Frauenhaus Zürich Violetta**, 044 350 04 04: Geschützte Unterkunft für dich und deine Kinder, wenn du nicht mehr zu Hause bleiben kannst. Tag und Nacht erreichbar. [bif-not, zh-hilfe]
 - **Fachstelle Zwangsheirat**, 0800 800 007: Beratung bei Druck zur Heirat oder in der Ehe. Kostenlos, vertraulich, auf Wunsch anonym. [zh-zwang]
-- **kokon – Beratung für Kinder und Jugendliche**, 044 545 45 40: Opferberatung für Kinder, Jugendliche und junge Erwachsene, auch wenn sie häusliche Gewalt miterleben. [zh-opferberatung]
+- **kokon – Beratung für Kinder und Jugendliche**, 044 545 45 40 – https://www.kokon-zh.ch: Opferberatung für Kinder, Jugendliche und junge Erwachsene, auch wenn sie häusliche Gewalt miterleben. [zh-opferberatung]
 - **Forensic Nurses**, 0800 09 09 09: Sichern Spuren von Gewalt kostenlos, auch ohne Anzeige. Rund um die Uhr. [bif-not, zh-hilfe]
+- **Frauenberatung sexuelle Gewalt Zürich**, 044 291 46 46 – https://www.frauenberatung.ch: Beratung für Frauen nach sexueller, körperlicher oder psychischer Gewalt. Kostenlos und vertraulich. [zh-opferberatung]
+- **Frauenhaus Winterthur**, 052 213 08 78: Geschützte Unterkunft für Frauen und Kinder. Tag und Nacht erreichbar. [dao]
+- **Frauenhaus Zürcher Oberland**, 044 994 40 94: Geschützte Unterkunft für Frauen und Kinder. Tag und Nacht erreichbar. [dao]
+- **Mädchenhaus Zürich**, 044 341 49 45: Schutz und Unterkunft für Mädchen und junge Frauen, zum Beispiel bei Gewalt oder Druck in der Familie. [dao, zh-hilfe]
+- **Frauenhäuser in der ganzen Schweiz (DAO)** – https://www.frauenhaeuser.ch/de: Liste aller Frauenhäuser in der Schweiz und in Liechtenstein, mit Telefonnummern. [dao]
+- **Opferhilfe Schweiz: Beratungsstellen in allen Kantonen** – https://www.opferhilfe-schweiz.ch/de/wo-finde-ich-hilfe/: Finde eine Opferberatungsstelle in deinem Kanton. Kostenlos und vertraulich. Du darfst die Stelle frei wählen. [ohs-wo]
+- **Onlineberatung der Opferhilfe (Deutschschweiz)** – https://www.onlineopferberatung.ch: Beratung per Chat und online, wenn du lieber schreibst als telefonierst. [ohs-wo]
+- **Netzwerk gegen Mädchenbeschneidung Schweiz**, 041 419 23 55 – https://www.female-genital-cutting.ch/: Kostenlose, vertrauliche Beratung zu Mädchenbeschneidung, auf Wunsch anonym und mit Dolmetscherin. [fgc-netz]
+- **FIZ – Opferschutz Menschenhandel**, 044 436 90 00 – https://www.fiz-info.ch: Beratung und Begleitung für Betroffene von Menschenhandel und Ausbeutung. [zh-opferberatung]
+- **Die Dargebotene Hand 143**, 143: Telefonberatung in Krisen, rund um die Uhr. [bs-zivilcourage, fgc-netz]
 
 ## Quellen
 
@@ -195,3 +286,18 @@ _Bei Gefahr: Polizei 117. Für Beratung Tag und Nacht: 142._
 - `zh-mig-weisung`: [Migrationsamt Kanton Zürich – Weisung: Aufenthalt nach Auflösung der ehelichen Gemeinschaft](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Aufenthalt%20nach%20Aufl%C3%B6sung%20der%20ehelichen%20Gemeinschaft.pdf)
 - `zh-kesb-hg`: [Kanton Zürich – Merkblatt Häusliche Gewalt und Kindesschutz (Juni 2026)](https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/familie/kindesschutz/fachaufsicht_kesb/leitf%C3%A4den/merkblatt_weisung_bei_hg.pdf)
 - `zh-gericht-eheschutz`: [Gerichte Kanton Zürich – Merkblatt Eheschutz](https://www.gerichte-zh.ch/de/form/eheschutz/merkblatt/eheschutz/pdf)
+- `bs-sexgewalt`: [Kanton Basel-Stadt – Was ist sexualisierte Gewalt? (neues Sexualstrafrecht)](https://www.bs.ch/themen/sicherheit-und-demokratie/gewalt/sexualisierte-gewalt/was-ist-sexualisierte-gewalt)
+- `sz-fragen`: [Kantonspolizei Schwyz – Häusliche Gewalt: Wichtigste Fragen](https://www.sz.ch/sicherheitsdepartement/kantonspolizei/aufgaben/stopp-haeusliche-gewalt/wichtigste-fragen.html/8756-8758-8802-9496-9613-9617-9625-9626/print/html)
+- `be-zusammen-sicher`: [Kantonspolizei Bern – Broschüre «Zusammen sicher in der Schweiz» (2024)](https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/praevention/zusammen-sicher/broschuere_zusammen_sicher_deutsch.pdf)
+- `ag-was-ist-hg`: [Kanton Aargau – Was ist häusliche Gewalt?](https://www.ag.ch/de/themen/soziales-gesellschaft/haeusliche-gewalt/was-ist-haeusliche-gewalt)
+- `ag-digital`: [Kanton Aargau / Tech against Violence – Leitfaden Digitale Hygiene (Juni 2026)](https://www.ag.ch/media/kanton-aargau/dvi/dokumente/ges/organisation/haeusliche-gewalt/20260630-leitfaden-digitale-hygiene-f-r-website.pdf)
+- `bs-zivilcourage`: [Kanton Basel-Stadt – Was kann ich tun? Zivilcourage bei häuslicher Gewalt](https://www.bs.ch/fr/node/31036)
+- `beob-machtlos`: [Beobachter – Häusliche Gewalt: Sie sind nicht machtlos (aktualisiert Nov. 2025)](https://www.beobachter.ch/gesetze-recht/hausliche-gewalt-sie-sind-nicht-machtlos-gegen-gewalt)
+- `dao`: [Dachorganisation Frauenhäuser Schweiz und Liechtenstein (DAO)](https://www.frauenhaeuser.ch/de)
+- `ohs-wer`: [Opferhilfe Schweiz – Für wen ist die Opferhilfe?](https://www.opferhilfe-schweiz.ch/de/was-ist-opferhilfe/fur-wen-ist-die-opferhilfe/)
+- `ohs-wo`: [Opferhilfe Schweiz – Wo finde ich Hilfe?](https://www.opferhilfe-schweiz.ch/de/wo-finde-ich-hilfe/)
+- `bag-fgm`: [Bundesamt für Gesundheit – Massnahmen gegen weibliche Genitalverstümmelung](https://www.bag.admin.ch/de/massnahmen-gegen-weibliche-genitalverstuemmelung)
+- `fgc-netz`: [Netzwerk gegen Mädchenbeschneidung Schweiz (Caritas)](https://www.female-genital-cutting.ch/)
+- `zh-fgmhelp`: [Kanton Zürich – Anlaufstelle FGMhelp (Feb. 2025)](https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2025/02/jubilaeum-der-anlaufstelle-gegen-weibliche-genitalbeschneidung-staerkung-der-praevention.html)
+- `fs-zwangsheirat`: [Fachstelle Zwangsheirat](https://www.zwangsheirat.ch/)
+- `ebg-hilfe`: [EBG – Hilfe bei Gewalt gegen Frauen und häuslicher Gewalt](https://www.ebg.admin.ch/en/get-help-violence)

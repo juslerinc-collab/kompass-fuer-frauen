@@ -130,6 +130,66 @@
     "zh-gericht-eheschutz": {
       "title": "Gerichte Kanton Zürich – Merkblatt Eheschutz",
       "url": "https://www.gerichte-zh.ch/de/form/eheschutz/merkblatt/eheschutz/pdf"
+    },
+    "bs-sexgewalt": {
+      "title": "Kanton Basel-Stadt – Was ist sexualisierte Gewalt? (neues Sexualstrafrecht)",
+      "url": "https://www.bs.ch/themen/sicherheit-und-demokratie/gewalt/sexualisierte-gewalt/was-ist-sexualisierte-gewalt"
+    },
+    "sz-fragen": {
+      "title": "Kantonspolizei Schwyz – Häusliche Gewalt: Wichtigste Fragen",
+      "url": "https://www.sz.ch/sicherheitsdepartement/kantonspolizei/aufgaben/stopp-haeusliche-gewalt/wichtigste-fragen.html/8756-8758-8802-9496-9613-9617-9625-9626/print/html"
+    },
+    "be-zusammen-sicher": {
+      "title": "Kantonspolizei Bern – Broschüre «Zusammen sicher in der Schweiz» (2024)",
+      "url": "https://www.police.be.ch/content/dam/police/dokumente/police-be-ch/d/praevention/zusammen-sicher/broschuere_zusammen_sicher_deutsch.pdf"
+    },
+    "ag-was-ist-hg": {
+      "title": "Kanton Aargau – Was ist häusliche Gewalt?",
+      "url": "https://www.ag.ch/de/themen/soziales-gesellschaft/haeusliche-gewalt/was-ist-haeusliche-gewalt"
+    },
+    "ag-digital": {
+      "title": "Kanton Aargau / Tech against Violence – Leitfaden Digitale Hygiene (Juni 2026)",
+      "url": "https://www.ag.ch/media/kanton-aargau/dvi/dokumente/ges/organisation/haeusliche-gewalt/20260630-leitfaden-digitale-hygiene-f-r-website.pdf"
+    },
+    "bs-zivilcourage": {
+      "title": "Kanton Basel-Stadt – Was kann ich tun? Zivilcourage bei häuslicher Gewalt",
+      "url": "https://www.bs.ch/fr/node/31036"
+    },
+    "beob-machtlos": {
+      "title": "Beobachter – Häusliche Gewalt: Sie sind nicht machtlos (aktualisiert Nov. 2025)",
+      "url": "https://www.beobachter.ch/gesetze-recht/hausliche-gewalt-sie-sind-nicht-machtlos-gegen-gewalt"
+    },
+    "dao": {
+      "title": "Dachorganisation Frauenhäuser Schweiz und Liechtenstein (DAO)",
+      "url": "https://www.frauenhaeuser.ch/de"
+    },
+    "ohs-wer": {
+      "title": "Opferhilfe Schweiz – Für wen ist die Opferhilfe?",
+      "url": "https://www.opferhilfe-schweiz.ch/de/was-ist-opferhilfe/fur-wen-ist-die-opferhilfe/"
+    },
+    "ohs-wo": {
+      "title": "Opferhilfe Schweiz – Wo finde ich Hilfe?",
+      "url": "https://www.opferhilfe-schweiz.ch/de/wo-finde-ich-hilfe/"
+    },
+    "bag-fgm": {
+      "title": "Bundesamt für Gesundheit – Massnahmen gegen weibliche Genitalverstümmelung",
+      "url": "https://www.bag.admin.ch/de/massnahmen-gegen-weibliche-genitalverstuemmelung"
+    },
+    "fgc-netz": {
+      "title": "Netzwerk gegen Mädchenbeschneidung Schweiz (Caritas)",
+      "url": "https://www.female-genital-cutting.ch/"
+    },
+    "zh-fgmhelp": {
+      "title": "Kanton Zürich – Anlaufstelle FGMhelp (Feb. 2025)",
+      "url": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2025/02/jubilaeum-der-anlaufstelle-gegen-weibliche-genitalbeschneidung-staerkung-der-praevention.html"
+    },
+    "fs-zwangsheirat": {
+      "title": "Fachstelle Zwangsheirat",
+      "url": "https://www.zwangsheirat.ch/"
+    },
+    "ebg-hilfe": {
+      "title": "EBG – Hilfe bei Gewalt gegen Frauen und häuslicher Gewalt",
+      "url": "https://www.ebg.admin.ch/en/get-help-violence"
     }
   },
   "entries": [
@@ -849,6 +909,19 @@
             "beob-142",
             "zh-hilfe-ls"
           ]
+        },
+        {
+          "text": {
+            "de": "Woher du kommst und welchen Aufenthaltsstatus du hast, spielt keine Rolle. Auch Angehörige und nahestehende Personen können Opferhilfe bekommen.",
+            "en": "Where you come from and what residence status you have does not matter. Relatives and people close to you can also receive victim support.",
+            "ar": "لا يهم من أين أتيت ولا ما هو وضع إقامتك. يمكن للأقارب والأشخاص المقربين منك أيضًا الحصول على مساعدة الضحايا.",
+            "ti": "ካበይ ከም ዝመጻእኪን እንታይ ዓይነት ፍቓድ መንበሪ ከም ዘለኪን ኣገዳሲ ኣይኮነን። ኣዝማድን ቀረባ ሰባትን እውን ሓገዝ ግዳያት ክረኽቡ ይኽእሉ።",
+            "tr": "Nereden geldiğin ve oturma iznin önemli değildir. Yakınların ve sana yakın kişiler de mağdur yardımı alabilir.",
+            "uk": "Звідки ти родом і який у тебе статус перебування, не має значення. Родичі та близькі люди також можуть отримати допомогу жертвам."
+          },
+          "src": [
+            "ohs-wer"
+          ]
         }
       ]
     },
@@ -1471,6 +1544,19 @@
           "src": [
             "bif-faq"
           ]
+        },
+        {
+          "text": {
+            "de": "Bist du verheiratet oder lebst du mit ihm zusammen, darfst du die Aussage gegen deinen Partner verweigern. Du kannst auch später noch aussagen. Ohne deine Aussage ist die Tat aber oft schwerer zu beweisen.",
+            "en": "If you are married to him or live with him, you may refuse to testify against your partner. You can still testify later. But without your statement the offence is often harder to prove.",
+            "ar": "إذا كنت متزوجة منه أو تعيشين معه، يحق لك رفض الشهادة ضد شريكك. يمكنك أيضًا الإدلاء بأقوالك لاحقًا. لكن بدون أقوالك يكون إثبات الجريمة غالبًا أصعب.",
+            "ti": "ምስኡ እንተ ተመርዒኺ ወይ ብሓባር እንተ ትነብሩ፡ ኣብ ልዕሊ መጻምድትኺ ምስክርነት ክትኣብዪ ትኽእሊ። ደሓር እውን ቃልኪ ክትህቢ ትኽእሊ። ብዘይ ቃልኪ ግን እቲ ገበን ንምርግጋጽ መብዛሕትኡ ግዜ ይኸብድ።",
+            "tr": "Onunla evliysen ya da birlikte yaşıyorsan, partnerine karşı tanıklık etmeyi reddedebilirsin. Daha sonra da ifade verebilirsin. Ama ifaden olmadan suçu kanıtlamak çoğu zaman daha zordur.",
+            "uk": "Якщо ти з ним у шлюбі або живеш разом, ти можеш відмовитися свідчити проти партнера. Ти можеш дати свідчення й пізніше. Але без твоїх свідчень злочин часто важче довести."
+          },
+          "src": [
+            "sz-fragen"
+          ]
         }
       ]
     },
@@ -1578,6 +1664,798 @@
           },
           "src": [
             "ohs-beratung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexuelle-gewalt",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "sex",
+        "sexuell",
+        "vergewaltigung",
+        "zwingen",
+        "nein",
+        "einverständnis",
+        "kondom",
+        "stealthing",
+        "körper",
+        "rape",
+        "consent",
+        "forced"
+      ],
+      "title": {
+        "de": "Sex gegen deinen Willen ist Gewalt, auch in der Ehe",
+        "en": "Sex against your will is violence, also in marriage",
+        "ar": "الجنس رغمًا عنك عنف، في الزواج أيضًا",
+        "ti": "ብዘይ ፍቓድኪ ዝግበር ጾታዊ ርክብ ዓመጽ እዩ፡ ኣብ መርዓ እውን",
+        "tr": "İsteğin dışında seks şiddettir, evlilikte de",
+        "uk": "Секс проти твоєї волі — це насильство, і в шлюбі теж"
+      },
+      "summary": {
+        "de": "Seit 2024 gilt in der Schweiz: Nein heisst Nein. Auch wenn du vor Angst erstarrst, ist das ein Nein.",
+        "en": "Since 2024 the rule in Switzerland is: no means no. Even if you freeze with fear, that counts as a no.",
+        "ar": "منذ 2024 يسري في سويسرا: لا تعني لا. حتى لو تجمدت من الخوف، فهذا يُعتبر رفضًا.",
+        "ti": "ካብ 2024 ጀሚሩ ኣብ ስዊዘርላንድ፡ «ኣይፋል» ማለት «ኣይፋል» እዩ። ብፍርሂ እንተ ደረቕኪ እኳ፡ እዚ «ኣይፋል» እዩ።",
+        "tr": "2024'ten beri İsviçre'de geçerli olan: Hayır hayırdır. Korkudan donup kalsan bile bu bir hayırdır.",
+        "uk": "З 2024 року у Швейцарії діє правило: «ні» означає «ні». Навіть якщо ти заціпеніла від страху, це «ні»."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Seit dem 1. Juli 2024 gilt ein neues Sexualstrafrecht. Für eine Vergewaltigung braucht es keine Gewalt und keine Drohung mehr. Strafbar ist, wer sich über ein Nein hinwegsetzt. Das Nein kann mit Worten oder Gesten gezeigt werden.",
+            "en": "A new sexual criminal law has applied since 1 July 2024. Rape no longer requires violence or threats. Anyone who ignores a no commits a crime. The no can be shown with words or gestures.",
+            "ar": "منذ 1 يوليو 2024 يسري قانون جديد للجرائم الجنسية. لم يعد الاغتصاب يتطلب عنفًا أو تهديدًا. كل من يتجاهل الرفض يرتكب جريمة. يمكن إظهار الرفض بالكلمات أو بالإشارات.",
+            "ti": "ካብ 1 ሓምለ 2024 ጀሚሩ ሓድሽ ሕጊ ጾታዊ ገበናት ይሰርሕ ኣሎ። ንምድፋር ደጊም ዓመጽ ወይ ምፍርራሕ ኣየድልን። ንሓደ «ኣይፋል» ዘይሰምዕ ገበን ይፍጽም። «ኣይፋል» ብቓላት ወይ ብምልክት ክርአ ይኽእል።",
+            "tr": "1 Temmuz 2024'ten beri yeni bir cinsel suçlar kanunu geçerli. Tecavüz için artık şiddet veya tehdit gerekmez. Bir hayırı hiçe sayan kişi suç işler. Hayır, sözle veya hareketle gösterilebilir.",
+            "uk": "З 1 липня 2024 року діє нове законодавство про статеві злочини. Для зґвалтування більше не потрібні насильство чи погрози. Злочин вчиняє той, хто ігнорує «ні». «Ні» можна показати словами або жестами."
+          },
+          "src": [
+            "bs-sexgewalt"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wenn du vor Angst erstarrst und dich nicht wehren kannst, gilt das auch als Nein, wenn er es erkannt hat.",
+            "en": "If you freeze with fear and cannot defend yourself, that also counts as a no, if he recognised it.",
+            "ar": "إذا تجمدت من الخوف ولم تستطيعي الدفاع عن نفسك، فهذا يُعتبر رفضًا أيضًا إذا كان قد لاحظ ذلك.",
+            "ti": "ብፍርሂ እንተ ደረቕኪን ክትከላኸሊ እንተ ዘይከኣልክን፡ ንሱ እንተ ኣስተውዒሉ እዚ እውን ከም «ኣይፋል» ይቑጸር።",
+            "tr": "Korkudan donup kalırsan ve kendini savunamazsan, o bunu fark ettiyse bu da hayır sayılır.",
+            "uk": "Якщо ти заціпеніла від страху і не можеш захиститися, це теж вважається «ні», якщо він це помітив."
+          },
+          "src": [
+            "bs-sexgewalt"
+          ]
+        },
+        {
+          "text": {
+            "de": "Heimlich das Kondom abziehen oder weglassen, obwohl ihr etwas anderes abgemacht habt, ist ebenfalls strafbar.",
+            "en": "Secretly removing or not using a condom, although you agreed otherwise, is also a crime.",
+            "ar": "نزع الواقي الذكري سرًا أو عدم استخدامه، رغم أنكما اتفقتما على غير ذلك، جريمة أيضًا.",
+            "ti": "ካልእ ነገር እንተ ተሰማሚዕኩም እኳ፡ ኮንዶም ብሕቡእ ምውጻእ ወይ ዘይምጥቃም እውን ገበን እዩ።",
+            "tr": "Başka türlü anlaşmış olmanıza rağmen prezervatifi gizlice çıkarmak veya kullanmamak da suçtur.",
+            "uk": "Таємно зняти презерватив або не використати його, хоча ви домовлялися інакше, теж є злочином."
+          },
+          "src": [
+            "bs-sexgewalt"
+          ]
+        },
+        {
+          "text": {
+            "de": "Vergewaltigung und sexuelle Nötigung in der Ehe oder Partnerschaft werden von Amtes wegen verfolgt, auch ohne Anzeige des Opfers.",
+            "en": "Rape and sexual coercion within marriage or a partnership are prosecuted ex officio, even without a complaint from the victim.",
+            "ar": "الاغتصاب والإكراه الجنسي في الزواج أو العلاقة تلاحقهما السلطات تلقائيًا، حتى بدون شكوى من الضحية.",
+            "ti": "ኣብ መርዓ ወይ ርክብ ዝግበር ምድፋርን ጾታዊ ምግዳድን፡ ግዳይ ክሲ እንተ ዘይኣቕረበት እኳ ብሰበ-ስልጣን ባዕሎም ይኽሰሱ።",
+            "tr": "Evlilikte veya ilişkide tecavüz ve cinsel zorlama, mağdur şikâyet etmese bile resen kovuşturulur.",
+            "uk": "Зґвалтування і сексуальний примус у шлюбі чи стосунках переслідуються за посадовим обов'язком, навіть без заяви потерпілої."
+          },
+          "src": [
+            "sz-fragen"
+          ]
+        },
+        {
+          "text": {
+            "de": "Lass Verletzungen möglichst schnell untersuchen, am besten innerhalb von 72 Stunden. Bewahre Beweise wie Fotos oder Kleidung auf. Forensic Nurses sichern Spuren kostenlos, auch ohne Anzeige.",
+            "en": "Have injuries examined as quickly as possible, ideally within 72 hours. Keep evidence such as photos or clothing. Forensic nurses secure evidence free of charge, even without a police report.",
+            "ar": "افحصي الإصابات بأسرع ما يمكن، ويفضل خلال 72 ساعة. احتفظي بالأدلة مثل الصور أو الملابس. ممرضات الطب الشرعي يوثقن الآثار مجانًا، حتى بدون بلاغ.",
+            "ti": "መቑሰልትኺ ብዝተኻእለ ቅልጣፈ ኣመርምሪ፡ ዝበለጸ ኣብ ውሽጢ 72 ሰዓት። ከም ስእሊ ወይ ክዳን ዝኣመሰሉ መርትዖታት ዓቕቢ። Forensic Nurses ኣሰራት ብነጻ ይስንዳ፡ ብዘይ ክሲ እውን።",
+            "tr": "Yaralanmalarını mümkün olduğunca çabuk muayene ettir, en iyisi 72 saat içinde. Fotoğraf veya kıyafet gibi kanıtları sakla. Adli hemşireler izleri ücretsiz kayıt altına alır, şikâyet olmadan da.",
+            "uk": "Якомога швидше пройди огляд травм, найкраще протягом 72 годин. Збережи докази, наприклад фото чи одяг. Судово-медичні медсестри безкоштовно фіксують сліди, навіть без заяви."
+          },
+          "src": [
+            "be-zusammen-sicher",
+            "bif-faq"
+          ]
+        },
+        {
+          "text": {
+            "de": "Im Kanton Zürich berät die Frauenberatung sexuelle Gewalt Frauen nach sexueller Gewalt: 044 291 46 46.",
+            "en": "In the canton of Zurich, Frauenberatung sexuelle Gewalt advises women after sexual violence: 044 291 46 46.",
+            "ar": "في كانتون زيورخ تقدم Frauenberatung sexuelle Gewalt الاستشارة للنساء بعد العنف الجنسي: 044 291 46 46.",
+            "ti": "ኣብ ካንቶን ዙሪክ Frauenberatung sexuelle Gewalt ድሕሪ ጾታዊ ዓመጽ ንደቀንስትዮ ትመክር፡ 044 291 46 46።",
+            "tr": "Zürih kantonunda Frauenberatung sexuelle Gewalt, cinsel şiddet yaşayan kadınlara danışmanlık verir: 044 291 46 46.",
+            "uk": "У кантоні Цюрих Frauenberatung sexuelle Gewalt консультує жінок після сексуального насильства: 044 291 46 46."
+          },
+          "src": [
+            "zh-opferberatung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digitale-gewalt",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "handy",
+        "digital",
+        "spyware",
+        "tracker",
+        "standort",
+        "passwort",
+        "konto",
+        "bilder",
+        "fotos",
+        "deepfake",
+        "online",
+        "phone",
+        "password",
+        "location",
+        "spy"
+      ],
+      "title": {
+        "de": "Dein Handy: Wenn er mitliest oder weiss, wo du bist",
+        "en": "Your phone: when he reads along or knows where you are",
+        "ar": "هاتفك: عندما يقرأ رسائلك أو يعرف أين أنت",
+        "ti": "ሞባይልኪ፡ መልእኽትታትኪ እንተ ኣንበበ ወይ ኣበይ ከም ዘለኺ እንተ ፈለጠ",
+        "tr": "Telefonun: Mesajlarını okuyorsa veya nerede olduğunu biliyorsa",
+        "uk": "Твій телефон: коли він читає твої повідомлення або знає, де ти"
+      },
+      "summary": {
+        "de": "Überwachung übers Handy ist Gewalt. Einiges kannst du selbst prüfen, aber überlege zuerst, ob er es merkt.",
+        "en": "Surveillance through your phone is violence. You can check some things yourself, but first think about whether he will notice.",
+        "ar": "المراقبة عبر الهاتف عنف. يمكنك فحص بعض الأشياء بنفسك، لكن فكري أولًا هل سيلاحظ ذلك.",
+        "ti": "ብሞባይል ምክትታል ዓመጽ እዩ። ገለ ነገራት ባዕልኺ ክትፍትሽዮ ትኽእሊ፡ ግን መጀመርታ ንሱ ክፈልጦ እንተኾይኑ ሕሰቢ።",
+        "tr": "Telefon üzerinden takip şiddettir. Bazı şeyleri kendin kontrol edebilirsin, ama önce onun fark edip etmeyeceğini düşün.",
+        "uk": "Стеження через телефон — це насильство. Дещо ти можеш перевірити сама, але спершу подумай, чи він це помітить."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Zu digitaler Gewalt gehören zum Beispiel: intime Bilder ohne Erlaubnis verbreiten, gefälschte Bilder (Deepfakes), Cyber-Stalking, Spionage-Apps und Tracker.",
+            "en": "Digital violence includes for example: sharing intimate pictures without permission, fake pictures (deepfakes), cyberstalking, spy apps and trackers.",
+            "ar": "العنف الرقمي يشمل مثلًا: نشر صور حميمة بدون إذن، صور مزيفة (ديب فيك)، الملاحقة الإلكترونية، تطبيقات التجسس وأجهزة التتبع.",
+            "ti": "ዲጂታላዊ ዓመጽ ንኣብነት እዚ የጠቓልል፡ ብዘይ ፍቓድ ብሕታዊ ስእልታት ምዝርጋሕ፡ ሓሶት ስእልታት (ዲፕፌክ)፡ ብኢንተርነት ምስዓብ፡ ናይ ስለያ ኣፕታትን መከታተሊታትን።",
+            "tr": "Dijital şiddet örneğin şunlardır: mahrem fotoğrafları izinsiz yaymak, sahte görüntüler (deepfake), siber takip, casus uygulamalar ve takip cihazları.",
+            "uk": "До цифрового насильства належать, наприклад: поширення інтимних фото без дозволу, підроблені зображення (діпфейки), кіберпереслідування, шпигунські застосунки й трекери."
+          },
+          "src": [
+            "ag-was-ist-hg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Prüfe die Standortfreigaben: auf dem iPhone unter «Wo ist?», auf Android in Google Maps unter «Standortfreigabe». Prüfe auch den Live-Standort in WhatsApp, Telegram oder Snapchat.",
+            "en": "Check location sharing: on the iPhone under «Find My», on Android in Google Maps under «Location sharing». Also check live location in WhatsApp, Telegram or Snapchat.",
+            "ar": "افحصي مشاركة الموقع: في الآيفون تحت «تحديد الموقع»، وفي أندرويد في خرائط جوجل تحت «مشاركة الموقع». افحصي أيضًا الموقع المباشر في واتساب أو تيليغرام أو سناب شات.",
+            "ti": "ምክፋል ቦታ ፈትሽዮ፡ ኣብ iPhone ኣብ «Find My»፡ ኣብ Android ኣብ Google Maps ኣብ «Location sharing»። ኣብ WhatsApp፡ Telegram ወይ Snapchat ዘሎ ቀጥታዊ ቦታ እውን ፈትሽዮ።",
+            "tr": "Konum paylaşımlarını kontrol et: iPhone'da «Bul» altında, Android'de Google Haritalar'da «Konum paylaşma» altında. WhatsApp, Telegram veya Snapchat'teki canlı konumu da kontrol et.",
+            "uk": "Перевір спільний доступ до геолокації: на iPhone у «Локатор», на Android у Google Maps у «Передавання геоданих». Перевір також геолокацію в реальному часі у WhatsApp, Telegram чи Snapchat."
+          },
+          "src": [
+            "ag-digital"
+          ]
+        },
+        {
+          "text": {
+            "de": "Ändere die PIN deines Handys, denn oft kennt er sie. Nutze für jedes Konto ein eigenes, starkes Passwort. Geteilte Konten und Passwörter sind der häufigste Weg, wie jemand mitliest.",
+            "en": "Change your phone's PIN, because he often knows it. Use a separate, strong password for every account. Shared accounts and passwords are the most common way someone reads along.",
+            "ar": "غيّري الرقم السري لهاتفك، لأنه غالبًا يعرفه. استخدمي لكل حساب كلمة مرور خاصة وقوية. الحسابات المشتركة وكلمات المرور المشتركة هي الطريقة الأكثر شيوعًا لقراءة رسائلك.",
+            "ti": "PIN ሞባይልኪ ቀይርዮ፡ ምኽንያቱ መብዛሕትኡ ግዜ ይፈልጦ እዩ። ንነፍሲ ወከፍ ሕሳብ ፍሉይን ሓያልን ፓስዎርድ ተጠቐሚ። ሓባራዊ ሕሳባትን ዝተኻፈሉ ፓስዎርድታትን እቲ ዝበዝሐ መንገዲ ሓደ ሰብ መልእኽትታትኪ ዘንብበሉ እዮም።",
+            "tr": "Telefonunun PIN'ini değiştir, çünkü o çoğu zaman biliyor. Her hesap için ayrı, güçlü bir şifre kullan. Ortak hesaplar ve paylaşılan şifreler, birinin mesajları okumasının en yaygın yoludur.",
+            "uk": "Зміни PIN-код телефону, бо він часто його знає. Використовуй для кожного облікового запису окремий надійний пароль. Спільні акаунти й паролі — найчастіший спосіб, як хтось читає твої повідомлення."
+          },
+          "src": [
+            "ag-digital"
+          ]
+        },
+        {
+          "text": {
+            "de": "Schau nach, wo deine Konten angemeldet sind, und melde unbekannte Geräte ab. Auf dem iPhone hilft der «Sicherheitscheck», auf Android der «Sicherheitscheck» in den Einstellungen.",
+            "en": "Check where your accounts are logged in and log out unknown devices. On the iPhone, «Safety Check» helps; on Android, the «Security check» in the settings.",
+            "ar": "تحققي أين تم تسجيل الدخول إلى حساباتك، وسجلي الخروج من الأجهزة غير المعروفة. في الآيفون يساعد «فحص الأمان»، وفي أندرويد «فحص الأمان» في الإعدادات.",
+            "ti": "ሕሳባትኪ ኣበይ ከም ዝተኸፍቱ ርኣዪ፡ ካብ ዘይትፈልጥዮም መሳርሒታት ኣውጽእዮም። ኣብ iPhone «Safety Check»፡ ኣብ Android ኣብ ቅጥዕታት ዘሎ «Security check» ይሕግዝ።",
+            "tr": "Hesaplarının nerede oturum açık olduğuna bak ve tanımadığın cihazların oturumunu kapat. iPhone'da «Güvenlik Denetimi», Android'de ayarlardaki «Güvenlik kontrolü» yardımcı olur.",
+            "uk": "Перевір, де виконано вхід у твої акаунти, і вийди з невідомих пристроїв. На iPhone допомагає «Перевірка безпеки», на Android — «Перевірка безпеки» в налаштуваннях."
+          },
+          "src": [
+            "ag-digital"
+          ]
+        },
+        {
+          "text": {
+            "de": "Mach Screenshots als Beweis, bevor du etwas änderst. Und handle nicht überstürzt: Überlege mit einer Beratungsstelle, ob und wann du einen Zugang trennst.",
+            "en": "Take screenshots as evidence before you change anything. And do not act in a hurry: think with a counselling service about whether and when to cut off access.",
+            "ar": "التقطي صورًا للشاشة كدليل قبل أن تغيري أي شيء. ولا تتصرفي بتسرع: فكري مع مركز استشارة هل ومتى تقطعين وصوله.",
+            "ti": "ዝኾነ ነገር ቅድሚ ምቕያርኪ ከም መርትዖ ስክሪንሾት ውሰዲ። ብህንጡይ ድማ ኣይትንቀሳቐሲ፡ ሓደ መእተዊ እንተ ትዓጽዊ ወይ መዓስ ከም እትዓጽዊ ምስ ማእከል ምኽሪ ሕሰቢ።",
+            "tr": "Bir şeyi değiştirmeden önce kanıt olarak ekran görüntüsü al. Ve aceleyle hareket etme: Bir erişimi kapatıp kapatmayacağını ve ne zaman kapatacağını bir danışma merkeziyle düşün.",
+            "uk": "Зроби знімки екрана як докази, перш ніж щось змінювати. І не дій поспіхом: обміркуй із консультаційною службою, чи і коли закривати доступ."
+          },
+          "src": [
+            "ag-digital"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "familie-ehre",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "familie",
+        "eltern",
+        "vater",
+        "bruder",
+        "ehre",
+        "jungfräulichkeit",
+        "verschleppung",
+        "ferien",
+        "heimat",
+        "family",
+        "father",
+        "brother",
+        "honour"
+      ],
+      "title": {
+        "de": "Wenn die Familie dich kontrolliert oder bedroht",
+        "en": "When your family controls or threatens you",
+        "ar": "عندما تتحكم بك عائلتك أو تهددك",
+        "ti": "ስድራኺ እንተ ተቖጻጸሩኺ ወይ እንተ ኣፈራርሑኺ",
+        "tr": "Ailen seni kontrol ediyor veya tehdit ediyorsa",
+        "uk": "Коли родина контролює тебе або погрожує"
+      },
+      "summary": {
+        "de": "Gewalt kommt nicht nur vom Partner. Auch Eltern, Brüder oder Verwandte dürfen dich nicht bedrohen oder einsperren.",
+        "en": "Violence does not only come from a partner. Parents, brothers or relatives are not allowed to threaten you or lock you in either.",
+        "ar": "العنف لا يأتي من الشريك فقط. الوالدان أو الإخوة أو الأقارب أيضًا لا يحق لهم تهديدك أو حبسك.",
+        "ti": "ዓመጽ ካብ መጻምድቲ ጥራይ ኣይመጽእን። ወለዲ፡ ኣሕዋት ወይ ኣዝማድ እውን ከፈራርሑኺ ወይ ክዓጽዉኺ መሰል የብሎምን።",
+        "tr": "Şiddet sadece partnerden gelmez. Anne baba, erkek kardeşler veya akrabalar da seni tehdit edemez ya da kapatamaz.",
+        "uk": "Насильство йде не лише від партнера. Батьки, брати чи родичі теж не мають права погрожувати тобі або замикати тебе."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Häusliche Gewalt gibt es nicht nur in Paaren. Sie kommt auch zwischen Eltern und Kindern oder unter Geschwistern vor, zum Beispiel wenn ein Bruder seine Schwester bedroht und schlägt.",
+            "en": "Domestic violence does not only happen in couples. It also happens between parents and children or among siblings, for example when a brother threatens and hits his sister.",
+            "ar": "العنف الأسري لا يحدث بين الأزواج فقط. يحدث أيضًا بين الوالدين والأطفال أو بين الإخوة، مثلًا عندما يهدد أخ أخته ويضربها.",
+            "ti": "ዓመጽ ስድራቤት ኣብ መጻምድቲ ጥራይ ኣይኮነን ዘጋጥም። ኣብ መንጎ ወለድን ቆልዑን ወይ ኣብ መንጎ ኣሕዋትን እውን የጋጥም፡ ንኣብነት ሓው ንሓብቱ ከፈራርሓን ክወቕዓን ከሎ።",
+            "tr": "Aile içi şiddet sadece çiftlerde olmaz. Anne baba ile çocuklar arasında veya kardeşler arasında da olur, örneğin bir erkek kardeş kız kardeşini tehdit edip dövdüğünde.",
+            "uk": "Домашнє насильство буває не лише в парах. Воно буває також між батьками й дітьми або між братами й сестрами, наприклад коли брат погрожує сестрі й б'є її."
+          },
+          "src": [
+            "ag-was-ist-hg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Manchmal setzt die Familie eine junge Frau mit Drohungen unter Druck, zum Beispiel damit sie sich von ihrem Freund trennt.",
+            "en": "Sometimes the family puts pressure on a young woman with threats, for example so that she breaks up with her boyfriend.",
+            "ar": "أحيانًا تضغط العائلة على امرأة شابة بالتهديدات، مثلًا لكي تنفصل عن صديقها.",
+            "ti": "ሓደ ሓደ ግዜ ስድራ ንሓንቲ መንእሰይ ጓል ብምፍርራሕ ጸቕጢ ይገብሩላ፡ ንኣብነት ካብ ዓርካ ክትፍለ።",
+            "tr": "Bazen aile genç bir kadına tehditlerle baskı yapar, örneğin erkek arkadaşından ayrılması için.",
+            "uk": "Іноді родина тисне на молоду жінку погрозами, наприклад щоб вона розійшлася зі своїм хлопцем."
+          },
+          "src": [
+            "ag-was-ist-hg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Die Fachstelle Zwangsheirat berät auch bei Heiratsverschleppung ins Ausland, bei Gewalt im Namen der Ehre und bei Druck wegen Sexualität und Jungfräulichkeit: 0800 800 007.",
+            "en": "The Forced Marriage Service also advises on being taken abroad to be married, on violence in the name of honour and on pressure about sexuality and virginity: 0800 800 007.",
+            "ar": "يقدم مركز مكافحة الزواج القسري الاستشارة أيضًا في حالات الأخذ إلى الخارج للتزويج، والعنف باسم الشرف، والضغط بسبب الجنس والعذرية: 0800 800 007.",
+            "ti": "ማእከል ፍሉይ ሞያ ናይ ግዴታ መርዓ፡ ንመርዓ ናብ ወጻኢ ምውሳድ፡ ብስም ክብሪ ዝግበር ዓመጽን ብዛዕባ ጾታዊ ርክብን ድንግልናን ዝግበር ጸቕጥን እውን ይመክር፡ 0800 800 007።",
+            "tr": "Zorla Evlendirme Uzman Merkezi, evlendirilmek üzere yurt dışına götürülme, namus adına şiddet ve cinsellik ile bekâret konusundaki baskılar hakkında da danışmanlık verir: 0800 800 007.",
+            "uk": "Фахова служба з питань примусових шлюбів також консультує щодо вивезення за кордон для шлюбу, насильства в ім'я честі та тиску щодо сексуальності й незайманості: 0800 800 007."
+          },
+          "src": [
+            "fs-zwangsheirat"
+          ]
+        },
+        {
+          "text": {
+            "de": "Frauenhäuser helfen auch jungen Frauen und minderjährigen Mädchen, eine Unterkunft weg von den Eltern zu finden. In Zürich gibt es dafür das Mädchenhaus: 044 341 49 45.",
+            "en": "Women's shelters also help young women and underage girls find accommodation away from their parents. In Zurich there is the Mädchenhaus (girls' house) for this: 044 341 49 45.",
+            "ar": "تساعد دور حماية النساء أيضًا الشابات والفتيات القاصرات في إيجاد مكان للإقامة بعيدًا عن الوالدين. في زيورخ يوجد لذلك Mädchenhaus (بيت الفتيات): 044 341 49 45.",
+            "ti": "ገዛውቲ ሓለዋ ደቀንስትዮ ንመንእሰያት ደቀንስትዮን ንኣሽቱ ኣዋልድን ካብ ወለዲ ርሒቕካ መንበሪ ንምርካብ እውን ይሕግዙ። ኣብ ዙሪክ ነዚ Mädchenhaus (ገዛ ኣዋልድ) ኣሎ፡ 044 341 49 45።",
+            "tr": "Kadın sığınma evleri genç kadınlara ve reşit olmayan kızlara da ailelerinden uzakta bir yer bulmalarında yardım eder. Zürih'te bunun için Mädchenhaus (kız evi) var: 044 341 49 45.",
+            "uk": "Жіночі притулки також допомагають молодим жінкам і неповнолітнім дівчатам знайти житло подалі від батьків. У Цюриху для цього є Mädchenhaus (дім для дівчат): 044 341 49 45."
+          },
+          "src": [
+            "dao"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beschneidung",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "beschneidung",
+        "genitalbeschneidung",
+        "fgm",
+        "fgc",
+        "mädchen",
+        "tochter",
+        "ferien",
+        "infibulation",
+        "circumcision",
+        "cutting",
+        "daughter"
+      ],
+      "title": {
+        "de": "Mädchenbeschneidung ist in der Schweiz verboten",
+        "en": "Female genital cutting is forbidden in Switzerland",
+        "ar": "ختان الإناث ممنوع في سويسرا",
+        "ti": "ምግዛር ኣዋልድ ኣብ ስዊዘርላንድ ክልኩል እዩ",
+        "tr": "Kız çocuklarının sünneti İsviçre'de yasaktır",
+        "uk": "Жіноче обрізання у Швейцарії заборонене"
+      },
+      "summary": {
+        "de": "Jede Form von Beschneidung ist strafbar, auch wenn sie im Ausland gemacht wird. Es gibt vertrauliche Beratung.",
+        "en": "Every form of cutting is a crime, even if it is done abroad. Confidential advice is available.",
+        "ar": "كل أشكال الختان جريمة، حتى لو أُجري في الخارج. هناك استشارة سرية.",
+        "ti": "ዝኾነ ዓይነት ምግዛር ገበን እዩ፡ ኣብ ወጻኢ እንተ ተገብረ እኳ። ምስጢራዊ ምኽሪ ኣሎ።",
+        "tr": "Her türlü kadın sünneti suçtur, yurt dışında yapılsa bile. Gizli danışmanlık var.",
+        "uk": "Будь-яка форма обрізання є злочином, навіть якщо його зроблено за кордоном. Є конфіденційні консультації."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Weibliche Genitalbeschneidung ist in der Schweiz verboten. Seit 2012 gibt es dafür ein eigenes Strafgesetz (Art. 124 StGB). In der Schweiz sind schätzungsweise rund 24'600 Frauen und Mädchen betroffen oder gefährdet.",
+            "en": "Female genital cutting is forbidden in Switzerland. Since 2012 there has been a specific criminal law against it (Art. 124 Swiss Criminal Code). An estimated 24,600 women and girls in Switzerland are affected or at risk.",
+            "ar": "ختان الإناث (تشويه الأعضاء التناسلية) ممنوع في سويسرا. منذ 2012 يوجد قانون جنائي خاص بذلك (المادة 124 من القانون الجنائي). يُقدّر أن حوالي 24'600 امرأة وفتاة في سويسرا متضررات أو معرضات للخطر.",
+            "ti": "ምግዛር ደቀንስትዮ ኣብ ስዊዘርላንድ ክልኩል እዩ። ካብ 2012 ጀሚሩ ነዚ ፍሉይ ገበናዊ ሕጊ ኣሎ (ዓንቀጽ 124 ገበናዊ ሕጊ)። ኣብ ስዊዘርላንድ ብግምት ኣስታት 24'600 ደቀንስትዮን ኣዋልድን ዝተጸልዋ ወይ ኣብ ሓደጋ ዘለዋ እየን።",
+            "tr": "Kadın sünneti (genital kesme) İsviçre'de yasaktır. 2012'den beri bunun için özel bir ceza maddesi vardır (İsviçre Ceza Kanunu Md. 124). İsviçre'de tahminen yaklaşık 24.600 kadın ve kız etkilenmiş veya risk altındadır.",
+            "uk": "Жіноче обрізання (каліцтво статевих органів) у Швейцарії заборонене. З 2012 року для цього є окрема кримінальна стаття (ст. 124 Кримінального кодексу). За оцінками, у Швейцарії близько 24'600 жінок і дівчат постраждали або перебувають у групі ризику."
+          },
+          "src": [
+            "bag-fgm"
+          ]
+        },
+        {
+          "text": {
+            "de": "Verboten sind alle Formen. Strafbar macht sich auch, wer es im Ausland machen lässt oder es als Elternteil zulässt, zum Beispiel während der Ferien im Herkunftsland.",
+            "en": "All forms are forbidden. Anyone who has it done abroad, or as a parent allows it, also commits a crime, for example during holidays in the country of origin.",
+            "ar": "كل الأشكال ممنوعة. يرتكب جريمة أيضًا من يجعله يُجرى في الخارج أو يسمح به كأحد الوالدين، مثلًا خلال العطلة في بلد الأصل.",
+            "ti": "ኩሎም ዓይነታት ክልኩላት እዮም። ኣብ ወጻኢ ዘግብሮ ወይ ከም ወላዲ ዘፍቅዶ እውን ገበን ይፍጽም፡ ንኣብነት ኣብ ዓዲ ትውልዲ ኣብ ግዜ ዕረፍቲ።",
+            "tr": "Tüm biçimleri yasaktır. Bunu yurt dışında yaptıran veya ebeveyn olarak buna izin veren de suç işler, örneğin memlekette tatil sırasında.",
+            "uk": "Заборонені всі форми. Злочин вчиняє також той, хто організовує це за кордоном або як батько чи мати дозволяє це, наприклад під час відпустки в країні походження."
+          },
+          "src": [
+            "fgc-netz"
+          ]
+        },
+        {
+          "text": {
+            "de": "Das Netzwerk gegen Mädchenbeschneidung berät kostenlos und vertraulich, auf Wunsch anonym und mit Dolmetscherin: 041 419 23 55. Im Kanton Zürich gibt es die Anlaufstelle FGMhelp.",
+            "en": "The Network against Female Genital Cutting gives free and confidential advice, anonymously if you wish and with an interpreter: 041 419 23 55. In the canton of Zurich there is the FGMhelp contact point.",
+            "ar": "تقدم شبكة مكافحة ختان الإناث استشارة مجانية وسرية، ومجهولة الهوية إذا رغبت ومع مترجمة: 041 419 23 55. في كانتون زيورخ توجد نقطة الاتصال FGMhelp.",
+            "ti": "መርበብ ኣንጻር ምግዛር ኣዋልድ ብነጻን ብምስጢርን ይመክር፡ እንተ ደሊኺ ብዘይ ስምን ምስ ተርጓሚትን፡ 041 419 23 55። ኣብ ካንቶን ዙሪክ መራኸቢ ቦታ FGMhelp ኣሎ።",
+            "tr": "Kız Çocuklarının Sünnetine Karşı Ağ ücretsiz ve gizli danışmanlık verir, istersen isimsiz ve tercümanla: 041 419 23 55. Zürih kantonunda FGMhelp başvuru noktası vardır.",
+            "uk": "Мережа проти жіночого обрізання консультує безкоштовно й конфіденційно, за бажанням анонімно та з перекладачкою: 041 419 23 55. У кантоні Цюрих є контактний пункт FGMhelp."
+          },
+          "src": [
+            "fgc-netz",
+            "zh-fgmhelp"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wenn du beschnitten bist, gibt es erfahrene Ärztinnen und Hebammen. Eine Operation zum Öffnen (Defibulation) bezahlt die Krankenkasse.",
+            "en": "If you have been cut, there are experienced doctors and midwives. Health insurance pays for an operation to open it (defibulation).",
+            "ar": "إذا كنت مختونة، هناك طبيبات وقابلات ذوات خبرة. التأمين الصحي يدفع تكاليف عملية الفتح (Defibulation).",
+            "ti": "እንተ ተገዚርኪ፡ ተመኲሮ ዘለወን ሓካይምን መሕረስትን ኣለዋ። ንምኽፋት ዝግበር መጥባሕቲ (Defibulation) ኢንሹራንስ ጥዕና ይኸፍሎ።",
+            "tr": "Sünnet edildiysen, deneyimli doktorlar ve ebeler var. Açma ameliyatını (defibülasyon) sağlık sigortası öder.",
+            "uk": "Якщо тобі зробили обрізання, є досвідчені лікарки й акушерки. Операцію з розкриття (дефібуляцію) оплачує медичне страхування."
+          },
+          "src": [
+            "fgc-netz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hilfe-schweiz",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "kanton",
+        "schweiz",
+        "bern",
+        "basel",
+        "luzern",
+        "stgallen",
+        "aargau",
+        "genf",
+        "beratungsstelle",
+        "online",
+        "chat",
+        "ausland",
+        "canton",
+        "switzerland"
+      ],
+      "title": {
+        "de": "Du wohnst nicht in Zürich? Hilfe gibt es überall",
+        "en": "You don't live in Zurich? Help is available everywhere",
+        "ar": "لا تسكنين في زيورخ؟ المساعدة موجودة في كل مكان",
+        "ti": "ኣብ ዙሪክ ኣይትነብርን ዲኺ? ሓገዝ ኣብ ኩሉ ቦታ ኣሎ",
+        "tr": "Zürih'te mi yaşamıyorsun? Yardım her yerde var",
+        "uk": "Живеш не в Цюриху? Допомога є всюди"
+      },
+      "summary": {
+        "de": "In jedem Kanton gibt es Opferberatungsstellen und Frauenhäuser. Die 142 funktioniert in der ganzen Schweiz.",
+        "en": "Every canton has victim counselling centres and women's shelters. 142 works all over Switzerland.",
+        "ar": "في كل كانتون توجد مراكز استشارة للضحايا ودور لحماية النساء. الرقم 142 يعمل في كل سويسرا.",
+        "ti": "ኣብ ነፍሲ ወከፍ ካንቶን ማእከላት ምኽሪ ግዳያትን ገዛውቲ ሓለዋ ደቀንስትዮን ኣለዉ። 142 ኣብ ኩሉ ስዊዘርላንድ ይሰርሕ።",
+        "tr": "Her kantonda mağdur danışma merkezleri ve kadın sığınma evleri vardır. 142 tüm İsviçre'de çalışır.",
+        "uk": "У кожному кантоні є консультаційні служби для потерпілих і жіночі притулки. Номер 142 працює по всій Швейцарії."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Seit dem 1. Mai 2026 erreichst du die Opferhilfe in der ganzen Schweiz rund um die Uhr unter 142. Aus dem Ausland geht 142 nicht. Dann wähle 116 006 oder 116 016.",
+            "en": "Since 1 May 2026 you can reach victim support all over Switzerland around the clock on 142. 142 does not work from abroad. Then dial 116 006 or 116 016.",
+            "ar": "منذ 1 مايو 2026 يمكنك الوصول إلى مساعدة الضحايا في كل سويسرا على مدار الساعة عبر 142. من الخارج لا يعمل 142. اتصلي عندها بـ 116 006 أو 116 016.",
+            "ti": "ካብ 1 ግንቦት 2026 ጀሚሩ ኣብ ኩሉ ስዊዘርላንድ 24 ሰዓት ብ142 ሓገዝ ግዳያት ክትረኽቢ ትኽእሊ። ካብ ወጻኢ 142 ኣይሰርሕን። ሽዑ 116 006 ወይ 116 016 ደውሊ።",
+            "tr": "1 Mayıs 2026'dan beri mağdur yardımına tüm İsviçre'de 24 saat 142'den ulaşabilirsin. Yurt dışından 142 çalışmaz. O zaman 116 006 veya 116 016'yı ara.",
+            "uk": "З 1 травня 2026 року службу допомоги жертвам можна цілодобово набрати по всій Швейцарії за номером 142. З-за кордону 142 не працює. Тоді набери 116 006 або 116 016."
+          },
+          "src": [
+            "ohs-wo"
+          ]
+        },
+        {
+          "text": {
+            "de": "Opferberatungsstellen gibt es in allen Kantonen. Du darfst die Stelle frei wählen, auch ausserhalb deines Wohnkantons. Eine Liste nach Kanton findest du bei Opferhilfe Schweiz.",
+            "en": "There are victim counselling centres in all cantons. You may choose freely, also outside the canton where you live. Victim Support Switzerland has a list by canton.",
+            "ar": "توجد مراكز استشارة للضحايا في كل الكانتونات. يمكنك اختيار المركز بحرية، حتى خارج كانتون سكنك. تجدين قائمة حسب الكانتون لدى Opferhilfe Schweiz.",
+            "ti": "ኣብ ኩሎም ካንቶናት ማእከላት ምኽሪ ግዳያት ኣለዉ። ነቲ ማእከል ብናጻ ክትመርጽዮ ትኽእሊ፡ ካብ ናይ መንበሪ ካንቶንኪ ወጻኢ እውን። ብካንቶን ዝተሰርዐ ዝርዝር ኣብ Opferhilfe Schweiz ትረኽቢ።",
+            "tr": "Tüm kantonlarda mağdur danışma merkezleri vardır. Merkezi serbestçe seçebilirsin, oturduğun kantonun dışında da. Kantonlara göre listeyi Opferhilfe Schweiz'da bulabilirsin.",
+            "uk": "Консультаційні служби для потерпілих є в усіх кантонах. Ти можеш вільно обрати службу, також поза своїм кантоном. Список за кантонами є на сайті Opferhilfe Schweiz."
+          },
+          "src": [
+            "ohs-wo"
+          ]
+        },
+        {
+          "text": {
+            "de": "In der Deutschschweiz gibt es auch eine Chat- und Onlineberatung: onlineopferberatung.ch.",
+            "en": "In German-speaking Switzerland there is also chat and online counselling: onlineopferberatung.ch.",
+            "ar": "في سويسرا الناطقة بالألمانية توجد أيضًا استشارة عبر الدردشة والإنترنت: onlineopferberatung.ch.",
+            "ti": "ኣብ ጀርመንኛ ዝዛረብ ክፋል ስዊዘርላንድ ብቻትን ብኢንተርነትን ምኽሪ እውን ኣሎ፡ onlineopferberatung.ch።",
+            "tr": "İsviçre'nin Almanca konuşulan bölgesinde sohbet ve online danışmanlık da var: onlineopferberatung.ch.",
+            "uk": "У німецькомовній Швейцарії є також консультації в чаті та онлайн: onlineopferberatung.ch."
+          },
+          "src": [
+            "ohs-wo"
+          ]
+        },
+        {
+          "text": {
+            "de": "Frauenhäuser gibt es in vielen Regionen, zum Beispiel in Bern, Basel, Luzern, St. Gallen, Aargau und Winterthur. Alle Adressen findest du bei der Dachorganisation der Frauenhäuser.",
+            "en": "There are women's shelters in many regions, for example in Bern, Basel, Lucerne, St. Gallen, Aargau and Winterthur. You can find all addresses at the umbrella organisation of women's shelters.",
+            "ar": "توجد دور لحماية النساء في مناطق كثيرة، مثلًا في برن وبازل ولوتسيرن وسانت غالن وآرغاو وفينترتور. تجدين كل العناوين لدى المنظمة الجامعة لدور حماية النساء.",
+            "ti": "ኣብ ብዙሓት ከባቢታት ገዛውቲ ሓለዋ ደቀንስትዮ ኣለዉ፡ ንኣብነት ኣብ በርን፡ ባዝል፡ ሉሰርን፡ ሳንክት ጋለን፡ ኣርጋውን ቪንተርቱርን። ኩሎም ኣድራሻታት ኣብ ማሕበር ገዛውቲ ሓለዋ ደቀንስትዮ ትረኽቢ።",
+            "tr": "Birçok bölgede kadın sığınma evi var, örneğin Bern, Basel, Luzern, St. Gallen, Aargau ve Winterthur'da. Tüm adresleri kadın sığınma evleri çatı örgütünde bulabilirsin.",
+            "uk": "Жіночі притулки є в багатьох регіонах, наприклад у Берні, Базелі, Люцерні, Санкт-Галлені, Ааргау та Вінтертурі. Усі адреси є в об'єднанні жіночих притулків."
+          },
+          "src": [
+            "dao",
+            "ebg-hilfe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sicherheitsplan",
+      "group": "schutz",
+      "reviewed": false,
+      "tags": [
+        "sicherheit",
+        "plan",
+        "notfallplan",
+        "dokumente",
+        "pass",
+        "ausweis",
+        "kopien",
+        "vertrauensperson",
+        "fliehen",
+        "gehen",
+        "trennung",
+        "safety",
+        "documents",
+        "leave"
+      ],
+      "title": {
+        "de": "Sicher bleiben: Einen Notfallplan machen",
+        "en": "Staying safe: make an emergency plan",
+        "ar": "البقاء بأمان: ضعي خطة للطوارئ",
+        "ti": "ውሑስ ምዃን፡ መደብ ህጹጽ ኩነታት ኣዳልዊ",
+        "tr": "Güvende kalmak: Bir acil durum planı yap",
+        "uk": "Залишатися в безпеці: склади план на випадок надзвичайної ситуації"
+      },
+      "summary": {
+        "de": "Plane voraus: wichtige Nummern, Kopien deiner Dokumente bei einer Vertrauensperson, und wohin du im Notfall gehen kannst.",
+        "en": "Plan ahead: important numbers, copies of your documents with a trusted person, and where you can go in an emergency.",
+        "ar": "خططي مسبقًا: أرقام مهمة، ونسخ من وثائقك لدى شخص تثقين به، وإلى أين يمكنك الذهاب في حالة الطوارئ.",
+        "ti": "ኣቐዲምኪ ኣውጽኢ፡ ኣገደስቲ ቁጽርታት፡ ቅዳሕ ሰነዳትኪ ኣብ እትኣምንዮ ሰብ፡ ኣብ ህጹጽ ኩነታት ናበይ ክትከዲ ከም እትኽእሊ።",
+        "tr": "Önceden planla: önemli numaralar, belgelerinin kopyaları güvendiğin bir kişide ve acil durumda nereye gidebileceğin.",
+        "uk": "Сплануй заздалегідь: важливі номери, копії документів у людини, якій довіряєш, і куди можна піти в разі небезпеки."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Überlege dir vorher, wo du im Notfall Hilfe bekommst, zum Beispiel bei einer Nachbarin. Schreib wichtige Nummern auf und halte sie griffbereit: Polizei 117 und die Nummern von Vertrauenspersonen.",
+            "en": "Think in advance about where you can get help in an emergency, for example from a neighbour. Write down important numbers and keep them at hand: police 117 and the numbers of trusted people.",
+            "ar": "فكري مسبقًا أين يمكنك الحصول على المساعدة في حالة الطوارئ، مثلًا لدى جارة. اكتبي الأرقام المهمة واحتفظي بها في متناول اليد: الشرطة 117 وأرقام الأشخاص الذين تثقين بهم.",
+            "ti": "ኣብ ህጹጽ ኩነታት ኣበይ ሓገዝ ከም እትረኽቢ ኣቐዲምኪ ሕሰቢ፡ ንኣብነት ካብ ጎረቤት። ኣገደስቲ ቁጽርታት ጽሓፍን ኣብ ቀረባ ሓዝን፡ ፖሊስ 117ን ቁጽርታት እትኣምንዎም ሰባትን።",
+            "tr": "Acil durumda nereden yardım alabileceğini önceden düşün, örneğin bir komşudan. Önemli numaraları yaz ve el altında tut: polis 117 ve güvendiğin kişilerin numaraları.",
+            "uk": "Заздалегідь подумай, де ти можеш отримати допомогу в надзвичайній ситуації, наприклад у сусідки. Запиши важливі номери й тримай їх під рукою: поліція 117 і номери людей, яким довіряєш."
+          },
+          "src": [
+            "be-zusammen-sicher"
+          ]
+        },
+        {
+          "text": {
+            "de": "Gib Kopien deiner wichtigen Dokumente und der Dokumente deiner Kinder einer Vertrauensperson.",
+            "en": "Give copies of your important documents and your children's documents to a trusted person.",
+            "ar": "أعطي نسخًا من وثائقك المهمة ووثائق أطفالك لشخص تثقين به.",
+            "ti": "ቅዳሕ ኣገደስቲ ሰነዳትኪን ሰነዳት ደቅኽን ንእትኣምንዮ ሰብ ሃቢ።",
+            "tr": "Önemli belgelerinin ve çocuklarının belgelerinin kopyalarını güvendiğin bir kişiye ver.",
+            "uk": "Віддай копії своїх важливих документів і документів дітей людині, якій довіряєш."
+          },
+          "src": [
+            "be-zusammen-sicher"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wenn es gefährlich wird: Geh möglichst schnell weg, statt auszuharren.",
+            "en": "If it gets dangerous: leave as quickly as possible instead of holding out.",
+            "ar": "إذا أصبح الوضع خطيرًا: ابتعدي بأسرع ما يمكن بدلًا من الصبر والبقاء.",
+            "ti": "ሓደገኛ እንተ ኾይኑ፡ ካብ ምጽዋር ብዝተኻእለ ቅልጣፈ ርሓቒ።",
+            "tr": "Tehlikeli olursa: Dayanmaya çalışmak yerine mümkün olduğunca hızlı uzaklaş.",
+            "uk": "Якщо стає небезпечно: іди якомога швидше, замість того щоб терпіти."
+          },
+          "src": [
+            "beob-machtlos"
+          ]
+        },
+        {
+          "text": {
+            "de": "Die Zeit der Trennung ist besonders gefährlich. Plane eine Trennung darum mit einer Beratungsstelle. Sie hilft auch, einen geschützten Ort zu finden.",
+            "en": "The time of separation is especially dangerous. So plan a separation with a counselling service. It also helps you find a protected place.",
+            "ar": "فترة الانفصال خطيرة بشكل خاص. لذلك خططي للانفصال مع مركز استشارة. يساعدك المركز أيضًا في إيجاد مكان محمي.",
+            "ti": "ግዜ ምፍልላይ ብፍሉይ ሓደገኛ እዩ። ስለዚ ምፍልላይ ምስ ማእከል ምኽሪ ኣውጽኢ። ዕቑብ ቦታ ንምርካብ እውን ይሕግዘኪ።",
+            "tr": "Ayrılık dönemi özellikle tehlikelidir. Bu yüzden ayrılığı bir danışma merkeziyle planla. Merkez korunaklı bir yer bulmana da yardım eder.",
+            "uk": "Час розлучення особливо небезпечний. Тому плануй розлучення з консультаційною службою. Вона також допоможе знайти захищене місце."
+          },
+          "src": [
+            "ag-was-ist-hg",
+            "bif-dyn",
+            "beob-machtlos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frauenhaus",
+      "group": "schutz",
+      "reviewed": false,
+      "tags": [
+        "frauenhaus",
+        "unterkunft",
+        "schlafen",
+        "wohnen",
+        "geheim",
+        "schutz",
+        "kinder",
+        "geld",
+        "shelter",
+        "safe",
+        "house",
+        "stay"
+      ],
+      "title": {
+        "de": "Frauenhaus: Ein sicherer Ort für dich und deine Kinder",
+        "en": "Women's shelter: a safe place for you and your children",
+        "ar": "دار حماية النساء: مكان آمن لك ولأطفالك",
+        "ti": "ገዛ ሓለዋ ደቀንስትዮ፡ ንዓኺን ንደቅኽን ውሑስ ቦታ",
+        "tr": "Kadın sığınma evi: Senin ve çocukların için güvenli bir yer",
+        "uk": "Жіночий притулок: безпечне місце для тебе і твоїх дітей"
+      },
+      "summary": {
+        "de": "Ins Frauenhaus kannst du auch ohne Geld, egal welcher Nationalität und mit welchem Aufenthaltsstatus.",
+        "en": "You can go to a women's shelter without money, whatever your nationality and residence status.",
+        "ar": "يمكنك الذهاب إلى دار حماية النساء حتى بدون مال، مهما كانت جنسيتك ووضع إقامتك.",
+        "ti": "ናብ ገዛ ሓለዋ ደቀንስትዮ ብዘይ ገንዘብ እውን ክትከዲ ትኽእሊ፡ ዜግነትኪን ፍቓድ መንበሪኺን ብዘየገድስ።",
+        "tr": "Kadın sığınma evine parasız da gidebilirsin, hangi uyruktan ve hangi oturma izniyle olursan ol.",
+        "uk": "До жіночого притулку можна прийти й без грошей, незалежно від громадянства і статусу перебування."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Frauenhäuser sind Schutzorte für Frauen und ihre Kinder, die körperliche, psychische oder sexuelle Gewalt erleben. Die Adresse ist geheim.",
+            "en": "Women's shelters are places of protection for women and their children who experience physical, psychological or sexual violence. The address is secret.",
+            "ar": "دور حماية النساء أماكن حماية للنساء وأطفالهن اللواتي يتعرضن لعنف جسدي أو نفسي أو جنسي. العنوان سري.",
+            "ti": "ገዛውቲ ሓለዋ ደቀንስትዮ ኣካላዊ፡ ስነ-ኣእምሮኣዊ ወይ ጾታዊ ዓመጽ ንዘጋጠመን ደቀንስትዮን ደቀንን ቦታ ሓለዋ እዮም። እቲ ኣድራሻ ምስጢር እዩ።",
+            "tr": "Kadın sığınma evleri, bedensel, psikolojik veya cinsel şiddet yaşayan kadınlar ve çocukları için koruma yerleridir. Adres gizlidir.",
+            "uk": "Жіночі притулки — це місця захисту для жінок та їхніх дітей, які зазнають фізичного, психологічного чи сексуального насильства. Адреса таємна."
+          },
+          "src": [
+            "dao",
+            "be-zusammen-sicher"
+          ]
+        },
+        {
+          "text": {
+            "de": "Ob du hingehen darfst, hängt nicht von deiner Nationalität, deinem Aufenthaltsstatus oder deinem Einkommen ab. Du kannst auch ohne Geld kommen. Meist bezahlt die Opferhilfe den ersten Aufenthalt, eine Anzeige ist nicht nötig.",
+            "en": "Whether you can go there does not depend on your nationality, your residence status or your income. You can come without money. Victim support usually pays for the first stay, and no police report is needed.",
+            "ar": "حقك في الذهاب لا يعتمد على جنسيتك أو وضع إقامتك أو دخلك. يمكنك المجيء بدون مال. غالبًا تدفع مساعدة الضحايا تكاليف الإقامة الأولى، ولا حاجة لبلاغ.",
+            "ti": "ክትከዲ ምኽኣልኪ ኣብ ዜግነትኪ፡ ፍቓድ መንበሪኺ ወይ እቶትኪ ኣይምርኮስን። ብዘይ ገንዘብ ክትመጽኢ ትኽእሊ። መብዛሕትኡ ግዜ ሓገዝ ግዳያት ነቲ ቀዳማይ ምጽናሕ ይኸፍል፡ ክሲ ኣየድልን።",
+            "tr": "Oraya gidip gidemeyeceğin uyruğuna, oturma iznine veya gelirine bağlı değildir. Parasız da gelebilirsin. İlk kalışı genellikle mağdur yardımı öder, şikâyette bulunman gerekmez.",
+            "uk": "Чи можеш ти туди піти, не залежить від громадянства, статусу перебування чи доходу. Можна прийти без грошей. Перше перебування зазвичай оплачує служба допомоги жертвам, заява в поліцію не потрібна."
+          },
+          "src": [
+            "dao"
+          ]
+        },
+        {
+          "text": {
+            "de": "Deine Kinder kommen mit dir und bekommen auch Unterstützung. Bei häuslicher Gewalt hast du das Recht und die Pflicht, deine Kinder in Sicherheit zu bringen.",
+            "en": "Your children come with you and receive support too. In cases of domestic violence you have the right and the duty to bring your children to safety.",
+            "ar": "يأتي أطفالك معك ويحصلون أيضًا على الدعم. عند العنف الأسري لديك الحق والواجب في نقل أطفالك إلى مكان آمن.",
+            "ti": "ደቅኺ ምሳኺ ይመጽኡ፡ ደገፍ እውን ይረኽቡ። ኣብ ዓመጽ ስድራቤት ንደቅኺ ናብ ውሑስ ቦታ ናይ ምውሳድ መሰልን ግዴታን ኣሎኪ።",
+            "tr": "Çocukların seninle gelir ve onlar da destek alır. Aile içi şiddette çocuklarını güvenliğe götürme hakkın ve görevin vardır.",
+            "uk": "Твої діти йдуть із тобою і теж отримують підтримку. У разі домашнього насильства ти маєш право й обов'язок відвести дітей у безпечне місце."
+          },
+          "src": [
+            "dao"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wenn du die Sprache nicht sprichst, arbeiten die Frauenhäuser mit Dolmetscherinnen.",
+            "en": "If you do not speak the language, women's shelters work with interpreters.",
+            "ar": "إذا كنت لا تتكلمين اللغة، تعمل دور حماية النساء مع مترجمات.",
+            "ti": "ነቲ ቋንቋ እንተ ዘይትዛረቢ፡ ገዛውቲ ሓለዋ ደቀንስትዮ ምስ ተርጐምቲ ይሰርሓ።",
+            "tr": "Dili konuşmuyorsan, kadın sığınma evleri tercümanlarla çalışır.",
+            "uk": "Якщо ти не володієш мовою, жіночі притулки працюють із перекладачками."
+          },
+          "src": [
+            "dao"
+          ]
+        },
+        {
+          "text": {
+            "de": "Ruf die 142 an oder direkt ein Frauenhaus. Frauenhäuser sind Tag und Nacht erreichbar. Zürich: 044 350 04 04, Winterthur: 052 213 08 78, Zürcher Oberland: 044 994 40 94.",
+            "en": "Call 142 or a women's shelter directly. Women's shelters can be reached day and night. Zurich: 044 350 04 04, Winterthur: 052 213 08 78, Zürcher Oberland: 044 994 40 94.",
+            "ar": "اتصلي بـ 142 أو مباشرة بدار لحماية النساء. دور حماية النساء متاحة ليلًا ونهارًا. زيورخ: 044 350 04 04، فينترتور: 052 213 08 78، Zürcher Oberland: 044 994 40 94.",
+            "ti": "ናብ 142 ወይ ብቐጥታ ናብ ገዛ ሓለዋ ደቀንስትዮ ደውሊ። ገዛውቲ ሓለዋ ደቀንስትዮ መዓልትን ለይትን ይርከቡ። ዙሪክ፡ 044 350 04 04፡ ቪንተርቱር፡ 052 213 08 78፡ Zürcher Oberland፡ 044 994 40 94።",
+            "tr": "142'yi ya da doğrudan bir kadın sığınma evini ara. Kadın sığınma evlerine gece gündüz ulaşılabilir. Zürih: 044 350 04 04, Winterthur: 052 213 08 78, Zürcher Oberland: 044 994 40 94.",
+            "uk": "Телефонуй на 142 або безпосередньо в жіночий притулок. Жіночі притулки доступні вдень і вночі. Цюрих: 044 350 04 04, Вінтертур: 052 213 08 78, Zürcher Oberland: 044 994 40 94."
+          },
+          "src": [
+            "dao",
+            "zh-hilfe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "helfen",
+      "group": "hilfe",
+      "reviewed": false,
+      "tags": [
+        "freundin",
+        "nachbarin",
+        "schwester",
+        "helfen",
+        "angehörige",
+        "sorgen",
+        "zivilcourage",
+        "unterstützen",
+        "friend",
+        "neighbour",
+        "help",
+        "worried"
+      ],
+      "title": {
+        "de": "Du machst dir Sorgen um eine Freundin?",
+        "en": "Are you worried about a friend?",
+        "ar": "هل أنت قلقة على صديقة؟",
+        "ti": "ብዛዕባ ሓንቲ መሓዛ ትጭነቒ ዲኺ?",
+        "tr": "Bir arkadaşın için endişeleniyor musun?",
+        "uk": "Ти хвилюєшся за подругу?"
+      },
+      "summary": {
+        "de": "Hör zu, verurteile sie nicht und dräng sie nicht. Bei akuter Gefahr ruf die Polizei: 117.",
+        "en": "Listen, don't judge her and don't push her. In acute danger call the police: 117.",
+        "ar": "استمعي، لا تحكمي عليها ولا تضغطي عليها. عند الخطر الحاد اتصلي بالشرطة: 117.",
+        "ti": "ስምዒ፡ ኣይትፍረድያ፡ ኣይትጸቕጥያ። ኣብ ህጹጽ ሓደጋ ንፖሊስ ደውሊ፡ 117።",
+        "tr": "Dinle, onu yargılama ve baskı yapma. Acil tehlikede polisi ara: 117.",
+        "uk": "Вислухай, не засуджуй її і не тисни. У разі гострої небезпеки телефонуй у поліцію: 117."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Hörst du Schreie, Schläge oder weinende Kinder? Ruf die Polizei an: 117. Die Polizei sorgt dafür, dass niemand erfährt, wer angerufen hat. Geh nicht selbst dazwischen.",
+            "en": "Do you hear screaming, blows or crying children? Call the police: 117. The police make sure that nobody finds out who called. Do not step in between yourself.",
+            "ar": "هل تسمعين صراخًا أو ضربًا أو أطفالًا يبكون؟ اتصلي بالشرطة: 117. تضمن الشرطة ألا يعرف أحد من اتصل. لا تتدخلي بنفسك بينهم.",
+            "ti": "ኣውያት፡ ድምጺ ምህራም ወይ ዝበኽዩ ቆልዑ ትሰምዒ ዲኺ? ንፖሊስ ደውሊ፡ 117። ፖሊስ መን ከም ዝደወለ ሓደ እኳ ከይፈልጥ ይገብር። ባዕልኺ ኣብ መንጎ ኣይትእተዊ።",
+            "tr": "Çığlık, darbe sesi ya da ağlayan çocuklar mı duyuyorsun? Polisi ara: 117. Polis, kimin aradığını kimsenin öğrenmemesini sağlar. Kendin araya girme.",
+            "uk": "Чуєш крики, удари чи плач дітей? Телефонуй у поліцію: 117. Поліція подбає, щоб ніхто не дізнався, хто дзвонив. Не втручайся сама."
+          },
+          "src": [
+            "bs-zivilcourage"
+          ]
+        },
+        {
+          "text": {
+            "de": "Sprich die Frau möglichst allein an. Sag zum Beispiel: «Ich mache mir Sorgen um dich.» Hör zu und frag, wie du helfen kannst. Sie entscheidet selbst.",
+            "en": "Talk to the woman alone if possible. Say for example: «I'm worried about you.» Listen and ask how you can help. She decides for herself.",
+            "ar": "تحدثي مع المرأة على انفراد إن أمكن. قولي مثلًا: «أنا قلقة عليك.» استمعي واسألي كيف يمكنك المساعدة. هي من تقرر.",
+            "ti": "ምስታ ሰበይቲ እንተ ተኻኢሉ በይንኹም ተዛረብያ። ንኣብነት በሊ፡ «ብዛዕባኺ ይጭነቕ እየ።» ስምዒያ፡ ብኸመይ ክትሕግዚ ከም እትኽእሊ ሕተትያ። ባዕላ እያ እትውስን።",
+            "tr": "Kadınla mümkünse yalnızken konuş. Örneğin şöyle de: «Senin için endişeleniyorum.» Dinle ve nasıl yardım edebileceğini sor. Kararı kendisi verir.",
+            "uk": "Поговори з жінкою наодинці, якщо можливо. Скажи, наприклад: «Я хвилююся за тебе.» Вислухай і запитай, як ти можеш допомогти. Вона вирішує сама."
+          },
+          "src": [
+            "bs-zivilcourage"
+          ]
+        },
+        {
+          "text": {
+            "de": "Hab Geduld, wenn sie sich nicht sofort trennt. Oft braucht es mehrere Anläufe. Kritisiere die Gewalt, nicht sie.",
+            "en": "Be patient if she does not separate right away. It often takes several attempts. Criticise the violence, not her.",
+            "ar": "اصبري إذا لم تنفصل فورًا. غالبًا تحتاج إلى عدة محاولات. انتقدي العنف، وليس هي.",
+            "ti": "ብቕጽበት እንተ ዘይተፈልየት ተዓገሲ። መብዛሕትኡ ግዜ ብዙሕ ፈተነታት የድሊ። ንዓመጽ ንቐፊ፡ ንዓኣ ኣይኮነን።",
+            "tr": "Hemen ayrılmazsa sabırlı ol. Çoğu zaman birkaç deneme gerekir. Onu değil, şiddeti eleştir.",
+            "uk": "Будь терплячою, якщо вона не розлучиться одразу. Часто потрібно кілька спроб. Критикуй насильство, а не її."
+          },
+          "src": [
+            "bs-zivilcourage"
+          ]
+        },
+        {
+          "text": {
+            "de": "Praktische Hilfe, wenn sie das will: zur Beratung begleiten, Dokumente oder Geld für sie aufbewahren, auf die Kinder aufpassen.",
+            "en": "Practical help, if she wants it: go with her to counselling, keep documents or money for her, look after the children.",
+            "ar": "مساعدة عملية إذا أرادت: مرافقتها إلى الاستشارة، الاحتفاظ بوثائق أو مال لها، رعاية الأطفال.",
+            "ti": "ተግባራዊ ሓገዝ፡ እንተ ደለየት፡ ናብ ምኽሪ ምስኣ ምኻድ፡ ሰነዳት ወይ ገንዘብ ምዕቃብ፡ ቆልዑ ምሕላው።",
+            "tr": "İsterse pratik yardım: danışmanlığa eşlik etmek, onun için belge veya para saklamak, çocuklara bakmak.",
+            "uk": "Практична допомога, якщо вона хоче: супроводити на консультацію, зберігати для неї документи чи гроші, доглянути за дітьми."
+          },
+          "src": [
+            "bs-zivilcourage"
+          ]
+        },
+        {
+          "text": {
+            "de": "Auch als Angehörige oder Freundin kannst du dich bei der Opferhilfe beraten lassen, zum Beispiel unter 142.",
+            "en": "As a relative or friend you can also get advice from victim support, for example on 142.",
+            "ar": "كقريبة أو صديقة يمكنك أنت أيضًا الحصول على استشارة من مساعدة الضحايا، مثلًا عبر 142.",
+            "ti": "ከም ዘመድ ወይ መሓዛ ንስኺ እውን ካብ ሓገዝ ግዳያት ምኽሪ ክትረኽቢ ትኽእሊ፡ ንኣብነት ብ142።",
+            "tr": "Yakını veya arkadaşı olarak sen de mağdur yardımından danışmanlık alabilirsin, örneğin 142'den.",
+            "uk": "Як родичка чи подруга ти теж можеш отримати консультацію в службі допомоги жертвам, наприклад за номером 142."
+          },
+          "src": [
+            "ohs-wer",
+            "beob-machtlos"
           ]
         }
       ]
