@@ -1,0 +1,1586 @@
+{
+  "meta": {
+    "status": "Prototyp – Inhalte ungeprüft, keine Rechtsberatung",
+    "language": "de",
+    "updated": "2026-11-16",
+    "note": "Alle Einträge haben reviewed=false, bis eine Fachperson sie geprüft hat.",
+    "languages": [
+      "de",
+      "en",
+      "ar",
+      "ti",
+      "tr",
+      "uk"
+    ],
+    "translation": "en, ar, ti, tr, uk: maschinell übersetzt (KI, 2026-11-16), ungeprüft. de ist das Original."
+  },
+  "sources": {
+    "bif-def": {
+      "title": "BIF – Formen häuslicher Gewalt",
+      "url": "https://www.bif-frauenberatung.ch/haeusliche-gewalt/definition/"
+    },
+    "bif-dyn": {
+      "title": "BIF – Gewaltdynamik",
+      "url": "https://www.bif-frauenberatung.ch/haeusliche-gewalt/gewaltdynamik/"
+    },
+    "bif-faq": {
+      "title": "BIF – Häufige Fragen",
+      "url": "https://www.bif-frauenberatung.ch/haeusliche-gewalt/haeufige-fragen/"
+    },
+    "bif-mig": {
+      "title": "BIF – Migrationsrecht",
+      "url": "https://www.bif-frauenberatung.ch/recht/migrationsrecht/"
+    },
+    "bif-ohg": {
+      "title": "BIF – Opferhilfegesetz",
+      "url": "https://www.bif-frauenberatung.ch/recht/opferhilfegesetz/"
+    },
+    "bif-recht": {
+      "title": "BIF – Rechte (Strafrecht)",
+      "url": "https://www.bif-frauenberatung.ch/recht/"
+    },
+    "bif-not": {
+      "title": "BIF – Notfallnummern",
+      "url": "https://www.bif-frauenberatung.ch/notfallnummern/"
+    },
+    "fedlex-aig50": {
+      "title": "Ausländer- und Integrationsgesetz (AIG), Art. 50",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de#art_50"
+    },
+    "sem-21504": {
+      "title": "SEM – Härtefallregelung bei häuslicher Gewalt (in Kraft seit 1.1.2025)",
+      "url": "https://www.sem.admin.ch/sem/de/home/sem/rechtsetzung/archiv/aig-haeusliche-gewalt.html"
+    },
+    "sem-erl-2024": {
+      "title": "SEM – Erläuterungen zur VZAE-Änderung «Härtefallregelung bei häuslicher Gewalt» (27.11.2024)",
+      "url": "https://www.newsd.admin.ch/newsd/message/attachments/90783.pdf"
+    },
+    "ebg-b5": {
+      "title": "EBG – Informationsblatt B5: Häusliche Gewalt im Migrationskontext (Januar 2026)",
+      "url": "https://www.ebg.admin.ch/dam/en/sd-web/r-cM2NWdWnv9/b5%20haeusliche-gewalt-im-migrationskontext.pdf"
+    },
+    "fedlex-stgb55a": {
+      "title": "Strafgesetzbuch (StGB), Art. 55a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_55_a"
+    },
+    "fedlex-stgb181a": {
+      "title": "Strafgesetzbuch (StGB), Art. 181a – Zwangsheirat",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_181_a"
+    },
+    "fedlex-zgb105": {
+      "title": "Zivilgesetzbuch (ZGB), Art. 105 – Ungültigkeit der Ehe",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_105"
+    },
+    "fedlex-zgb28b": {
+      "title": "Zivilgesetzbuch (ZGB), Art. 28b – Schutz vor Gewalt",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_28_b"
+    },
+    "ohs-beratung": {
+      "title": "Opferhilfe Schweiz – Beratung",
+      "url": "https://www.opferhilfe-schweiz.ch/de/was-ist-opferhilfe/beratung/"
+    },
+    "ohs-geld": {
+      "title": "Opferhilfe Schweiz – Finanzielle Hilfe",
+      "url": "https://opferhilfe-schweiz.ch/de/quest-ce-que-laide-aux-victimes/finanzielle-hilfe/"
+    },
+    "ohs-hg": {
+      "title": "Opferhilfe Schweiz – Häusliche Gewalt",
+      "url": "https://www.opferhilfe-schweiz.ch/de/ich-bin-opfer-von/hauslichegewalt/"
+    },
+    "beob-142": {
+      "title": "Beobachter – Opferhilfenummer 142 seit 1. Mai in Betrieb",
+      "url": "https://www.beobachter.ch/gesellschaft/gratis-opferhilfe-nummer-142-ist-seit-1-mai-in-betrieb-932864"
+    },
+    "zh-gsg": {
+      "title": "Kanton Zürich – Polizeiliche Schutzmassnahmen gegen häusliche Gewalt",
+      "url": "https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/gewalt-extremismus/haeusliche-gewalt/polizeiliche-schutzmassnahmen.html"
+    },
+    "zh-meldung": {
+      "title": "Kanton Zürich – Was passiert nach einer Meldung?",
+      "url": "https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/gewalt-extremismus/haeusliche-gewalt/haeusliche-gewalt-in-zahlen/was-passiert-nach-meldung.html"
+    },
+    "zh-hilfe": {
+      "title": "Kanton Zürich – Wie wird Opfern geholfen?",
+      "url": "https://www.zh.ch/de/sicherheit-justiz/delikte-praevention/gewalt-extremismus/haeusliche-gewalt/haeusliche-gewalt-in-zahlen/wie-wird-opfern-geholfen.html"
+    },
+    "zh-opferberatung": {
+      "title": "Kanton Zürich – Opferberatungsstellen",
+      "url": "https://www.zh.ch/de/sicherheit-justiz/opferhilfe/opferberatung.html"
+    },
+    "zh-hilfe-ls": {
+      "title": "Kanton Zürich – Hilfs-Angebote für Opfer von Gewalt (Leichte Sprache)",
+      "url": "https://www.zh.ch/de-ls/sicherheit-justiz/opferhilfe/hilfeleistungen.html"
+    },
+    "zh-142": {
+      "title": "Kanton Zürich – 24/7-Telefon für Gewaltopfer (Okt. 2025)",
+      "url": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2025/10/044-455-2-142-im-kanton-zuerich-startet-das-neue-24-7-telefon-fuer-gewaltopfer.html"
+    },
+    "zh-zwang": {
+      "title": "Kanton Zürich – Zwangsheirat",
+      "url": "https://www.zh.ch/de/sicherheit-justiz/opferhilfe/zwangsheirat.html"
+    },
+    "zh-mig-weisung": {
+      "title": "Migrationsamt Kanton Zürich – Weisung: Aufenthalt nach Auflösung der ehelichen Gemeinschaft",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Aufenthalt%20nach%20Aufl%C3%B6sung%20der%20ehelichen%20Gemeinschaft.pdf"
+    },
+    "zh-kesb-hg": {
+      "title": "Kanton Zürich – Merkblatt Häusliche Gewalt und Kindesschutz (Juni 2026)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/familie/kindesschutz/fachaufsicht_kesb/leitf%C3%A4den/merkblatt_weisung_bei_hg.pdf"
+    },
+    "zh-gericht-eheschutz": {
+      "title": "Gerichte Kanton Zürich – Merkblatt Eheschutz",
+      "url": "https://www.gerichte-zh.ch/de/form/eheschutz/merkblatt/eheschutz/pdf"
+    }
+  },
+  "entries": [
+    {
+      "id": "kontrolle",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "kontrolle",
+        "handy",
+        "kontakte",
+        "freundinnen",
+        "familie",
+        "isolation",
+        "eifersucht",
+        "überwachung",
+        "verbieten",
+        "control",
+        "phone",
+        "friends",
+        "jealous"
+      ],
+      "title": {
+        "de": "Kontrolle ist eine Form von Gewalt",
+        "en": "Control is a form of violence",
+        "ar": "السيطرة شكل من أشكال العنف",
+        "ti": "ቁጽጽር ሓደ ዓይነት ዓመጽ እዩ",
+        "tr": "Kontrol bir şiddet biçimidir",
+        "uk": "Контроль — це форма насильства"
+      },
+      "summary": {
+        "de": "Wenn jemand bestimmt, wen du triffst, oder dein Handy überwacht, ist das nicht Liebe, sondern Kontrolle.",
+        "en": "If someone decides who you meet or watches your phone, that is not love. It is control.",
+        "ar": "إذا كان شخص ما يقرر من تقابلين أو يراقب هاتفك، فهذا ليس حبًا، بل سيطرة.",
+        "ti": "ሓደ ሰብ ምስ መን ከም እትራኸቢ እንተ ወሰነ ወይ ሞባይልኪ እንተ ተቖጻጸረ፡ እዚ ፍቕሪ ኣይኮነን፡ ቁጽጽር እዩ።",
+        "tr": "Birisi kiminle görüşeceğine karar veriyorsa ya da telefonunu denetliyorsa, bu sevgi değil, kontroldür.",
+        "uk": "Якщо хтось вирішує, з ким ти зустрічаєшся, або перевіряє твій телефон, це не любов, а контроль."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Gewalt beginnt nicht erst mit Schlägen. Fachstellen zählen auch psychische Gewalt dazu. Ein Teil davon ist soziale Kontrolle: Jemand kontrolliert, mit wem du Kontakt hast, oder verbietet dir den Kontakt zu anderen Menschen.",
+            "en": "Violence does not start with hitting. Counselling services also count psychological violence. Part of it is social control: someone controls who you are in contact with, or forbids you to see other people.",
+            "ar": "العنف لا يبدأ بالضرب فقط. مراكز الاستشارة تعتبر العنف النفسي أيضًا عنفًا. وجزء منه هو السيطرة الاجتماعية: شخص يراقب مع من تتواصلين، أو يمنعك من التواصل مع أشخاص آخرين.",
+            "ti": "ዓመጽ ብምህራም ጥራይ ኣይጅምርን። ማእከላት ምኽሪ ስነ-ኣእምሮኣዊ ዓመጽ እውን ከም ዓመጽ ይቖጽርዎ። ሓደ ክፋሉ ማሕበራዊ ቁጽጽር እዩ፡ ሓደ ሰብ ምስ መን ከም እትራኸቢ ይቆጻጸር፡ ወይ ምስ ካልኦት ሰባት ምርኻብ ይኽልክለኪ።",
+            "tr": "Şiddet sadece dövmekle başlamaz. Danışma merkezleri psikolojik şiddeti de şiddet olarak sayar. Bunun bir parçası sosyal kontroldür: Birisi kiminle iletişimde olduğunu kontrol eder ya da başka insanlarla görüşmeni yasaklar.",
+            "uk": "Насильство не починається лише з ударів. Консультаційні служби вважають насильством і психологічне насильство. Частина його — соціальний контроль: хтось контролює, з ким ти спілкуєшся, або забороняє тобі контакти з іншими людьми."
+          },
+          "src": [
+            "bif-def"
+          ]
+        },
+        {
+          "text": {
+            "de": "Auch digitale Überwachung gehört dazu, zum Beispiel wenn jemand ständig deinen Standort verfolgt.",
+            "en": "Digital surveillance is part of it too, for example when someone constantly tracks your location.",
+            "ar": "المراقبة الرقمية أيضًا جزء من ذلك، مثلًا عندما يتتبع شخص موقعك باستمرار.",
+            "ti": "ዲጂታላዊ ምክትታል እውን ኣብዚ ይኣቱ፡ ንኣብነት ሓደ ሰብ ብቐጻሊ ዘለኽዮ ቦታ እንተ ተኸታተለ።",
+            "tr": "Dijital takip de buna dahildir, örneğin birisi sürekli konumunu izliyorsa.",
+            "uk": "Цифрове стеження теж сюди належить, наприклад коли хтось постійно відстежує твоє місцезнаходження."
+          },
+          "src": [
+            "bif-def"
+          ]
+        },
+        {
+          "text": {
+            "de": "Machtgefälle, Dominanz und Kontrolle sind Warnzeichen: Mit ihnen steigt das Risiko, dass die Gewalt in einer Beziehung schlimmer wird. Die Gewalt hat mit dem Verhalten des Partners zu tun, nicht mit dir.",
+            "en": "Power imbalance, dominance and control are warning signs: they increase the risk that violence in a relationship gets worse. The violence is about your partner's behaviour, not about you.",
+            "ar": "عدم التوازن في القوة والهيمنة والسيطرة علامات تحذير: معها يزداد خطر أن يصبح العنف في العلاقة أسوأ. العنف مرتبط بسلوك الشريك، وليس بك.",
+            "ti": "ዘይማዕርነት ሓይሊ፡ ምብሕጓግን ቁጽጽርን ምልክታት ሓደጋ እዮም፡ ምስኦም ዓመጽ ኣብ ርክብ ናይ ምግዳድ ሓደጋ ይውስኽ። ዓመጽ ምስ ባህሪ መጻምድቲ እዩ ዝተሓሓዝ፡ ምሳኺ ኣይኮነን።",
+            "tr": "Güç dengesizliği, baskınlık ve kontrol uyarı işaretleridir: Bunlarla birlikte bir ilişkide şiddetin kötüleşme riski artar. Şiddet partnerinin davranışıyla ilgilidir, seninle değil.",
+            "uk": "Нерівність сил, домінування і контроль — це тривожні знаки: з ними зростає ризик, що насильство у стосунках посилиться. Насильство пов'язане з поведінкою партнера, а не з тобою."
+          },
+          "src": [
+            "bif-dyn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychisch",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "beleidigen",
+        "demütigen",
+        "drohen",
+        "angst",
+        "erpressung",
+        "anschreien",
+        "einsperren",
+        "psychisch",
+        "insult",
+        "threat",
+        "fear",
+        "shout"
+      ],
+      "title": {
+        "de": "Beleidigen und Drohen ist psychische Gewalt",
+        "en": "Insults and threats are psychological violence",
+        "ar": "الإهانة والتهديد عنف نفسي",
+        "ti": "ምጽራፍን ምፍርራሕን ስነ-ኣእምሮኣዊ ዓመጽ እዩ",
+        "tr": "Hakaret ve tehdit psikolojik şiddettir",
+        "uk": "Образи та погрози — це психологічне насильство"
+      },
+      "summary": {
+        "de": "Ständiges Kleinmachen, Drohen oder Einsperren ist Gewalt, auch ohne einen einzigen Schlag.",
+        "en": "Constant belittling, threats or locking you in are violence, even without a single blow.",
+        "ar": "التحقير المستمر أو التهديد أو الحبس عنف، حتى بدون ضربة واحدة.",
+        "ti": "ቀጻሊ ምንእኣስ፡ ምፍርራሕ ወይ ምዕጻው ዓመጽ እዩ፡ ሓንቲ ማህረምቲ እኳ እንተ ዘይሃለወት።",
+        "tr": "Sürekli küçümsemek, tehdit etmek ya da kapatmak şiddettir, tek bir darbe olmasa bile.",
+        "uk": "Постійне приниження, погрози чи замикання — це насильство, навіть без жодного удару."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Zu psychischer Gewalt gehören gezielte Beleidigungen, Demütigungen, andauerndes Beschimpfen, Drohungen und Erpressung.",
+            "en": "Psychological violence includes deliberate insults, humiliation, constant verbal abuse, threats and blackmail.",
+            "ar": "العنف النفسي يشمل الإهانات المتعمدة، والإذلال، والشتم المستمر، والتهديدات، والابتزاز.",
+            "ti": "ስነ-ኣእምሮኣዊ ዓመጽ ብዕላማ ዝግበር ጸርፊ፡ ምውራድ ክብሪ፡ ቀጻሊ ምጽራፍ፡ ምፍርራሕን ምግፋዕን የጠቓልል።",
+            "tr": "Psikolojik şiddet; kasıtlı hakaretleri, aşağılamayı, sürekli sövmeyi, tehditleri ve şantajı kapsar.",
+            "uk": "До психологічного насильства належать навмисні образи, приниження, постійна лайка, погрози та шантаж."
+          },
+          "src": [
+            "bif-def"
+          ]
+        },
+        {
+          "text": {
+            "de": "Ebenfalls dazu gehören: dir einreden, dass du dir Dinge nur einbildest, dich einsperren oder dich zu sinnlosen Handlungen zwingen.",
+            "en": "It also includes: telling you that you are only imagining things, locking you in, or forcing you to do pointless things.",
+            "ar": "ويشمل أيضًا: أن يقنعك أنك تتخيلين الأشياء فقط، أو أن يحبسك، أو أن يجبرك على القيام بأفعال لا معنى لها.",
+            "ti": "ከምኡ እውን፡ ነገራት ከም እትሓስቢ ጥራይ ምእማን፡ ምዕጻውኪ፡ ወይ ትርጉም ዘይብሉ ተግባራት ክትገብሪ ምግዳድ።",
+            "tr": "Bunlar da dahildir: sana bazı şeyleri sadece hayal ettiğini söylemek, seni kapatmak ya da anlamsız şeyler yapmaya zorlamak.",
+            "uk": "Також сюди належить: переконувати тебе, що тобі все лише здається, замикати тебе або змушувати робити безглузді речі."
+          },
+          "src": [
+            "bif-def"
+          ]
+        },
+        {
+          "text": {
+            "de": "Eine Drohung in der Ehe oder Partnerschaft kann ein Offizialdelikt sein. Das heisst: Die Behörden verfolgen sie von sich aus.",
+            "en": "A threat within a marriage or partnership can be an offence prosecuted ex officio. This means: the authorities prosecute it on their own initiative.",
+            "ar": "التهديد في الزواج أو العلاقة يمكن أن يكون جريمة تلاحقها السلطات تلقائيًا. هذا يعني: السلطات تلاحقها من تلقاء نفسها.",
+            "ti": "ኣብ መርዓ ወይ ርክብ ዝግበር ምፍርራሕ ሰበ-ስልጣን ባዕሎም ዝኽስስዎ ገበን ክኸውን ይኽእል። እዚ ማለት፡ ሰበ-ስልጣን ብገዛእ ርእሶም ይከታተልዎ።",
+            "tr": "Evlilikte veya ilişkide tehdit, resen kovuşturulan bir suç olabilir. Bu şu demektir: Yetkililer bunu kendiliğinden takip eder.",
+            "uk": "Погроза в шлюбі чи стосунках може бути злочином, який переслідується за посадовим обов'язком. Це означає: органи влади розслідують його з власної ініціативи."
+          },
+          "src": [
+            "bif-recht"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geld",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "geld",
+        "lohn",
+        "arbeiten",
+        "konto",
+        "karte",
+        "ausgaben",
+        "finanzen",
+        "unterhalt",
+        "sozialamt",
+        "money",
+        "salary",
+        "work",
+        "bank"
+      ],
+      "title": {
+        "de": "Dein Geld: Wenn jemand alles bestimmt",
+        "en": "Your money: when someone decides everything",
+        "ar": "مالك: عندما يقرر شخص كل شيء",
+        "ti": "ገንዘብኪ፡ ሓደ ሰብ ኩሉ ክውስን ከሎ",
+        "tr": "Senin paran: Birisi her şeye karar verdiğinde",
+        "uk": "Твої гроші: коли хтось вирішує все"
+      },
+      "summary": {
+        "de": "Wer dir verbietet zu arbeiten oder deinen Lohn wegnimmt, übt wirtschaftliche Gewalt aus.",
+        "en": "Anyone who forbids you to work or takes your wages is using economic violence.",
+        "ar": "من يمنعك من العمل أو يأخذ راتبك يمارس عنفًا اقتصاديًا.",
+        "ti": "ክትሰርሕ ዝኽልክለኪ ወይ ደሞዝኪ ዝወስድ፡ ቁጠባዊ ዓመጽ ይፍጽም ኣሎ።",
+        "tr": "Çalışmanı yasaklayan ya da maaşını elinden alan kişi ekonomik şiddet uygular.",
+        "uk": "Хто забороняє тобі працювати або забирає твою зарплату, чинить економічне насильство."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Wirtschaftliche (ökonomische) Gewalt heisst zum Beispiel: Dir wird verboten, ausser Haus zu arbeiten, oder du wirst dazu gezwungen. Dein Lohn wird dir weggenommen, oder nur eine Person bestimmt über das ganze Geld.",
+            "en": "Economic violence means, for example: you are forbidden to work outside the home, or you are forced to. Your wages are taken from you, or only one person decides about all the money.",
+            "ar": "العنف الاقتصادي يعني مثلًا: يُمنع عليك العمل خارج البيت، أو تُجبرين عليه. يُؤخذ راتبك منك، أو شخص واحد فقط يقرر بشأن كل المال.",
+            "ti": "ቁጠባዊ ዓመጽ ንኣብነት ማለት፡ ካብ ገዛ ወጻኢ ክትሰርሕ ትኽልከሊ፡ ወይ ክትሰርሕ ትግደዲ። ደሞዝኪ ይውሰደኪ፡ ወይ ሓደ ሰብ ጥራይ ብዛዕባ ኩሉ ገንዘብ ይውስን።",
+            "tr": "Ekonomik şiddet örneğin şudur: Ev dışında çalışman yasaklanır ya da çalışmaya zorlanırsın. Maaşın elinden alınır ya da tüm paraya tek bir kişi karar verir.",
+            "uk": "Економічне насильство означає, наприклад: тобі забороняють працювати поза домом або змушують працювати. Твою зарплату забирають, або лише одна людина вирішує щодо всіх грошей."
+          },
+          "src": [
+            "bif-def"
+          ]
+        },
+        {
+          "text": {
+            "de": "Nach einer Trennung kann es Wochen dauern, bis der Unterhalt geregelt ist. In dieser Zeit muss die Person, die das meiste Geld verdient, weiter Unterhalt zahlen.",
+            "en": "After a separation it can take weeks until maintenance is settled. During this time, the person who earns the most must continue to pay maintenance.",
+            "ar": "بعد الانفصال قد يستغرق الأمر أسابيع حتى تُنظَّم النفقة. خلال هذه الفترة يجب على الشخص الذي يكسب أكثر أن يستمر في دفع النفقة.",
+            "ti": "ድሕሪ ምፍልላይ፡ መቐለብ ክሳዕ ዝስራዕ ሰሙናት ክወስድ ይኽእል። ኣብዚ እዋን፡ እቲ ዝበዝሐ ገንዘብ ዝረክብ ሰብ መቐለብ ምኽፋል ክቕጽል ኣለዎ።",
+            "tr": "Ayrılıktan sonra nafakanın düzenlenmesi haftalar sürebilir. Bu sürede en çok kazanan kişi nafaka ödemeye devam etmek zorundadır.",
+            "uk": "Після розлучення може минути кілька тижнів, поки аліменти (утримання) будуть врегульовані. У цей час людина, яка заробляє найбільше, мусить і далі платити утримання."
+          },
+          "src": [
+            "bif-faq"
+          ]
+        },
+        {
+          "text": {
+            "de": "Tipps der Fachstelle: Bei einem gemeinsamen Konto Geld für etwa drei Monate abheben und auf ein eigenes Konto legen. Eine Zusatzkarte des Partners sperren lassen, wenn das geht. Wenn er nicht zahlt, beim Sozialamt um Nothilfe bitten. Die BIF kann in bestimmten Notlagen eine Überbrückungshilfe zahlen.",
+            "en": "Tips from the counselling service: If you have a joint account, withdraw money for about three months and put it in an account of your own. Have your partner's additional card blocked if possible. If he does not pay, ask the social welfare office for emergency help. In certain emergencies BIF can pay bridging assistance.",
+            "ar": "نصائح من مركز الاستشارة: إذا كان لديكما حساب مشترك، اسحبي مالًا يكفي لحوالي ثلاثة أشهر وضعيه في حساب خاص بك. اطلبي إيقاف البطاقة الإضافية لشريكك إذا أمكن. إذا لم يدفع، اطلبي مساعدة طارئة من مكتب الشؤون الاجتماعية. يمكن لـ BIF في بعض حالات الطوارئ دفع مساعدة مؤقتة.",
+            "ti": "ምኽሪ ካብ ማእከል ምኽሪ፡ ሓባራዊ ሕሳብ እንተሃልዩኩም፡ ንሰለስተ ኣዋርሕ ዝኣክል ገንዘብ ኣውጺእኪ ኣብ ናይ ገዛእ ርእስኺ ሕሳብ ኣቐምጥዮ። እንተ ተኻኢሉ ተወሳኺ ካርድ መጻምድትኺ ኣዕጽውዮ። እንተ ዘይከፈለ፡ ካብ ቤት ጽሕፈት ማሕበራዊ ጉዳያት ህጹጽ ሓገዝ ሕተቲ። BIF ኣብ ገለ ህጹጽ ኩነታት ግዝያዊ ሓገዝ ክትከፍል ትኽእል።",
+            "tr": "Danışma merkezinin önerileri: Ortak hesap varsa, yaklaşık üç aylık parayı çekip kendi hesabına koy. Mümkünse partnerinin ek kartını iptal ettir. Ödeme yapmazsa sosyal yardım dairesinden acil yardım iste. BIF bazı acil durumlarda geçici destek ödeyebilir.",
+            "uk": "Поради консультаційної служби: Якщо є спільний рахунок, зніми гроші приблизно на три місяці й поклади їх на власний рахунок. Якщо можливо, заблокуй додаткову картку партнера. Якщо він не платить, попроси екстрену допомогу в соціальній службі. BIF у певних надзвичайних ситуаціях може надати тимчасову фінансову допомогу."
+          },
+          "src": [
+            "bif-faq"
+          ]
+        },
+        {
+          "text": {
+            "de": "Den Unterhalt kann auch das Gericht festlegen, sogar rückwirkend für bis zu ein Jahr. Mehr dazu im Thema «Getrennt leben».",
+            "en": "The court can also set maintenance, even retroactively for up to one year. More about this in the topic «Living separately».",
+            "ar": "يمكن للمحكمة أيضًا تحديد النفقة، حتى بأثر رجعي لمدة تصل إلى سنة. المزيد في موضوع «العيش بشكل منفصل».",
+            "ti": "ቤት ፍርዲ እውን መቐለብ ክውስን ይኽእል፡ ንድሕሪት ክሳዕ ሓደ ዓመት እውን። ዝያዳ ኣብ ኣርእስቲ «ተፈላሊኻ ምንባር»።",
+            "tr": "Nafakayı mahkeme de belirleyebilir, hatta geriye dönük olarak bir yıla kadar. Daha fazlası «Ayrı yaşamak» konusunda.",
+            "uk": "Утримання може встановити й суд, навіть заднім числом до одного року. Більше про це в темі «Жити окремо»."
+          },
+          "src": [
+            "zh-gericht-eheschutz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spirale",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "entschuldigung",
+        "versprechen",
+        "reue",
+        "wieder",
+        "kreislauf",
+        "bleiben",
+        "warum",
+        "trennung",
+        "sorry",
+        "promise",
+        "again",
+        "cycle",
+        "stay"
+      ],
+      "title": {
+        "de": "«Es tut mir leid, es passiert nie wieder»",
+        "en": "«I'm sorry, it will never happen again»",
+        "ar": "«أنا آسف، لن يحدث ذلك مرة أخرى»",
+        "ti": "«ይቕሬታ፡ ደጊም ኣይክደግምን እየ»",
+        "tr": "«Özür dilerim, bir daha olmayacak»",
+        "uk": "«Вибач, це більше ніколи не повториться»"
+      },
+      "summary": {
+        "de": "Reue und Versprechen gehören oft zu einer Gewaltspirale. Ohne Hilfe von aussen geht es meist weiter.",
+        "en": "Remorse and promises are often part of a cycle of violence. Without outside help it usually continues.",
+        "ar": "الندم والوعود غالبًا جزء من دوامة العنف. بدون مساعدة من الخارج يستمر الأمر عادةً.",
+        "ti": "ጣዕሳን መብጽዓን መብዛሕትኡ ግዜ ክፋል ዙረት ዓመጽ እዮም። ካብ ደገ ሓገዝ እንተ ዘይተረኺቡ መብዛሕትኡ ግዜ ይቕጽል።",
+        "tr": "Pişmanlık ve sözler çoğu zaman bir şiddet döngüsünün parçasıdır. Dışarıdan yardım olmadan genellikle devam eder.",
+        "uk": "Каяття й обіцянки часто є частиною спіралі насильства. Без допомоги ззовні це зазвичай триває."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Nach einem Vorfall zeigen gewaltausübende Partner oft Reue und versprechen Besserung. Solche Versöhnungen halten selten an und bedeuten noch keine Veränderung.",
+            "en": "After an incident, violent partners often show remorse and promise to change. Such reconciliations rarely last and do not yet mean any change.",
+            "ar": "بعد حادثة عنف، كثيرًا ما يُظهر الشريك العنيف الندم ويعد بالتحسن. هذه المصالحات نادرًا ما تدوم ولا تعني بعد أي تغيير.",
+            "ti": "ድሕሪ ፍጻመ፡ ዓመጸኛታት መጻምድቲ መብዛሕትኡ ግዜ ጣዕሳ የርእዩን ክመሓየሹ ይምብጽዑን። ከምዚ ዝበለ ዕርቂ ሳሕቲ እዩ ዝጸንሕ፡ ገና ለውጢ ማለት ኣይኮነን።",
+            "tr": "Bir olaydan sonra şiddet uygulayan partnerler çoğu zaman pişmanlık gösterir ve düzeleceklerine söz verir. Bu tür barışmalar nadiren uzun sürer ve henüz bir değişim anlamına gelmez.",
+            "uk": "Після інциденту партнери, які чинять насильство, часто каються й обіцяють змінитися. Таке примирення рідко триває довго і ще не означає змін."
+          },
+          "src": [
+            "bif-dyn"
+          ]
+        },
+        {
+          "text": {
+            "de": "Ohne fachliche Hilfe für den Täter bleibt die Gefahr hoch, dass sich die Spirale weiterdreht. Gewalt endet auch nicht automatisch mit einer Trennung. Sie kann in dieser Zeit sogar zunehmen. Darum lohnt es sich, eine Trennung mit einer Beratungsstelle zu planen.",
+            "en": "Without professional help for the perpetrator, the risk stays high that the cycle continues. Violence also does not automatically end with a separation. It can even increase during this time. That is why it is worth planning a separation with a counselling service.",
+            "ar": "بدون مساعدة متخصصة للمعتدي يبقى خطر استمرار الدوامة مرتفعًا. والعنف لا ينتهي تلقائيًا بالانفصال، بل قد يزداد في هذه الفترة. لذلك من المفيد التخطيط للانفصال مع مركز استشارة.",
+            "ti": "ንገባሪ ዓመጽ ሞያዊ ሓገዝ እንተ ዘይተዋሂቡ፡ እቲ ዙረት ናይ ምቕጻል ሓደጋ ልዑል ኮይኑ ይጸንሕ። ዓመጽ ብምፍልላይ ብቐጥታ ኣይውዳእን። ኣብዚ እዋን እኳ ክውስኽ ይኽእል። ስለዚ ምፍልላይ ምስ ማእከል ምኽሪ ምውጣን ጠቓሚ እዩ።",
+            "tr": "Şiddet uygulayan kişi profesyonel yardım almazsa döngünün devam etme tehlikesi yüksek kalır. Şiddet ayrılıkla da kendiliğinden bitmez. Bu dönemde artabilir bile. Bu yüzden ayrılığı bir danışma merkeziyle planlamak faydalıdır.",
+            "uk": "Без фахової допомоги для кривдника ризик, що спіраль крутитиметься далі, залишається високим. Насильство також не закінчується автоматично з розлученням. У цей час воно може навіть посилитися. Тому варто планувати розлучення разом із консультаційною службою."
+          },
+          "src": [
+            "bif-dyn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stalking",
+      "group": "erkennen",
+      "reviewed": false,
+      "tags": [
+        "stalking",
+        "verfolgen",
+        "nachrichten",
+        "anrufe",
+        "standort",
+        "online",
+        "cyber",
+        "bilder",
+        "nachstellung",
+        "follow",
+        "messages",
+        "location",
+        "images"
+      ],
+      "title": {
+        "de": "Verfolgen, ständige Nachrichten, Standort-Tracking",
+        "en": "Following, constant messages, location tracking",
+        "ar": "الملاحقة، الرسائل المستمرة، تتبع الموقع",
+        "ti": "ምስዓብ፡ ቀጻሊ መልእኽትታት፡ ምክትታል ቦታ",
+        "tr": "Takip etmek, sürekli mesajlar, konum izleme",
+        "uk": "Переслідування, постійні повідомлення, стеження за геолокацією"
+      },
+      "summary": {
+        "de": "Stalking ist in der Schweiz seit 2026 strafbar, auch digital.",
+        "en": "Stalking has been a criminal offence in Switzerland since 2026, online too.",
+        "ar": "الملاحقة (Stalking) جريمة يعاقب عليها القانون في سويسرا منذ 2026، بما في ذلك عبر الإنترنت.",
+        "ti": "ምስዓብ (Stalking) ካብ 2026 ጀሚሩ ኣብ ስዊዘርላንድ ገበን እዩ፡ ብኢንተርነት እውን።",
+        "tr": "Israrlı takip (Stalking) İsviçre'de 2026'dan beri suçtur, dijital ortamda da.",
+        "uk": "Сталкінг у Швейцарії карається законом з 2026 року, також у цифровому просторі."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Stalking heisst: Jemand verfolgt, belästigt oder bedroht dich immer wieder, zum Beispiel mit ständigen Anrufen und Nachrichten oder über andere Personen. Auch Standort-Überwachung und falsche Profile gehören dazu.",
+            "en": "Stalking means: someone repeatedly follows, harasses or threatens you, for example with constant calls and messages or through other people. Location tracking and fake profiles are part of it too.",
+            "ar": "الملاحقة تعني: شخص يلاحقك أو يضايقك أو يهددك مرارًا، مثلًا بمكالمات ورسائل مستمرة أو عن طريق أشخاص آخرين. تتبع الموقع والحسابات المزيفة أيضًا جزء من ذلك.",
+            "ti": "ምስዓብ ማለት፡ ሓደ ሰብ ብተደጋጋሚ ይስዕበኪ፡ የሸግረኪ ወይ የፈራርሓኪ፡ ንኣብነት ብቐጻሊ ጻውዒትን መልእኽትን ወይ ብኻልኦት ሰባት ኣቢሉ። ምክትታል ቦታን ሓሶት ፕሮፋይላትን እውን ኣብዚ ይኣትዉ።",
+            "tr": "Israrlı takip şudur: Birisi seni tekrar tekrar takip eder, rahatsız eder ya da tehdit eder, örneğin sürekli aramalar ve mesajlarla veya başka kişiler aracılığıyla. Konum izleme ve sahte profiller de buna dahildir.",
+            "uk": "Сталкінг означає: хтось знову і знову переслідує тебе, докучає або погрожує, наприклад постійними дзвінками й повідомленнями або через інших людей. Стеження за геолокацією та фейкові профілі теж сюди належать."
+          },
+          "src": [
+            "bif-def"
+          ]
+        },
+        {
+          "text": {
+            "de": "Seit dem 1. Januar 2026 ist Stalking als «Nachstellung» strafbar (Art. 181b StGB). Hilfreich: klare Grenzen setzen, auf weitere Kontakte nicht reagieren, alles in einem Tagebuch aufschreiben und keine Beweise löschen.",
+            "en": "Since 1 January 2026, stalking is a criminal offence (Art. 181b Swiss Criminal Code). Helpful: set clear boundaries, do not respond to further contact, write everything down in a diary and do not delete any evidence.",
+            "ar": "منذ 1 يناير 2026 أصبحت الملاحقة جريمة (المادة 181b من القانون الجنائي). مفيد: ضعي حدودًا واضحة، لا تردي على محاولات التواصل، اكتبي كل شيء في دفتر يوميات ولا تحذفي أي دليل.",
+            "ti": "ካብ 1 ጥሪ 2026 ጀሚሩ ምስዓብ ገበን እዩ (ዓንቀጽ 181b ገበናዊ ሕጊ)። ጠቓሚ፡ ንጹር ደረት ኣቐምጢ፡ ንተወሳኺ ርክብ መልሲ ኣይትሃቢ፡ ኩሉ ኣብ መዓልታዊ መዝገብ ጽሓፍዮ፡ ዋላ ሓደ መርትዖ ኣይትደምስሲ።",
+            "tr": "1 Ocak 2026'dan beri ısrarlı takip bir suçtur (İsviçre Ceza Kanunu Md. 181b). Faydalı olanlar: Net sınırlar koy, daha fazla temasa cevap verme, her şeyi bir günlüğe yaz ve hiçbir kanıtı silme.",
+            "uk": "З 1 січня 2026 року сталкінг є злочином (ст. 181b Кримінального кодексу Швейцарії). Корисно: встанови чіткі межі, не реагуй на подальші контакти, записуй усе в щоденник і не видаляй жодних доказів."
+          },
+          "src": [
+            "bif-faq"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aufenthalt",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "bewilligung",
+        "ausweis",
+        "aufenthalt",
+        "ausschaffung",
+        "migration",
+        "migrationsamt",
+        "trennung",
+        "scheidung",
+        "härtefall",
+        "permit",
+        "visa",
+        "deport",
+        "residence",
+        "separation"
+      ],
+      "title": {
+        "de": "Verliere ich meine Bewilligung, wenn ich mich trenne?",
+        "en": "Will I lose my permit if I separate?",
+        "ar": "هل أفقد تصريح الإقامة إذا انفصلت؟",
+        "ti": "እንተ ተፈላለኹ ፍቓድ መንበሪየይ ክጠፍእ ድዩ?",
+        "tr": "Ayrılırsam oturma iznimi kaybeder miyim?",
+        "uk": "Чи втрачу я дозвіл на проживання, якщо розлучуся?"
+      },
+      "summary": {
+        "de": "Nicht automatisch. Häusliche Gewalt ist im Gesetz ein wichtiger Grund, damit du in der Schweiz bleiben darfst.",
+        "en": "Not automatically. By law, domestic violence is an important reason for you to be allowed to stay in Switzerland.",
+        "ar": "ليس تلقائيًا. العنف الأسري في القانون سبب مهم يسمح لك بالبقاء في سويسرا.",
+        "ti": "ብቐጥታ ኣይኮነን። ዓመጽ ስድራቤት ኣብ ሕጊ ኣብ ስዊዘርላንድ ክትጸንሒ ዘፍቅድ ኣገዳሲ ምኽንያት እዩ።",
+        "tr": "Otomatik olarak hayır. Aile içi şiddet, kanunda İsviçre'de kalabilmen için önemli bir nedendir.",
+        "uk": "Не автоматично. Домашнє насильство в законі є важливою причиною, щоб ти могла залишитися у Швейцарії."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Viele Frauen haben ihre Bewilligung (zum Beispiel Ausweis B) wegen der Ehe. Nach einer Trennung prüft das Migrationsamt neu, ob du bleiben darfst.",
+            "en": "Many women have their permit (for example permit B) because of their marriage. After a separation, the migration office checks again whether you may stay.",
+            "ar": "كثير من النساء لديهن تصريح إقامة (مثلًا تصريح B) بسبب الزواج. بعد الانفصال يفحص مكتب الهجرة من جديد ما إذا كان يُسمح لك بالبقاء.",
+            "ti": "ብዙሓት ደቀንስትዮ ፍቓድ መንበሪ (ንኣብነት ፍቓድ B) ብሰንኪ መርዓ እዩ ዘለወን። ድሕሪ ምፍልላይ ቤት ጽሕፈት ስደተኛታት ክትጸንሒ ይፍቀደልኪ እንተኾይኑ ደጊሙ ይምርምር።",
+            "tr": "Birçok kadının oturma izni (örneğin B izni) evlilik nedeniyledir. Ayrılıktan sonra göç dairesi kalıp kalamayacağını yeniden inceler.",
+            "uk": "Багато жінок мають дозвіл на проживання (наприклад, дозвіл B) завдяки шлюбу. Після розлучення міграційна служба заново перевіряє, чи можеш ти залишитися."
+          },
+          "src": [
+            "bif-mig",
+            "ebg-b5"
+          ]
+        },
+        {
+          "text": {
+            "de": "Du hast ein Recht zu bleiben, wenn die Ehe mindestens 3 Jahre gedauert hat und du gut integriert bist. Oder wenn wichtige persönliche Gründe da sind.",
+            "en": "You have a right to stay if the marriage lasted at least 3 years and you are well integrated. Or if there are important personal reasons.",
+            "ar": "لديك الحق في البقاء إذا استمر الزواج 3 سنوات على الأقل وكنت مندمجة جيدًا. أو إذا كانت هناك أسباب شخصية مهمة.",
+            "ti": "እቲ መርዓ እንተወሓደ 3 ዓመት እንተ ጸኒሑን ጽቡቕ ተዋሃሂድኪ እንተሎኽን ክትጸንሒ መሰል ኣሎኪ። ወይ ኣገደስቲ ውልቃዊ ምኽንያታት እንተሃልዮም።",
+            "tr": "Evlilik en az 3 yıl sürdüyse ve iyi uyum sağladıysan kalma hakkın vardır. Ya da önemli kişisel nedenler varsa.",
+            "uk": "Ти маєш право залишитися, якщо шлюб тривав щонайменше 3 роки і ти добре інтегрована. Або якщо є важливі особисті причини."
+          },
+          "src": [
+            "fedlex-aig50"
+          ]
+        },
+        {
+          "text": {
+            "de": "Häusliche Gewalt ist so ein wichtiger Grund. Auch eine Ehe, die du nicht freiwillig eingegangen bist, zählt. Dann müssen die 3 Jahre nicht erfüllt sein.",
+            "en": "Domestic violence is such an important reason. A marriage you did not enter freely also counts. Then the 3 years do not have to be met.",
+            "ar": "العنف الأسري هو مثل هذا السبب المهم. والزواج الذي لم تدخليه بإرادتك الحرة يُحسب أيضًا. عندها لا يُشترط مرور 3 سنوات.",
+            "ti": "ዓመጽ ስድራቤት ከምዚ ዝበለ ኣገዳሲ ምኽንያት እዩ። ብናጻ ፍቓድኪ ዘይኣቶኽዮ መርዓ እውን ይቑጸር። ሽዑ እቲ 3 ዓመት ኣየድልን።",
+            "tr": "Aile içi şiddet böyle önemli bir nedendir. Özgür iradenle girmediğin bir evlilik de sayılır. O zaman 3 yıl şartı aranmaz.",
+            "uk": "Домашнє насильство — це саме така важлива причина. Шлюб, який ти уклала не з власної волі, теж враховується. Тоді умова 3 років не обов'язкова."
+          },
+          "src": [
+            "fedlex-aig50",
+            "ebg-b5"
+          ]
+        },
+        {
+          "text": {
+            "de": "Seit dem 1. Januar 2025 gilt dieser Schutz besser und für mehr Frauen: nicht nur, wenn dein Mann Schweizer ist oder den Ausweis C hat, sondern auch beim Ausweis B, L oder F (vorläufig aufgenommen).",
+            "en": "Since 1 January 2025 this protection is better and covers more women: not only if your husband is Swiss or has permit C, but also with permit B, L or F (provisionally admitted).",
+            "ar": "منذ 1 يناير 2025 أصبحت هذه الحماية أفضل وتشمل نساء أكثر: ليس فقط إذا كان زوجك سويسريًا أو لديه تصريح C، بل أيضًا مع تصريح B أو L أو F (القبول المؤقت).",
+            "ti": "ካብ 1 ጥሪ 2025 ጀሚሩ እዚ ሓለዋ ዝሓሸን ንዝበዝሓ ደቀንስትዮን ኮይኑ ኣሎ፡ ሰብኣይኪ ስዊዘርላንዳዊ ወይ ፍቓድ C እንተሃልይዎ ጥራይ ዘይኮነ፡ ፍቓድ B፡ L ወይ F (ግዝያዊ ተቐባልነት) እንተሃልይዎ እውን።",
+            "tr": "1 Ocak 2025'ten beri bu koruma daha iyi ve daha fazla kadını kapsıyor: Sadece kocan İsviçreli ise ya da C izni varsa değil, B, L veya F (geçici kabul) izni varsa da.",
+            "uk": "З 1 січня 2025 року цей захист кращий і охоплює більше жінок: не лише якщо твій чоловік громадянин Швейцарії або має дозвіл C, а й якщо він має дозвіл B, L або F (тимчасово прийняті)."
+          },
+          "src": [
+            "sem-21504",
+            "fedlex-aig50",
+            "ebg-b5"
+          ]
+        },
+        {
+          "text": {
+            "de": "Das gilt auch für eingetragene Partnerschaften. Wenn du aus einem EU- oder EFTA-Land kommst, hast du meistens bessere Voraussetzungen.",
+            "en": "This also applies to registered partnerships. If you come from an EU or EFTA country, your position is usually better.",
+            "ar": "هذا ينطبق أيضًا على الشراكات المسجلة. إذا كنت من دولة في الاتحاد الأوروبي أو رابطة التجارة الحرة الأوروبية (EFTA)، فوضعك عادةً أفضل.",
+            "ti": "እዚ ንዝተመዝገበ ሽርክነት እውን ይምልከት። ካብ ሃገር EU ወይ EFTA እንተ መጺእኪ፡ መብዛሕትኡ ግዜ ዝሓሸ ኩነታት ኣሎኪ።",
+            "tr": "Bu, kayıtlı birliktelikler için de geçerlidir. Bir AB veya EFTA ülkesinden geliyorsan, durumun genellikle daha iyidir.",
+            "uk": "Це також стосується зареєстрованого партнерства. Якщо ти з країни ЄС або ЄАВТ (EFTA), твоє становище зазвичай краще."
+          },
+          "src": [
+            "bif-mig",
+            "bif-faq"
+          ]
+        },
+        {
+          "text": {
+            "de": "Jeder Fall wird einzeln geprüft, und die Regeln sind kompliziert. Lass dich früh beraten. Die BIF vermittelt Fachstellen und Anwältinnen für Migrationsrecht.",
+            "en": "Every case is examined individually, and the rules are complicated. Get advice early. BIF can refer you to specialist services and lawyers for migration law.",
+            "ar": "كل حالة تُفحص بشكل فردي، والقواعد معقدة. اطلبي الاستشارة مبكرًا. تساعدك BIF في الوصول إلى مراكز متخصصة ومحاميات في قانون الهجرة.",
+            "ti": "ነፍሲ ወከፍ ጉዳይ ብውልቂ ይምርመር፡ እቲ ሕግታት ድማ ዝተሓላለኸ እዩ። ኣቐዲምኪ ምኽሪ ውሰዲ። BIF ናብ ማእከላት ፍሉይ ሞያን ጠበቓታት ሕጊ ስደትን ተራኽበኪ።",
+            "tr": "Her durum ayrı ayrı incelenir ve kurallar karmaşıktır. Erken danışmanlık al. BIF seni göç hukuku alanında uzman merkezlere ve avukatlara yönlendirir.",
+            "uk": "Кожен випадок розглядається окремо, а правила складні. Звернися по консультацію якомога раніше. BIF скерує тебе до фахових служб і юристок з міграційного права."
+          },
+          "src": [
+            "bif-mig",
+            "bif-faq"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aufenthalt-nachweis",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "nachweis",
+        "beweis",
+        "beweise",
+        "bestätigung",
+        "arztzeugnis",
+        "arzt",
+        "polizeirapport",
+        "migrationsamt",
+        "integration",
+        "deutsch",
+        "glaubhaft",
+        "proof",
+        "evidence",
+        "doctor"
+      ],
+      "title": {
+        "de": "Wie zeige ich dem Migrationsamt, dass ich Gewalt erlebt habe?",
+        "en": "How do I show the migration office that I experienced violence?",
+        "ar": "كيف أُثبت لمكتب الهجرة أنني تعرضت للعنف؟",
+        "ti": "ዓመጽ ከም ዘጋጠመኒ ንቤት ጽሕፈት ስደተኛታት ብኸመይ ከርኢ እኽእል?",
+        "tr": "Şiddet yaşadığımı göç dairesine nasıl gösterebilirim?",
+        "uk": "Як показати міграційній службі, що я пережила насильство?"
+      },
+      "summary": {
+        "de": "Viele Dinge zählen als Hinweis, nicht nur eine Anzeige. Auch eine Bestätigung einer Beratungsstelle hilft.",
+        "en": "Many things count as evidence, not only a police report. A confirmation from a counselling service also helps.",
+        "ar": "أشياء كثيرة تُعتبر دليلًا، وليس فقط البلاغ للشرطة. تأكيد من مركز استشارة يساعد أيضًا.",
+        "ti": "ብዙሕ ነገራት ከም መርትዖ ይቑጸሩ፡ ክሲ ኣብ ፖሊስ ጥራይ ኣይኮነን። ካብ ማእከል ምኽሪ ዝወሃብ ምርግጋጽ እውን ይሕግዝ።",
+        "tr": "Birçok şey kanıt olarak sayılır, sadece polise şikâyet değil. Bir danışma merkezinin onayı da yardımcı olur.",
+        "uk": "Доказом може бути багато чого, не лише заява в поліцію. Підтвердження від консультаційної служби теж допомагає."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Du musst die Gewalt glaubhaft machen und beim Abklären mithelfen. Das Amt muss die Situation aber auch selbst prüfen.",
+            "en": "You have to make the violence credible and help clarify the facts. But the office must also examine the situation itself.",
+            "ar": "عليك أن تجعلي العنف قابلًا للتصديق وأن تساعدي في توضيح الوقائع. لكن على المكتب أيضًا أن يفحص الوضع بنفسه.",
+            "ti": "ነቲ ዓመጽ ተኣማኒ ክትገብርዮን ኣብ ምጽራይ ክትሕግዝን ኣለኪ። እቲ ቤት ጽሕፈት ግን ነቲ ኩነታት ባዕሉ እውን ክምርምሮ ኣለዎ።",
+            "tr": "Şiddeti inandırıcı şekilde göstermen ve durumun açıklığa kavuşturulmasına yardım etmen gerekir. Ama daire de durumu kendisi incelemek zorundadır.",
+            "uk": "Ти маєш зробити насильство правдоподібним і допомогти з'ясувати обставини. Але служба також мусить сама перевірити ситуацію."
+          },
+          "src": [
+            "zh-mig-weisung"
+          ]
+        },
+        {
+          "text": {
+            "de": "Das Amt muss alle Hinweise beachten, zum Beispiel: eine Anerkennung als Opfer durch die Opferhilfe, Bestätigungen von Fachstellen, Schutzmassnahmen wie eine Wegweisung, Arztberichte, Polizeiberichte und Strafurteile.",
+            "en": "The office must consider all indications, for example: recognition as a victim by victim support, confirmations from specialist services, protective measures such as an eviction order, medical reports, police reports and criminal convictions.",
+            "ar": "على المكتب أن يأخذ كل المؤشرات بعين الاعتبار، مثلًا: الاعتراف بك كضحية من قبل مساعدة الضحايا، وتأكيدات من مراكز متخصصة، وإجراءات الحماية مثل الإبعاد من البيت، والتقارير الطبية، وتقارير الشرطة، والأحكام الجنائية.",
+            "ti": "እቲ ቤት ጽሕፈት ኩሎም ምልክታት ክርኢ ኣለዎ፡ ንኣብነት፡ ብሓገዝ ግዳያት ከም ግዳይ ምፍላጥ፡ ካብ ማእከላት ፍሉይ ሞያ ዝወሃብ ምርግጋጽ፡ ከም ካብ ገዛ ምውጻእ ዝኣመሰሉ ስጉምትታት ሓለዋ፡ ጸብጻባት ሓኪም፡ ጸብጻባት ፖሊስን ገበናዊ ፍርድታትን።",
+            "tr": "Daire tüm belirtileri dikkate almak zorundadır, örneğin: mağdur yardımı tarafından mağdur olarak tanınma, uzman merkezlerin onayları, evden uzaklaştırma gibi koruma önlemleri, doktor raporları, polis raporları ve ceza mahkûmiyetleri.",
+            "uk": "Служба мусить враховувати всі ознаки, наприклад: визнання тебе потерпілою службою допомоги жертвам, підтвердження від фахових служб, захисні заходи, як-от виселення кривдника, медичні довідки, поліцейські протоколи та вироки суду."
+          },
+          "src": [
+            "fedlex-aig50"
+          ]
+        },
+        {
+          "text": {
+            "de": "Für eine Beratung bei der Opferhilfe brauchst du keine Anzeige bei der Polizei.",
+            "en": "You do not need to report to the police to get counselling from victim support.",
+            "ar": "لا تحتاجين إلى بلاغ للشرطة للحصول على استشارة من مساعدة الضحايا.",
+            "ti": "ካብ ሓገዝ ግዳያት ምኽሪ ንምርካብ ኣብ ፖሊስ ክሲ ኣየድልየክን።",
+            "tr": "Mağdur yardımından danışmanlık almak için polise şikâyette bulunman gerekmez.",
+            "uk": "Щоб отримати консультацію в службі допомоги жертвам, тобі не потрібна заява в поліцію."
+          },
+          "src": [
+            "ohs-beratung"
+          ]
+        },
+        {
+          "text": {
+            "de": "Tipp: Wenn du verletzt wurdest, geh zur Ärztin oder ins Spital. Forensic Nurses sichern Spuren kostenlos, auch ohne Anzeige.",
+            "en": "Tip: If you were injured, go to a doctor or to hospital. Forensic nurses secure evidence free of charge, even without a police report.",
+            "ar": "نصيحة: إذا أُصبت، اذهبي إلى الطبيبة أو المستشفى. ممرضات الطب الشرعي (Forensic Nurses) يوثقن الآثار مجانًا، حتى بدون بلاغ.",
+            "ti": "ምኽሪ፡ እንተ ተጎዲእኪ ናብ ሓኪም ወይ ሆስፒታል ኪዲ። Forensic Nurses ኣሰራት ብነጻ ይስንዳ፡ ብዘይ ክሲ እውን።",
+            "tr": "Öneri: Yaralandıysan doktora ya da hastaneye git. Adli hemşireler (Forensic Nurses) izleri ücretsiz olarak kayıt altına alır, şikâyet olmadan da.",
+            "uk": "Порада: Якщо тебе травмували, звернися до лікарки або в лікарню. Судово-медичні медсестри (Forensic Nurses) безкоштовно фіксують сліди, навіть без заяви в поліцію."
+          },
+          "src": [
+            "bif-faq",
+            "zh-hilfe"
+          ]
+        },
+        {
+          "text": {
+            "de": "Vielleicht konntest du wegen der Gewalt nicht Deutsch lernen oder arbeiten. Laut dem Staatssekretariat für Migration muss das bei der Prüfung der Integration berücksichtigt werden.",
+            "en": "Maybe because of the violence you could not learn German or work. According to the State Secretariat for Migration, this must be taken into account when your integration is assessed.",
+            "ar": "ربما لم تستطيعي بسبب العنف تعلم الألمانية أو العمل. وفقًا لأمانة الدولة للهجرة، يجب أخذ ذلك في الاعتبار عند تقييم الاندماج.",
+            "ti": "ምናልባት ብሰንኪ ዓመጽ ጀርመንኛ ክትመሃሪ ወይ ክትሰርሒ ኣይከኣልክን ይኸውን። ከም ዝበሎ ቤት ጽሕፈት ግዝኣት ስደት፡ እዚ ኣብ ምግምጋም ምውህሃድ ግምት ክወሃቦ ኣለዎ።",
+            "tr": "Belki şiddet yüzünden Almanca öğrenemedin ya da çalışamadın. Devlet Göç Sekreterliği'ne göre bu, uyumun değerlendirilmesinde dikkate alınmalıdır.",
+            "uk": "Можливо, через насильство ти не могла вивчати німецьку чи працювати. За словами Державного секретаріату з питань міграції, це потрібно враховувати під час оцінки інтеграції."
+          },
+          "src": [
+            "sem-erl-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opferhilfe",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "beratung",
+        "gratis",
+        "kostenlos",
+        "anonym",
+        "vertraulich",
+        "opferhilfe",
+        "hilfe",
+        "142",
+        "dolmetscher",
+        "übersetzung",
+        "counselling",
+        "free",
+        "anonymous",
+        "help",
+        "interpreter"
+      ],
+      "title": {
+        "de": "Du hast ein Recht auf kostenlose Beratung",
+        "en": "You have a right to free counselling",
+        "ar": "لديك الحق في استشارة مجانية",
+        "ti": "ናይ ነጻ ምኽሪ መሰል ኣሎኪ",
+        "tr": "Ücretsiz danışmanlık hakkın var",
+        "uk": "Ти маєш право на безкоштовну консультацію"
+      },
+      "summary": {
+        "de": "Die Beratung ist gratis und vertraulich, auch ohne Anzeige bei der Polizei.",
+        "en": "Counselling is free and confidential, even without a police report.",
+        "ar": "الاستشارة مجانية وسرية، حتى بدون بلاغ للشرطة.",
+        "ti": "ምኽሪ ብነጻን ምስጢራውን እዩ፡ ብዘይ ክሲ ኣብ ፖሊስ እውን።",
+        "tr": "Danışmanlık ücretsiz ve gizlidir, polise şikâyet olmadan da.",
+        "uk": "Консультація безкоштовна й конфіденційна, навіть без заяви в поліцію."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Wer in der Schweiz durch eine Straftat körperlich, psychisch oder sexuell verletzt wurde, hat ein Recht auf Opferhilfe. Das gilt auch bei häuslicher Gewalt.",
+            "en": "Anyone in Switzerland who has been physically, psychologically or sexually harmed by a crime has a right to victim support. This also applies to domestic violence.",
+            "ar": "كل من تعرض في سويسرا لأذى جسدي أو نفسي أو جنسي بسبب جريمة له الحق في مساعدة الضحايا. هذا ينطبق أيضًا على العنف الأسري.",
+            "ti": "ኣብ ስዊዘርላንድ ብገበን ኣካላዊ፡ ስነ-ኣእምሮኣዊ ወይ ጾታዊ ጉድኣት ዝበጽሖ ዝኾነ ሰብ ሓገዝ ግዳያት ናይ ምርካብ መሰል ኣለዎ። እዚ ንዓመጽ ስድራቤት እውን ይምልከት።",
+            "tr": "İsviçre'de bir suç nedeniyle bedensel, psikolojik veya cinsel olarak zarar gören herkesin mağdur yardımı alma hakkı vardır. Bu, aile içi şiddet için de geçerlidir.",
+            "uk": "Кожен, хто у Швейцарії зазнав фізичної, психологічної чи сексуальної шкоди внаслідок злочину, має право на допомогу жертвам. Це стосується й домашнього насильства."
+          },
+          "src": [
+            "ohs-hg",
+            "bif-ohg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Die Beratung ist kostenlos und vertraulich. Niemand erfährt etwas von deiner Geschichte, wenn du das nicht willst, auch nicht die Polizei. Du kannst auch anonym bleiben.",
+            "en": "Counselling is free and confidential. Nobody learns anything about your story if you do not want them to, not even the police. You can also stay anonymous.",
+            "ar": "الاستشارة مجانية وسرية. لا أحد يعرف شيئًا عن قصتك إذا لم ترغبي في ذلك، ولا حتى الشرطة. يمكنك أيضًا أن تبقي مجهولة الهوية.",
+            "ti": "ምኽሪ ብነጻን ምስጢራውን እዩ። እንተ ዘይደሊኺ ዋላ ሓደ ሰብ ብዛዕባ ታሪኽኪ ኣይፈልጥን፡ ፖሊስ እውን። ስምኪ ከይገለጽኪ እውን ክትጸንሒ ትኽእሊ።",
+            "tr": "Danışmanlık ücretsiz ve gizlidir. Sen istemezsen kimse hikâyeni öğrenmez, polis de. İsmini vermeden de kalabilirsin.",
+            "uk": "Консультація безкоштовна й конфіденційна. Ніхто нічого не дізнається про твою історію, якщо ти цього не хочеш, навіть поліція. Ти можеш також залишатися анонімною."
+          },
+          "src": [
+            "ohs-beratung"
+          ]
+        },
+        {
+          "text": {
+            "de": "Du brauchst keine Anzeige, um Hilfe zu bekommen. Wenn nötig, wird mit Dolmetscherinnen gearbeitet.",
+            "en": "You do not need to file a police report to get help. If needed, interpreters are used.",
+            "ar": "لا تحتاجين إلى بلاغ للحصول على المساعدة. عند الحاجة يتم العمل مع مترجمات.",
+            "ti": "ሓገዝ ንምርካብ ክሲ ኣየድልየክን። ኣድላዪ እንተኾይኑ ምስ ተርጐምቲ ይስራሕ።",
+            "tr": "Yardım almak için şikâyette bulunman gerekmez. Gerekirse tercümanlarla çalışılır.",
+            "uk": "Тобі не потрібна заява в поліцію, щоб отримати допомогу. За потреби працюють з перекладачками."
+          },
+          "src": [
+            "ohs-beratung"
+          ]
+        },
+        {
+          "text": {
+            "de": "Die Opferhilfe hilft dir und deinen Kindern auch, einen sicheren Ort zu finden, zum Beispiel ein Frauenhaus.",
+            "en": "Victim support also helps you and your children find a safe place, for example a women's shelter.",
+            "ar": "تساعدك مساعدة الضحايا أنت وأطفالك أيضًا في إيجاد مكان آمن، مثلًا دار لحماية النساء.",
+            "ti": "ሓገዝ ግዳያት ንዓኺን ንደቅኽን ውሑስ ቦታ ንኽትረኽቡ እውን ይሕግዝ፡ ንኣብነት ገዛ ሓለዋ ደቀንስትዮ።",
+            "tr": "Mağdur yardımı sana ve çocuklarına güvenli bir yer bulmanıza da yardım eder, örneğin bir kadın sığınma evi.",
+            "uk": "Служба допомоги жертвам також допомагає тобі й твоїм дітям знайти безпечне місце, наприклад жіночий притулок."
+          },
+          "src": [
+            "ohs-hg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Bei der BIF bestimmst du das Tempo selbst. Beratung ist per Telefon, online oder persönlich möglich.",
+            "en": "At BIF you set the pace yourself. Counselling is possible by phone, online or in person.",
+            "ar": "في BIF أنت من تحددين الوتيرة. الاستشارة ممكنة عبر الهاتف أو الإنترنت أو شخصيًا.",
+            "ti": "ኣብ BIF ባዕልኺ እቲ ፍጥነት ትውስኒ። ምኽሪ ብተሌፎን፡ ብኢንተርነት ወይ ብኣካል ይከኣል።",
+            "tr": "BIF'te hızı sen belirlersin. Danışmanlık telefonla, online veya yüz yüze mümkündür.",
+            "uk": "У BIF ти сама визначаєш темп. Консультація можлива телефоном, онлайн або особисто."
+          },
+          "src": [
+            "bif-faq"
+          ]
+        },
+        {
+          "text": {
+            "de": "Die Opferhilfe-Nummer 142 ist Tag und Nacht erreichbar und kostenlos.",
+            "en": "The victim support number 142 is available day and night and free of charge.",
+            "ar": "رقم مساعدة الضحايا 142 متاح ليلًا ونهارًا ومجاني.",
+            "ti": "ቁጽሪ ሓገዝ ግዳያት 142 መዓልትን ለይትን ይርከብ፡ ብነጻ ድማ እዩ።",
+            "tr": "Mağdur yardım hattı 142 gece gündüz ulaşılabilir ve ücretsizdir.",
+            "uk": "Номер допомоги жертвам 142 доступний вдень і вночі та безкоштовний."
+          },
+          "src": [
+            "beob-142",
+            "zh-hilfe-ls"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opferhilfe-geld",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "geld",
+        "kosten",
+        "frauenhaus",
+        "anwalt",
+        "anwältin",
+        "therapie",
+        "entschädigung",
+        "genugtuung",
+        "soforthilfe",
+        "opferhilfe",
+        "money",
+        "costs",
+        "lawyer",
+        "compensation"
+      ],
+      "title": {
+        "de": "Die Opferhilfe kann Kosten übernehmen",
+        "en": "Victim support can cover costs",
+        "ar": "مساعدة الضحايا يمكن أن تتحمل التكاليف",
+        "ti": "ሓገዝ ግዳያት ወጻኢታት ክሽፍን ይኽእል",
+        "tr": "Mağdur yardımı masrafları karşılayabilir",
+        "uk": "Служба допомоги жертвам може покрити витрати"
+      },
+      "summary": {
+        "de": "Frauenhaus, Anwältin, Therapie: Die Opferhilfe kann helfen, diese Kosten zu bezahlen.",
+        "en": "Women's shelter, lawyer, therapy: victim support can help pay these costs.",
+        "ar": "دار حماية النساء، المحامية، العلاج: مساعدة الضحايا يمكن أن تساعد في دفع هذه التكاليف.",
+        "ti": "ገዛ ሓለዋ ደቀንስትዮ፡ ጠበቓ፡ ሕክምና፡ ሓገዝ ግዳያት ነዚ ወጻኢታት ክትከፍሊ ክሕግዝ ይኽእል።",
+        "tr": "Kadın sığınma evi, avukat, terapi: Mağdur yardımı bu masrafları ödemene yardım edebilir.",
+        "uk": "Жіночий притулок, адвокатка, терапія: служба допомоги жертвам може допомогти оплатити ці витрати."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Soforthilfe: In dringenden Fällen bezahlt die Opferhilfe zum Beispiel einen Aufenthalt im Frauenhaus, eine Krisen-Therapie, eine erste Beratung bei einer Anwältin oder die erste medizinische Hilfe.",
+            "en": "Immediate help: in urgent cases, victim support pays for example for a stay in a women's shelter, crisis therapy, a first consultation with a lawyer or first medical care.",
+            "ar": "المساعدة الفورية: في الحالات العاجلة تدفع مساعدة الضحايا مثلًا تكاليف الإقامة في دار حماية النساء، أو علاج الأزمات، أو أول استشارة لدى محامية، أو أول رعاية طبية.",
+            "ti": "ቅልጡፍ ሓገዝ፡ ኣብ ህጹጽ ኩነታት ሓገዝ ግዳያት ንኣብነት ኣብ ገዛ ሓለዋ ደቀንስትዮ ምጽናሕ፡ ሕክምና ቅልውላው፡ ቀዳማይ ምኽሪ ጠበቓ ወይ ቀዳማይ ሕክምናዊ ሓገዝ ይኸፍል።",
+            "tr": "Acil yardım: Acil durumlarda mağdur yardımı örneğin kadın sığınma evinde kalmayı, kriz terapisini, bir avukatla ilk görüşmeyi veya ilk tıbbi yardımı öder.",
+            "uk": "Невідкладна допомога: у термінових випадках служба допомоги жертвам оплачує, наприклад, перебування в жіночому притулку, кризову терапію, першу консультацію в адвокатки або першу медичну допомогу."
+          },
+          "src": [
+            "ohs-geld"
+          ]
+        },
+        {
+          "text": {
+            "de": "Längerfristige Hilfe: Auch ein längerer Aufenthalt im Frauenhaus, eine Psychotherapie oder eine Anwältin im Strafverfahren können bezahlt werden. Wie viel, hängt von deiner finanziellen Situation ab.",
+            "en": "Longer-term help: a longer stay in a women's shelter, psychotherapy or a lawyer in criminal proceedings can also be paid. How much depends on your financial situation.",
+            "ar": "المساعدة طويلة المدى: يمكن أيضًا دفع إقامة أطول في دار حماية النساء، أو علاج نفسي، أو محامية في الإجراءات الجنائية. المبلغ يعتمد على وضعك المالي.",
+            "ti": "ነዊሕ ግዜ ዝወስድ ሓገዝ፡ ዝነውሐ ምጽናሕ ኣብ ገዛ ሓለዋ ደቀንስትዮ፡ ሳይኮቴራፒ ወይ ጠበቓ ኣብ ገበናዊ መስርሕ እውን ክኽፈል ይኽእል። ክንደይ ከም ዝኽፈል ኣብ ፋይናንሳዊ ኩነታትኪ ይምርኮስ።",
+            "tr": "Uzun vadeli yardım: Kadın sığınma evinde daha uzun kalma, psikoterapi veya ceza davasında avukat da ödenebilir. Ne kadar ödeneceği mali durumuna bağlıdır.",
+            "uk": "Довгострокова допомога: також можуть бути оплачені довше перебування в жіночому притулку, психотерапія або адвокатка в кримінальному процесі. Скільки саме, залежить від твого фінансового становища."
+          },
+          "src": [
+            "ohs-geld"
+          ]
+        },
+        {
+          "text": {
+            "de": "Entschädigung und Genugtuung: Die Opferhilfe kann Schäden wie Lohnausfall ersetzen. Wer besonders schwer betroffen ist, kann eine Genugtuung (Geld für das seelische Leid) bekommen.",
+            "en": "Compensation and satisfaction: victim support can replace losses such as lost wages. Anyone who is especially seriously affected can receive a payment for emotional suffering (satisfaction).",
+            "ar": "التعويض وجبر الضرر المعنوي: يمكن لمساعدة الضحايا تعويض الأضرار مثل فقدان الأجر. من تضررت بشكل خطير بشكل خاص يمكنها الحصول على تعويض معنوي (مال مقابل المعاناة النفسية).",
+            "ti": "ካሕሳን ካሕሳ ስምዒታዊ ጉድኣትን፡ ሓገዝ ግዳያት ከም ምጥፋእ ደሞዝ ዝኣመሰሉ ጉድኣታት ክኽሕስ ይኽእል። ብፍሉይ ከቢድ ጉድኣት ዝበጽሓ፡ ንስነ-ኣእምሮኣዊ ስቓይ ገንዘብ ክትረክብ ትኽእል።",
+            "tr": "Tazminat ve manevi tazminat: Mağdur yardımı gelir kaybı gibi zararları karşılayabilir. Özellikle ağır etkilenen kişi manevi tazminat (ruhsal acı için para) alabilir.",
+            "uk": "Відшкодування та компенсація моральної шкоди: служба допомоги жертвам може відшкодувати збитки, наприклад втрачений заробіток. Хто постраждав особливо тяжко, може отримати компенсацію моральної шкоди (гроші за душевні страждання)."
+          },
+          "src": [
+            "ohs-geld"
+          ]
+        },
+        {
+          "text": {
+            "de": "Dafür gibt es Fristen. Melde dich darum früh bei einer Beratungsstelle der Opferhilfe.",
+            "en": "There are deadlines for this. So contact a victim support counselling centre early.",
+            "ar": "هناك مواعيد نهائية لذلك. لذا تواصلي مبكرًا مع مركز استشارة تابع لمساعدة الضحايا.",
+            "ti": "ነዚ ናይ ግዜ ገደባት ኣለዉ። ስለዚ ኣቐዲምኪ ናብ ማእከል ምኽሪ ሓገዝ ግዳያት ተወከሲ።",
+            "tr": "Bunun için süreler vardır. Bu yüzden erkenden bir mağdur yardımı danışma merkezine başvur.",
+            "uk": "Для цього є строки. Тому звертайся якомога раніше до консультаційної служби допомоги жертвам."
+          },
+          "src": [
+            "ohs-geld"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getrennt-leben",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "trennung",
+        "getrennt",
+        "eheschutz",
+        "gericht",
+        "unterhalt",
+        "wohnung",
+        "scheidung",
+        "obhut",
+        "besuchsrecht",
+        "separation",
+        "maintenance",
+        "court",
+        "divorce"
+      ],
+      "title": {
+        "de": "Getrennt leben: Das Gericht regelt Geld, Wohnung und Kinder",
+        "en": "Living separately: the court decides about money, home and children",
+        "ar": "العيش بشكل منفصل: المحكمة تنظم المال والسكن والأطفال",
+        "ti": "ተፈላሊኻ ምንባር፡ ቤት ፍርዲ ገንዘብ፡ ገዛን ቆልዑን ይስርዕ",
+        "tr": "Ayrı yaşamak: Mahkeme parayı, evi ve çocukları düzenler",
+        "uk": "Жити окремо: суд вирішує питання грошей, житла і дітей"
+      },
+      "summary": {
+        "de": "Wenn du verheiratet bist, kann das Gericht die Trennung regeln, auch schnell, wenn du in Gefahr bist.",
+        "en": "If you are married, the court can arrange the separation, quickly too if you are in danger.",
+        "ar": "إذا كنت متزوجة، يمكن للمحكمة تنظيم الانفصال، وبسرعة أيضًا إذا كنت في خطر.",
+        "ti": "መርዓ እንተሎኪ፡ ቤት ፍርዲ ነቲ ምፍልላይ ክስርዕ ይኽእል፡ ኣብ ሓደጋ እንተሎኺ ድማ ብቕልጡፍ።",
+        "tr": "Evliysen mahkeme ayrılığı düzenleyebilir, tehlikedeysen hızlı da.",
+        "uk": "Якщо ти заміжня, суд може врегулювати розлучення, також швидко, якщо ти в небезпеці."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Beim «Eheschutz» regelt das Gericht: dass ihr getrennt lebt, wer in der Wohnung bleibt, bei wem die Kinder wohnen, wie oft der andere Elternteil sie sieht, und wie viel Unterhalt bezahlt wird.",
+            "en": "In «marriage protection» proceedings the court decides: that you live separately, who stays in the home, who the children live with, how often the other parent sees them, and how much maintenance is paid.",
+            "ar": "في إجراءات «حماية الزواج» تقرر المحكمة: أنكما تعيشان منفصلين، ومن يبقى في المسكن، ومع من يعيش الأطفال، وكم مرة يراهم الوالد الآخر، وكم نفقة تُدفع.",
+            "ti": "ኣብ «ሓለዋ መርዓ» ቤት ፍርዲ ይውስን፡ ተፈላሊኹም ከም እትነብሩ፡ መን ኣብቲ ገዛ ከም ዝተርፍ፡ ቆልዑ ምስ መን ከም ዝነብሩ፡ እቲ ካልእ ወላዲ ክንደይ ግዜ ከም ዝርእዮም፡ ክንደይ መቐለብ ከም ዝኽፈልን።",
+            "tr": "«Evliliğin korunması» davasında mahkeme şunlara karar verir: ayrı yaşamanıza, evde kimin kalacağına, çocukların kiminle yaşayacağına, diğer ebeveynin onları ne sıklıkla göreceğine ve ne kadar nafaka ödeneceğine.",
+            "uk": "У процедурі «захисту шлюбу» суд вирішує: що ви живете окремо, хто залишається в житлі, з ким живуть діти, як часто інший з батьків їх бачить і скільки утримання сплачується."
+          },
+          "src": [
+            "zh-gericht-eheschutz"
+          ]
+        },
+        {
+          "text": {
+            "de": "Unterhalt kann das Gericht auch rückwirkend festlegen, für bis zu ein Jahr vor dem Gesuch. Wenn er nicht zahlt, kann das Gericht zum Beispiel seinen Arbeitgeber anweisen, das Geld direkt dir zu überweisen.",
+            "en": "The court can also set maintenance retroactively, for up to one year before the application. If he does not pay, the court can for example instruct his employer to transfer the money directly to you.",
+            "ar": "يمكن للمحكمة تحديد النفقة بأثر رجعي أيضًا، لمدة تصل إلى سنة قبل تقديم الطلب. إذا لم يدفع، يمكن للمحكمة مثلًا أن تأمر صاحب عمله بتحويل المال إليك مباشرة.",
+            "ti": "ቤት ፍርዲ መቐለብ ንድሕሪት እውን ክውስን ይኽእል፡ ቅድሚ ምእታው ሕቶ ክሳዕ ሓደ ዓመት። እንተ ዘይከፈለ፡ ቤት ፍርዲ ንኣብነት ንወሃብ ስራሑ እቲ ገንዘብ ብቐጥታ ናባኺ ክሰድድ ክእዝዞ ይኽእል።",
+            "tr": "Mahkeme nafakayı geriye dönük olarak da belirleyebilir, başvurudan önceki bir yıla kadar. Ödeme yapmazsa mahkeme örneğin işverenine parayı doğrudan sana göndermesi talimatını verebilir.",
+            "uk": "Суд може встановити утримання й заднім числом, до одного року до подання заяви. Якщо він не платить, суд може, наприклад, зобов'язати його роботодавця переказувати гроші безпосередньо тобі."
+          },
+          "src": [
+            "zh-gericht-eheschutz"
+          ]
+        },
+        {
+          "text": {
+            "de": "Das Gesuch geht an das Bezirksgericht an deinem Wohnort. Du kannst ein Formular schicken oder mündlich in die Sprechstunde gehen. Eine Anwältin ist nicht Pflicht, kann aber helfen.",
+            "en": "The application goes to the district court where you live. You can send a form or go to the consultation hours in person. A lawyer is not required, but can help.",
+            "ar": "يُقدَّم الطلب إلى المحكمة المحلية في مكان سكنك. يمكنك إرسال نموذج أو الذهاب شخصيًا في ساعات الاستشارة. المحامية ليست إلزامية، لكنها يمكن أن تساعد.",
+            "ti": "እቲ ሕቶ ናብ ቤት ፍርዲ ወረዳ ናይ መንበሪ ቦታኺ ይኸይድ። ቅጥዒ ክትሰድዲ ወይ ብኣካል ኣብ ሰዓታት ምኽሪ ክትከዲ ትኽእሊ። ጠበቓ ግዴታ ኣይኮነን፡ ግን ክሕግዝ ይኽእል።",
+            "tr": "Başvuru, oturduğun yerdeki bölge mahkemesine yapılır. Bir form gönderebilir ya da danışma saatlerinde şahsen gidebilirsin. Avukat zorunlu değildir ama yardımcı olabilir.",
+            "uk": "Заява подається до окружного суду за місцем твого проживання. Ти можеш надіслати бланк або прийти особисто в години прийому. Адвокатка не обов'язкова, але може допомогти."
+          },
+          "src": [
+            "zh-gericht-eheschutz"
+          ]
+        },
+        {
+          "text": {
+            "de": "Bei Gewalt kann das Gericht sehr schnell entscheiden, sogar bevor es den Partner anhört. Dafür brauchst du Hinweise, zum Beispiel ein Arztzeugnis, einen Polizeibericht oder eine Schutzverfügung der Polizei.",
+            "en": "In cases of violence the court can decide very quickly, even before it hears your partner. For this you need evidence, for example a medical certificate, a police report or a police protection order.",
+            "ar": "في حالات العنف يمكن للمحكمة أن تقرر بسرعة كبيرة، حتى قبل أن تستمع إلى الشريك. لذلك تحتاجين إلى أدلة، مثلًا شهادة طبية أو تقرير شرطة أو أمر حماية من الشرطة.",
+            "ti": "ኣብ ዓመጽ ቤት ፍርዲ ብቕልጡፍ ክውስን ይኽእል፡ ንመጻምድቲ ቅድሚ ምስማዑ እኳ። ነዚ መርትዖ የድልየኪ፡ ንኣብነት ምስክር ወረቐት ሓኪም፡ ጸብጻብ ፖሊስ ወይ ትእዛዝ ሓለዋ ፖሊስ።",
+            "tr": "Şiddet durumunda mahkeme çok hızlı karar verebilir, hatta partnerini dinlemeden önce. Bunun için belirtilere ihtiyacın var, örneğin doktor raporu, polis raporu veya polisin koruma kararı.",
+            "uk": "У разі насильства суд може ухвалити рішення дуже швидко, навіть до того, як вислухає партнера. Для цього тобі потрібні докази, наприклад медична довідка, поліцейський протокол або захисне розпорядження поліції."
+          },
+          "src": [
+            "zh-gericht-eheschutz"
+          ]
+        },
+        {
+          "text": {
+            "de": "Das Gericht kann den Partner auch aus der Wohnung weisen und ihm verbieten, dich zu kontaktieren oder in deine Nähe zu kommen.",
+            "en": "The court can also order your partner to leave the home and forbid him to contact you or come near you.",
+            "ar": "يمكن للمحكمة أيضًا إبعاد الشريك من المسكن ومنعه من التواصل معك أو الاقتراب منك.",
+            "ti": "ቤት ፍርዲ ንመጻምድቲ ካብ ገዛ ከውጽኦን ምሳኺ ከይራኸብ ወይ ከይቀርበኪ ክኽልክሎን ይኽእል።",
+            "tr": "Mahkeme partnerini evden de çıkarabilir ve seninle iletişim kurmasını veya sana yaklaşmasını yasaklayabilir.",
+            "uk": "Суд може також виселити партнера з житла і заборонити йому контактувати з тобою чи наближатися до тебе."
+          },
+          "src": [
+            "zh-gericht-eheschutz",
+            "fedlex-zgb28b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zwangsheirat",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "heirat",
+        "heiraten",
+        "zwangsheirat",
+        "zwangsehe",
+        "familie",
+        "eltern",
+        "ehre",
+        "tradition",
+        "verlobung",
+        "marriage",
+        "forced",
+        "parents",
+        "honour"
+      ],
+      "title": {
+        "de": "Du entscheidest selbst, ob und wen du heiratest",
+        "en": "You decide for yourself whether and whom you marry",
+        "ar": "أنت تقررين بنفسك إن كنت ستتزوجين ومن تتزوجين",
+        "ti": "ትምርዓዊ እንተ ኾንኪ ምስ መን ከም እትምርዓዊ ባዕልኺ ትውስኒ",
+        "tr": "Evlenip evlenmeyeceğine ve kiminle evleneceğine sen karar verirsin",
+        "uk": "Ти сама вирішуєш, чи виходити заміж і за кого"
+      },
+      "summary": {
+        "de": "Zwang zur Ehe ist in der Schweiz verboten und strafbar, auch wenn Familie, Religion oder Tradition es verlangen.",
+        "en": "Forcing someone to marry is forbidden and a crime in Switzerland, even if family, religion or tradition demand it.",
+        "ar": "الإكراه على الزواج ممنوع ويعاقب عليه القانون في سويسرا، حتى لو طلبت ذلك العائلة أو الدين أو التقاليد.",
+        "ti": "ብግዴታ ምምርዓው ኣብ ስዊዘርላንድ ክልኩልን ገበንን እዩ፡ ስድራ፡ ሃይማኖት ወይ ልምዲ እንተ ደለዮ እውን።",
+        "tr": "Zorla evlendirme İsviçre'de yasaktır ve suçtur, aile, din veya gelenek istese bile.",
+        "uk": "Примус до шлюбу у Швейцарії заборонений і карається законом, навіть якщо цього вимагають родина, релігія чи традиції."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "In der Schweiz darf jede Person selbst entscheiden, ob und wen sie heiratet. Zwang zur Ehe ist verboten. Religion, Tradition und Kultur sind keine Rechtfertigung. Von Zwangsheirat spricht man, wenn nicht beide frei «Ja» sagen können.",
+            "en": "In Switzerland every person may decide for themselves whether and whom they marry. Forcing someone to marry is forbidden. Religion, tradition and culture are no justification. It is a forced marriage when not both people can freely say «Yes».",
+            "ar": "في سويسرا يحق لكل شخص أن يقرر بنفسه إن كان سيتزوج ومن يتزوج. الإكراه على الزواج ممنوع. الدين والتقاليد والثقافة ليست مبررًا. يُعتبر الزواج قسريًا عندما لا يستطيع الطرفان قول «نعم» بحرية.",
+            "ti": "ኣብ ስዊዘርላንድ ነፍሲ ወከፍ ሰብ ክምርዖ እንተ ኾይኑ ምስ መን ከም ዝምርዖ ባዕሉ ክውስን ይኽእል። ብግዴታ ምምርዓው ክልኩል እዩ። ሃይማኖት፡ ልምድን ባህልን መመኽነዪ ኣይኮኑን። ክልቲኦም ብናጻ «እወ» ክብሉ እንተ ዘይክኢሎም፡ ናይ ግዴታ መርዓ ይበሃል።",
+            "tr": "İsviçre'de herkes evlenip evlenmeyeceğine ve kiminle evleneceğine kendisi karar verebilir. Evliliğe zorlamak yasaktır. Din, gelenek ve kültür bir gerekçe değildir. İki kişi de özgürce «Evet» diyemiyorsa buna zorla evlendirme denir.",
+            "uk": "У Швейцарії кожна людина може сама вирішувати, чи одружуватися і з ким. Примус до шлюбу заборонений. Релігія, традиції та культура не є виправданням. Шлюб вважається примусовим, коли не обидві людини можуть вільно сказати «Так»."
+          },
+          "src": [
+            "zh-zwang"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wer jemanden zu einer Ehe zwingt, macht sich strafbar. Das gilt für zivile und religiöse Ehen, und auch, wenn die Ehe im Ausland geschlossen wurde.",
+            "en": "Anyone who forces someone to marry commits a crime. This applies to civil and religious marriages, and also if the marriage took place abroad.",
+            "ar": "من يجبر شخصًا على الزواج يرتكب جريمة. هذا ينطبق على الزواج المدني والديني، وأيضًا إذا تم الزواج في الخارج.",
+            "ti": "ንሓደ ሰብ ክምርዖ ዝግድድ ገበን ይፍጽም። እዚ ንሲቪላውን ሃይማኖታውን መርዓ ይምልከት፡ እቲ መርዓ ኣብ ወጻኢ እንተ ተፈጸመ እውን።",
+            "tr": "Birini evlenmeye zorlayan kişi suç işler. Bu, resmi ve dini nikâhlar için geçerlidir, evlilik yurt dışında yapıldıysa da.",
+            "uk": "Хто змушує когось до шлюбу, вчиняє злочин. Це стосується цивільних і релігійних шлюбів, а також якщо шлюб було укладено за кордоном."
+          },
+          "src": [
+            "fedlex-stgb181a"
+          ]
+        },
+        {
+          "text": {
+            "de": "Eine Ehe, die nicht aus freiem Willen geschlossen wurde, kann für ungültig erklärt werden.",
+            "en": "A marriage that was not entered into freely can be declared invalid.",
+            "ar": "الزواج الذي لم يتم بإرادة حرة يمكن إعلان بطلانه.",
+            "ti": "ብናጻ ፍቓድ ዘይተፈጸመ መርዓ ዘይሕጋዊ ተባሂሉ ክእወጅ ይኽእል።",
+            "tr": "Özgür iradeyle yapılmamış bir evlilik geçersiz ilan edilebilir.",
+            "uk": "Шлюб, укладений не з вільної волі, може бути визнаний недійсним."
+          },
+          "src": [
+            "fedlex-zgb105"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wenn deine Bewilligung von der Ehe abhängt: Eine Ehe ohne freien Willen ist ein wichtiger Grund, damit du in der Schweiz bleiben darfst.",
+            "en": "If your permit depends on the marriage: a marriage without free will is an important reason for you to be allowed to stay in Switzerland.",
+            "ar": "إذا كان تصريح إقامتك مرتبطًا بالزواج: الزواج بدون إرادة حرة سبب مهم يسمح لك بالبقاء في سويسرا.",
+            "ti": "ፍቓድ መንበሪኺ ኣብ መርዓ እንተ ተመርኮሰ፡ ብዘይ ናጻ ፍቓድ ዝተፈጸመ መርዓ ኣብ ስዊዘርላንድ ክትጸንሒ ዘፍቅድ ኣገዳሲ ምኽንያት እዩ።",
+            "tr": "Oturma iznin evliliğe bağlıysa: Özgür irade olmadan yapılan bir evlilik, İsviçre'de kalabilmen için önemli bir nedendir.",
+            "uk": "Якщо твій дозвіл на проживання залежить від шлюбу: шлюб без вільної волі є важливою причиною, щоб ти могла залишитися у Швейцарії."
+          },
+          "src": [
+            "fedlex-aig50"
+          ]
+        },
+        {
+          "text": {
+            "de": "Der Druck kann von Eltern, Verwandten oder Bekannten kommen. Die Fachstelle Zwangsheirat berät kostenlos, vertraulich und auf Wunsch anonym: 0800 800 007.",
+            "en": "The pressure can come from parents, relatives or acquaintances. The Forced Marriage Service gives advice free of charge, confidentially and anonymously if you wish: 0800 800 007.",
+            "ar": "قد يأتي الضغط من الوالدين أو الأقارب أو المعارف. مركز مكافحة الزواج القسري يقدم استشارة مجانية وسرية ومجهولة الهوية إذا رغبت: 0800 800 007.",
+            "ti": "እቲ ጸቕጢ ካብ ወለዲ፡ ኣዝማድ ወይ ፈለጥቲ ክመጽእ ይኽእል። ማእከል ፍሉይ ሞያ ናይ ግዴታ መርዓ ብነጻ፡ ብምስጢርን ብዘይ ስም እንተ ደሊኺን ይመክር፡ 0800 800 007።",
+            "tr": "Baskı anne babadan, akrabalardan veya tanıdıklardan gelebilir. Zorla Evlendirme Uzman Merkezi ücretsiz, gizli ve istersen isimsiz danışmanlık verir: 0800 800 007.",
+            "uk": "Тиск може йти від батьків, родичів чи знайомих. Фахова служба з питань примусових шлюбів консультує безкоштовно, конфіденційно і за бажанням анонімно: 0800 800 007."
+          },
+          "src": [
+            "zh-zwang"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kinder",
+      "group": "rechte",
+      "reviewed": false,
+      "tags": [
+        "kinder",
+        "kind",
+        "sorgerecht",
+        "obhut",
+        "besuchsrecht",
+        "kesb",
+        "schule",
+        "mutter",
+        "children",
+        "child",
+        "custody",
+        "mother"
+      ],
+      "title": {
+        "de": "Und die Kinder?",
+        "en": "And the children?",
+        "ar": "وماذا عن الأطفال؟",
+        "ti": "ቆልዑ ከ?",
+        "tr": "Ya çocuklar?",
+        "uk": "А діти?"
+      },
+      "summary": {
+        "de": "Kinder leiden mit, auch wenn sie Gewalt «nur» miterleben. Es gibt Hilfe für Mütter und Kinder.",
+        "en": "Children suffer too, even if they «only» witness violence. There is help for mothers and children.",
+        "ar": "الأطفال يعانون أيضًا، حتى لو «فقط» شهدوا العنف. هناك مساعدة للأمهات والأطفال.",
+        "ti": "ቆልዑ እውን ይሳቐዩ፡ ዓመጽ «ጥራይ» እንተ ረኣዩ እኳ። ንኣዴታትን ቆልዑን ሓገዝ ኣሎ።",
+        "tr": "Çocuklar şiddete «sadece» tanık olsalar bile acı çekerler. Anneler ve çocuklar için yardım var.",
+        "uk": "Діти страждають теж, навіть якщо вони «лише» бачать насильство. Є допомога для матерів і дітей."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Kinder sind von Gewalt zwischen den Eltern immer betroffen, auch wenn sie nur zuschauen oder zuhören. Im Kanton Zürich gilt ein Kind, das häusliche Gewalt miterlebt, selbst als gewaltbetroffen.",
+            "en": "Children are always affected by violence between their parents, even if they only watch or listen. In the canton of Zurich, a child who witnesses domestic violence is itself considered affected by violence.",
+            "ar": "الأطفال يتأثرون دائمًا بالعنف بين الوالدين، حتى لو كانوا يشاهدون أو يسمعون فقط. في كانتون زيورخ يُعتبر الطفل الذي يشهد العنف الأسري هو نفسه متضررًا من العنف.",
+            "ti": "ቆልዑ ብዓመጽ ኣብ መንጎ ወለዶም ኩሉ ግዜ ይጽለዉ፡ ዝርእዩ ወይ ዝሰምዑ ጥራይ እንተ ኾኑ እኳ። ኣብ ካንቶን ዙሪክ ዓመጽ ስድራቤት ዝረኣየ ቆልዓ ባዕሉ ከም ግዳይ ዓመጽ ይቑጸር።",
+            "tr": "Çocuklar ebeveynler arasındaki şiddetten her zaman etkilenir, sadece izleseler ya da duysalar bile. Zürih kantonunda aile içi şiddete tanık olan bir çocuk kendisi de şiddetten etkilenmiş sayılır.",
+            "uk": "Насильство між батьками завжди зачіпає дітей, навіть якщо вони лише бачать або чують його. У кантоні Цюрих дитина, яка є свідком домашнього насильства, сама вважається постраждалою від насильства."
+          },
+          "src": [
+            "zh-kesb-hg",
+            "bif-faq"
+          ]
+        },
+        {
+          "text": {
+            "de": "Mit der BIF kannst du besprechen, wie du deine Kinder schützen und stärken kannst. Für Kinder und Jugendliche selbst gibt es Beratungsstellen, zum Beispiel kokon.",
+            "en": "With BIF you can discuss how to protect and strengthen your children. There are also counselling services for children and young people themselves, for example kokon.",
+            "ar": "مع BIF يمكنك مناقشة كيف تحمين أطفالك وتقوينهم. وهناك أيضًا مراكز استشارة للأطفال والشباب أنفسهم، مثلًا kokon.",
+            "ti": "ምስ BIF ንደቅኺ ብኸመይ ከም እትከላኸልሎምን እተደልድልዮምን ክትዘራረቢ ትኽእሊ። ንቆልዑን መንእሰያትን ባዕሎም እውን ማእከላት ምኽሪ ኣለዉ፡ ንኣብነት kokon።",
+            "tr": "BIF ile çocuklarını nasıl koruyup güçlendirebileceğini konuşabilirsin. Çocuklar ve gençlerin kendileri için de danışma merkezleri var, örneğin kokon.",
+            "uk": "З BIF ти можеш обговорити, як захистити й підтримати своїх дітей. Для самих дітей і підлітків також є консультаційні служби, наприклад kokon."
+          },
+          "src": [
+            "bif-faq",
+            "zh-opferberatung"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wenn die Polizei jemanden wegweist und Kinder im Haushalt leben, informiert sie die Kinderschutzbehörde (KESB) und eine Beratungsstelle für Kinder. Die KESB prüft, ob die Kinder Schutz brauchen. Das Kontaktverbot kann auch für die Kinder gelten.",
+            "en": "If the police evict someone and children live in the household, they inform the child protection authority (KESB) and a counselling service for children. KESB checks whether the children need protection. The contact ban can also apply to the children.",
+            "ar": "إذا أبعدت الشرطة شخصًا ما وكان هناك أطفال يعيشون في البيت، تُبلغ الشرطة سلطة حماية الطفل (KESB) ومركز استشارة للأطفال. تفحص KESB ما إذا كان الأطفال يحتاجون إلى حماية. ويمكن أن يشمل حظر التواصل الأطفال أيضًا.",
+            "ti": "ፖሊስ ንሓደ ሰብ እንተ ኣውጺኦምን ቆልዑ ኣብቲ ገዛ እንተ ነበሩን፡ ንሰበ-ስልጣን ሓለዋ ቆልዑ (KESB) ን ማእከል ምኽሪ ቆልዑን ይሕብሩ። KESB ቆልዑ ሓለዋ የድልዮም እንተኾይኑ ይምርምር። እቲ ክልከላ ርክብ ንቆልዑ እውን ክምልከት ይኽእል።",
+            "tr": "Polis birini evden uzaklaştırırsa ve evde çocuklar yaşıyorsa, çocuk koruma makamını (KESB) ve çocuklar için bir danışma merkezini bilgilendirir. KESB çocukların korunmaya ihtiyacı olup olmadığını inceler. İletişim yasağı çocukları da kapsayabilir.",
+            "uk": "Якщо поліція виселяє когось і в домогосподарстві живуть діти, вона повідомляє орган захисту дітей (KESB) і консультаційну службу для дітей. KESB перевіряє, чи потребують діти захисту. Заборона контакту може поширюватися й на дітей."
+          },
+          "src": [
+            "zh-gsg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Bei einer Trennung regelt das Gericht, bei wem die Kinder wohnen und wie oft sie den anderen Elternteil sehen. Das Sorgerecht bleibt meistens bei beiden Eltern.",
+            "en": "In a separation, the court decides who the children live with and how often they see the other parent. Parental custody usually stays with both parents.",
+            "ar": "عند الانفصال تقرر المحكمة مع من يعيش الأطفال وكم مرة يرون الوالد الآخر. الحضانة القانونية تبقى غالبًا مع الوالدين معًا.",
+            "ti": "ኣብ ምፍልላይ ቤት ፍርዲ ቆልዑ ምስ መን ከም ዝነብሩን ነቲ ካልእ ወላዲ ክንደይ ግዜ ከም ዝርእይዎን ይውስን። ወለዳዊ ሓላፍነት መብዛሕትኡ ግዜ ኣብ ክልቲኦም ወለዲ ይጸንሕ።",
+            "tr": "Ayrılıkta mahkeme çocukların kiminle yaşayacağına ve diğer ebeveyni ne sıklıkla göreceklerine karar verir. Velayet çoğunlukla iki ebeveynde kalır.",
+            "uk": "При розлученні суд вирішує, з ким живуть діти і як часто вони бачать іншого з батьків. Батьківські права здебільшого залишаються в обох батьків."
+          },
+          "src": [
+            "zh-gericht-eheschutz"
+          ]
+        },
+        {
+          "text": {
+            "de": "Bei Trennungen werden Kinder manchmal als Druckmittel benutzt, zum Beispiel mit Drohungen. Plane eine Trennung darum am besten mit einer Beratungsstelle.",
+            "en": "In separations, children are sometimes used as leverage, for example with threats. So it is best to plan a separation with a counselling service.",
+            "ar": "في حالات الانفصال يُستخدم الأطفال أحيانًا كوسيلة ضغط، مثلًا بالتهديدات. لذلك من الأفضل التخطيط للانفصال مع مركز استشارة.",
+            "ti": "ኣብ ምፍልላይ ቆልዑ ሓደ ሓደ ግዜ ከም መሳርሒ ጸቕጢ ይጥቀሙሎም፡ ንኣብነት ብምፍርራሕ። ስለዚ ምፍልላይ ምስ ማእከል ምኽሪ ምውጣን ይሓይሽ።",
+            "tr": "Ayrılıklarda çocuklar bazen baskı aracı olarak kullanılır, örneğin tehditlerle. Bu yüzden ayrılığı en iyisi bir danışma merkeziyle planla.",
+            "uk": "При розлученні дітей іноді використовують як засіб тиску, наприклад погрозами. Тому найкраще планувати розлучення з консультаційною службою."
+          },
+          "src": [
+            "bif-dyn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schutz",
+      "group": "schutz",
+      "reviewed": false,
+      "tags": [
+        "polizei",
+        "wegweisung",
+        "kontaktverbot",
+        "rayonverbot",
+        "wohnung",
+        "schutz",
+        "gewaltschutzgesetz",
+        "verlängerung",
+        "police",
+        "protection",
+        "order",
+        "flat"
+      ],
+      "title": {
+        "de": "Die Polizei kann ihn aus der Wohnung weisen",
+        "en": "The police can order him to leave the home",
+        "ar": "يمكن للشرطة إبعاده من المسكن",
+        "ti": "ፖሊስ ካብ ገዛ ከውጽኦ ይኽእል",
+        "tr": "Polis onu evden uzaklaştırabilir",
+        "uk": "Поліція може виселити його з житла"
+      },
+      "summary": {
+        "de": "Im Kanton Zürich kann die Polizei eine Wegweisung und ein Kontaktverbot anordnen, zuerst für 14 Tage.",
+        "en": "In the canton of Zurich the police can order an eviction and a contact ban, first for 14 days.",
+        "ar": "في كانتون زيورخ يمكن للشرطة أن تأمر بالإبعاد من المسكن وحظر التواصل، في البداية لمدة 14 يومًا.",
+        "ti": "ኣብ ካንቶን ዙሪክ ፖሊስ ካብ ገዛ ምውጻእን ክልከላ ርክብን ክእዝዝ ይኽእል፡ ኣብ መጀመርታ ን14 መዓልቲ።",
+        "tr": "Zürih kantonunda polis evden uzaklaştırma ve iletişim yasağı kararı verebilir, önce 14 gün için.",
+        "uk": "У кантоні Цюрих поліція може винести розпорядження про виселення і заборону контакту, спочатку на 14 днів."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Die Polizei kann die gewaltausübende Person aus der Wohnung weisen. Sie muss die Schlüssel abgeben. Die Polizei kann ihr auch verbieten, bestimmte Orte zu betreten (zum Beispiel deine Strasse oder deinen Arbeitsweg), und jeden Kontakt verbieten, auch per Telefon, Social Media oder über Kinder und Verwandte.",
+            "en": "The police can order the violent person to leave the home. He must hand over the keys. The police can also forbid him to enter certain places (for example your street or your way to work) and forbid any contact, including by phone, social media or through children and relatives.",
+            "ar": "يمكن للشرطة إبعاد الشخص العنيف من المسكن. يجب عليه تسليم المفاتيح. يمكن للشرطة أيضًا منعه من دخول أماكن معينة (مثلًا شارعك أو طريقك إلى العمل)، ومنع أي تواصل، بما في ذلك عبر الهاتف أو وسائل التواصل الاجتماعي أو عن طريق الأطفال والأقارب.",
+            "ti": "ፖሊስ ነቲ ዓመጽ ዝፍጽም ሰብ ካብ ገዛ ከውጽኦ ይኽእል። መፍትሕ ከረክብ ኣለዎ። ፖሊስ ገለ ቦታታት (ንኣብነት ጎደናኺ ወይ መገዲ ስራሕኪ) ከይኣቱ ክኽልክሎን ዝኾነ ርክብ ክኽልክሎን ይኽእል፡ ብተሌፎን፡ ማሕበራዊ መራኸቢ ወይ ብቆልዑን ኣዝማድን ኣቢሉ እውን።",
+            "tr": "Polis şiddet uygulayan kişiyi evden uzaklaştırabilir. Anahtarları teslim etmek zorundadır. Polis ayrıca belirli yerlere girmesini (örneğin senin sokağın ya da iş yolun) ve her türlü iletişimi yasaklayabilir, telefon, sosyal medya veya çocuklar ve akrabalar aracılığıyla da.",
+            "uk": "Поліція може виселити людину, яка чинить насильство, з житла. Він мусить віддати ключі. Поліція може також заборонити йому з'являтися в певних місцях (наприклад, на твоїй вулиці чи на шляху до роботи) і заборонити будь-який контакт, також телефоном, через соцмережі чи через дітей і родичів."
+          },
+          "src": [
+            "zh-gsg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Diese Massnahmen gelten 14 Tage. In dieser Zeit darf die Person nicht zurückkommen, auch nicht, wenn du einverstanden bist.",
+            "en": "These measures apply for 14 days. During this time the person may not come back, not even if you agree.",
+            "ar": "هذه الإجراءات سارية لمدة 14 يومًا. خلال هذه الفترة لا يجوز للشخص العودة، حتى لو وافقت أنت.",
+            "ti": "እዚ ስጉምትታት ን14 መዓልቲ ይጸንሑ። ኣብዚ እዋን እቲ ሰብ ክምለስ ኣይፍቀደሉን፡ ንስኺ እንተ ተሰማማዕኪ እኳ።",
+            "tr": "Bu önlemler 14 gün geçerlidir. Bu süre içinde kişi geri dönemez, sen kabul etsen bile.",
+            "uk": "Ці заходи діють 14 днів. Протягом цього часу людина не може повернутися, навіть якщо ти погоджуєшся."
+          },
+          "src": [
+            "zh-gsg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Du kannst eine Verlängerung um bis zu 3 Monate verlangen. Dafür schreibst du innerhalb von 8 Tagen an das Gericht, das auf der Verfügung steht. Du bezahlst dafür keine Gerichtskosten.",
+            "en": "You can ask for an extension of up to 3 months. To do this, you write to the court named on the order within 8 days. You do not pay any court costs for this.",
+            "ar": "يمكنك طلب تمديد لمدة تصل إلى 3 أشهر. لذلك تكتبين خلال 8 أيام إلى المحكمة المذكورة في القرار. لا تدفعين أي رسوم محكمة مقابل ذلك.",
+            "ti": "ክሳዕ 3 ኣዋርሕ ምንዋሕ ክትሓቲ ትኽእሊ። ነዚ ኣብ ውሽጢ 8 መዓልቲ ናብቲ ኣብ ትእዛዝ ተጻሒፉ ዘሎ ቤት ፍርዲ ትጽሕፊ። ነዚ ዋላ ሓንቲ ክፍሊት ቤት ፍርዲ ኣይትኸፍልን።",
+            "tr": "3 aya kadar uzatma talep edebilirsin. Bunun için 8 gün içinde kararda yazan mahkemeye yazarsın. Bunun için hiçbir mahkeme masrafı ödemezsin.",
+            "uk": "Ти можеш попросити продовжити їх до 3 місяців. Для цього протягом 8 днів напиши до суду, зазначеного в розпорядженні. За це ти не сплачуєш судових витрат."
+          },
+          "src": [
+            "zh-gsg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Nach einer Wegweisung meldet sich eine Opferberatungsstelle bei dir, wenn du das möchtest. Die Beratung ist kostenlos, vertraulich und wenn möglich in deiner Sprache.",
+            "en": "After an eviction, a victim counselling service will contact you if you wish. Counselling is free, confidential and if possible in your language.",
+            "ar": "بعد الإبعاد يتواصل معك مركز استشارة للضحايا إذا رغبت. الاستشارة مجانية وسرية وبلغتك إن أمكن.",
+            "ti": "ድሕሪ ምውጻእ፡ እንተ ደሊኺ ማእከል ምኽሪ ግዳያት ክራኸበኪ እዩ። ምኽሪ ብነጻ፡ ምስጢራውን እንተ ተኻኢሉ ብቋንቋኺን እዩ።",
+            "tr": "Uzaklaştırmadan sonra, istersen bir mağdur danışma merkezi seninle iletişime geçer. Danışmanlık ücretsiz, gizli ve mümkünse senin dilindedir.",
+            "uk": "Після виселення консультаційна служба для потерпілих зв'яжеться з тобою, якщо ти цього хочеш. Консультація безкоштовна, конфіденційна і за можливості твоєю мовою."
+          },
+          "src": [
+            "zh-gsg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Eine Schutzmassnahme allein hat keinen Einfluss auf deine Bewilligung.",
+            "en": "A protective measure alone has no effect on your permit.",
+            "ar": "إجراء الحماية وحده لا يؤثر على تصريح إقامتك.",
+            "ti": "ስጉምቲ ሓለዋ ጥራይ ኣብ ፍቓድ መንበሪኺ ጽልዋ የብሉን።",
+            "tr": "Bir koruma önlemi tek başına oturma iznini etkilemez.",
+            "uk": "Сам по собі захисний захід не впливає на твій дозвіл на проживання."
+          },
+          "src": [
+            "zh-gsg"
+          ]
+        },
+        {
+          "text": {
+            "de": "Hält er sich nicht an das Verbot, ruf sofort die Polizei: 117.",
+            "en": "If he does not respect the ban, call the police immediately: 117.",
+            "ar": "إذا لم يلتزم بالحظر، اتصلي فورًا بالشرطة: 117.",
+            "ti": "ነቲ ክልከላ እንተ ዘየኽበረ፡ ብቕጽበት ንፖሊስ ደውሊ፡ 117።",
+            "tr": "Yasağa uymazsa hemen polisi ara: 117.",
+            "uk": "Якщо він не дотримується заборони, негайно телефонуй у поліцію: 117."
+          },
+          "src": [
+            "zh-gsg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anzeige",
+      "group": "schutz",
+      "reviewed": false,
+      "tags": [
+        "anzeige",
+        "strafe",
+        "polizei",
+        "verfahren",
+        "staatsanwaltschaft",
+        "beweis",
+        "spuren",
+        "sistierung",
+        "zurückziehen",
+        "report",
+        "police",
+        "evidence",
+        "court"
+      ],
+      "title": {
+        "de": "Anzeige erstatten: Was passiert dann?",
+        "en": "Reporting to the police: what happens next?",
+        "ar": "تقديم بلاغ: ماذا يحدث بعد ذلك؟",
+        "ti": "ክሲ ምምስራት፡ ድሕሪኡ እንታይ ይኸውን?",
+        "tr": "Şikâyette bulunmak: Sonra ne olur?",
+        "uk": "Подати заяву: що буде далі?"
+      },
+      "summary": {
+        "de": "Die meisten Taten bei häuslicher Gewalt werden von Amtes wegen verfolgt. Spuren können auch ohne Anzeige gesichert werden.",
+        "en": "Most acts of domestic violence are prosecuted ex officio. Evidence can also be secured without a police report.",
+        "ar": "معظم أفعال العنف الأسري تلاحقها السلطات تلقائيًا. يمكن أيضًا توثيق الآثار بدون بلاغ.",
+        "ti": "መብዛሕትኦም ተግባራት ዓመጽ ስድራቤት ብሰበ-ስልጣን ባዕሎም ይኽሰሱ። ብዘይ ክሲ እውን ኣሰራት ክስነዱ ይኽእሉ።",
+        "tr": "Aile içi şiddet eylemlerinin çoğu resen kovuşturulur. İzler şikâyet olmadan da kayıt altına alınabilir.",
+        "uk": "Більшість дій домашнього насильства переслідуються за посадовим обов'язком. Сліди можна зафіксувати й без заяви."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Eine Anzeige kannst du bei jedem Polizeiposten machen. Auch Nachbarinnen, Familie oder Freundinnen dürfen eine Meldung machen.",
+            "en": "You can report at any police station. Neighbours, family or friends may also report.",
+            "ar": "يمكنك تقديم بلاغ في أي مركز شرطة. ويمكن للجيران أو العائلة أو الصديقات أيضًا الإبلاغ.",
+            "ti": "ኣብ ዝኾነ ጣቢያ ፖሊስ ክሲ ክትምስርቲ ትኽእሊ። ጎረባብቲ፡ ስድራ ወይ መሓዙት እውን ክሕብሩ ይኽእሉ።",
+            "tr": "Herhangi bir karakolda şikâyette bulunabilirsin. Komşular, aile veya arkadaşlar da bildirimde bulunabilir.",
+            "uk": "Заяву можна подати в будь-якому поліцейському відділку. Сусідки, родина чи подруги також можуть повідомити."
+          },
+          "src": [
+            "bif-faq"
+          ]
+        },
+        {
+          "text": {
+            "de": "Häusliche Gewalt ist meistens ein Offizialdelikt: Die Behörden verfolgen die Tat auch dann, wenn das Opfer das nicht will. Leichtere Taten, wie eine einzelne Tätlichkeit, verfolgen sie nur, wenn du innerhalb von 3 Monaten einen Strafantrag stellst.",
+            "en": "Domestic violence is mostly an offence prosecuted ex officio: the authorities prosecute it even if the victim does not want this. Less serious acts, such as a single assault, are only prosecuted if you file a criminal complaint within 3 months.",
+            "ar": "العنف الأسري في الغالب جريمة تلاحقها السلطات تلقائيًا: السلطات تلاحق الفعل حتى لو لم ترغب الضحية في ذلك. الأفعال الأخف، مثل اعتداء واحد بسيط، لا تُلاحق إلا إذا قدمت شكوى جنائية خلال 3 أشهر.",
+            "ti": "ዓመጽ ስድራቤት መብዛሕትኡ ግዜ ሰበ-ስልጣን ባዕሎም ዝኽስስዎ ገበን እዩ፡ ግዳይ እንተ ዘይደለየ እውን ይኽሰስ። ቀለልቲ ተግባራት፡ ከም ሓደ ጊዜ ምህራም፡ ኣብ ውሽጢ 3 ኣዋርሕ ገበናዊ ጥርዓን እንተ ኣቕሪብኪ ጥራይ ይኽሰሱ።",
+            "tr": "Aile içi şiddet çoğunlukla resen kovuşturulan bir suçtur: Yetkililer, mağdur istemese bile eylemi kovuşturur. Tek seferlik bir saldırı gibi daha hafif eylemler ise ancak 3 ay içinde suç şikâyetinde bulunursan kovuşturulur.",
+            "uk": "Домашнє насильство здебільшого є злочином, який переслідується за посадовим обов'язком: органи влади розслідують його, навіть якщо потерпіла цього не хоче. Легші дії, наприклад одноразовий фізичний напад, переслідуються лише тоді, коли ти протягом 3 місяців подаси скаргу."
+          },
+          "src": [
+            "bif-faq",
+            "zh-meldung"
+          ]
+        },
+        {
+          "text": {
+            "de": "Bei einigen Taten in der Partnerschaft (zum Beispiel einfache Körperverletzung, Drohung, Nötigung) kannst du verlangen, dass das Verfahren pausiert, höchstens 6 Monate. Du kannst verlangen, dass es wieder weitergeht. Der Partner muss in dieser Zeit eventuell ein Lernprogramm gegen Gewalt besuchen.",
+            "en": "For some offences within a partnership (for example simple bodily harm, threats, coercion) you can ask for the proceedings to be paused, for a maximum of 6 months. You can ask for them to continue again. During this time your partner may have to attend a violence prevention programme.",
+            "ar": "في بعض الجرائم ضمن العلاقة الزوجية (مثلًا الإيذاء الجسدي البسيط، التهديد، الإكراه) يمكنك طلب إيقاف الإجراءات مؤقتًا، لمدة أقصاها 6 أشهر. ويمكنك طلب استئنافها. قد يُلزم الشريك خلال هذه الفترة بحضور برنامج تعليمي ضد العنف.",
+            "ti": "ኣብ ገለ ገበናት ኣብ ርክብ (ንኣብነት ቀሊል ኣካላዊ ጉድኣት፡ ምፍርራሕ፡ ምግዳድ) እቲ መስርሕ ክሳዕ 6 ኣዋርሕ ጠጠው ክብል ክትሓቲ ትኽእሊ። ደጊሙ ክቕጽል እውን ክትሓቲ ትኽእሊ። መጻምድቲ ኣብዚ እዋን ናይ ጸረ-ዓመጽ መደብ ትምህርቲ ክሳተፍ ክግደድ ይኽእል።",
+            "tr": "İlişki içindeki bazı suçlarda (örneğin basit yaralama, tehdit, zorlama) davanın en fazla 6 ay durdurulmasını talep edebilirsin. Yeniden devam etmesini de talep edebilirsin. Partnerin bu sürede şiddete karşı bir eğitim programına katılmak zorunda kalabilir.",
+            "uk": "У разі деяких злочинів у стосунках (наприклад, легке тілесне ушкодження, погроза, примус) ти можеш попросити призупинити провадження, щонайбільше на 6 місяців. Ти можеш попросити відновити його. Протягом цього часу партнера можуть зобов'язати відвідувати програму проти насильства."
+          },
+          "src": [
+            "fedlex-stgb55a"
+          ]
+        },
+        {
+          "text": {
+            "de": "Spuren wie Verletzungen können Forensic Nurses kostenlos und rund um die Uhr sichern, auch ohne Anzeige (0800 09 09 09). Sie können später als Beweis dienen.",
+            "en": "Forensic nurses can secure evidence such as injuries free of charge and around the clock, even without a police report (0800 09 09 09). It can later serve as evidence.",
+            "ar": "يمكن لممرضات الطب الشرعي (Forensic Nurses) توثيق الآثار مثل الإصابات مجانًا وعلى مدار الساعة، حتى بدون بلاغ (0800 09 09 09). يمكن استخدامها لاحقًا كدليل.",
+            "ti": "Forensic Nurses ከም መቑሰል ዝኣመሰሉ ኣሰራት ብነጻን 24 ሰዓትን ክስንዳ ይኽእላ፡ ብዘይ ክሲ እውን (0800 09 09 09)። ደሓር ከም መርትዖ ከገልግሉ ይኽእሉ።",
+            "tr": "Adli hemşireler (Forensic Nurses) yaralanmalar gibi izleri ücretsiz ve 24 saat kayıt altına alabilir, şikâyet olmadan da (0800 09 09 09). Bunlar daha sonra kanıt olarak kullanılabilir.",
+            "uk": "Судово-медичні медсестри (Forensic Nurses) можуть безкоштовно і цілодобово зафіксувати сліди, наприклад травми, навіть без заяви (0800 09 09 09). Згодом вони можуть слугувати доказом."
+          },
+          "src": [
+            "bif-faq",
+            "zh-hilfe"
+          ]
+        },
+        {
+          "text": {
+            "de": "Unsicher? Ein Beratungsgespräch hilft, bevor du dich entscheidest.",
+            "en": "Unsure? A counselling session helps before you decide.",
+            "ar": "غير متأكدة؟ جلسة استشارة تساعدك قبل أن تقرري.",
+            "ti": "ኣይተረጋገጽክን? ቅድሚ ምውሳንኪ ዘተ ምኽሪ ይሕግዝ።",
+            "tr": "Emin değil misin? Karar vermeden önce bir danışmanlık görüşmesi yardımcı olur.",
+            "uk": "Не впевнена? Консультація допоможе, перш ніж ти вирішиш."
+          },
+          "src": [
+            "bif-faq"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notfall",
+      "group": "notfall",
+      "reviewed": false,
+      "tags": [
+        "notfall",
+        "gefahr",
+        "sofort",
+        "polizei",
+        "117",
+        "142",
+        "frauenhaus",
+        "nacht",
+        "flucht",
+        "spital",
+        "emergency",
+        "danger",
+        "shelter",
+        "night"
+      ],
+      "title": {
+        "de": "Im Notfall: Diese Nummern helfen sofort",
+        "en": "In an emergency: these numbers help right away",
+        "ar": "في حالة الطوارئ: هذه الأرقام تساعد فورًا",
+        "ti": "ኣብ ህጹጽ ኩነታት፡ እዞም ቁጽርታት ብቕጽበት ይሕግዙ",
+        "tr": "Acil durumda: Bu numaralar hemen yardım eder",
+        "uk": "У надзвичайній ситуації: ці номери допоможуть одразу"
+      },
+      "summary": {
+        "de": "Bei Gefahr: Polizei 117. Für Beratung Tag und Nacht: 142.",
+        "en": "If you are in danger: police 117. For counselling day and night: 142.",
+        "ar": "عند الخطر: الشرطة 117. للاستشارة ليلًا ونهارًا: 142.",
+        "ti": "ኣብ ሓደጋ፡ ፖሊስ 117። ንምኽሪ መዓልትን ለይትን፡ 142።",
+        "tr": "Tehlikede: Polis 117. Gece gündüz danışmanlık için: 142.",
+        "uk": "У разі небезпеки: поліція 117. Консультація вдень і вночі: 142."
+      },
+      "body": [
+        {
+          "text": {
+            "de": "Bist du in Gefahr? Ruf die Polizei an: 117.",
+            "en": "Are you in danger? Call the police: 117.",
+            "ar": "هل أنت في خطر؟ اتصلي بالشرطة: 117.",
+            "ti": "ኣብ ሓደጋ ዲኺ ዘለኺ? ንፖሊስ ደውሊ፡ 117።",
+            "tr": "Tehlikede misin? Polisi ara: 117.",
+            "uk": "Ти в небезпеці? Телефонуй у поліцію: 117."
+          },
+          "src": [
+            "bif-not"
+          ]
+        },
+        {
+          "text": {
+            "de": "Die Opferhilfe-Nummer 142 ist Tag und Nacht erreichbar und kostenlos. Dort sagt man dir, wo du Hilfe bekommst.",
+            "en": "The victim support number 142 is available day and night and free of charge. They will tell you where you can get help.",
+            "ar": "رقم مساعدة الضحايا 142 متاح ليلًا ونهارًا ومجاني. هناك يخبرونك أين تحصلين على المساعدة.",
+            "ti": "ቁጽሪ ሓገዝ ግዳያት 142 መዓልትን ለይትን ይርከብ፡ ብነጻ ድማ እዩ። ኣበይ ሓገዝ ከም እትረኽቢ ይነግሩኺ።",
+            "tr": "Mağdur yardım hattı 142 gece gündüz ulaşılabilir ve ücretsizdir. Orada sana nereden yardım alabileceğini söylerler.",
+            "uk": "Номер допомоги жертвам 142 доступний вдень і вночі та безкоштовний. Там тобі скажуть, де отримати допомогу."
+          },
+          "src": [
+            "zh-hilfe-ls",
+            "beob-142",
+            "zh-142"
+          ]
+        },
+        {
+          "text": {
+            "de": "Frauenhäuser sind rund um die Uhr erreichbar. Du kannst Tag und Nacht hingehen, auch mit deinen Kindern. Frauenhaus Zürich Violetta: 044 350 04 04.",
+            "en": "Women's shelters can be reached around the clock. You can go there day and night, also with your children. Women's shelter Zurich Violetta: 044 350 04 04.",
+            "ar": "دور حماية النساء متاحة على مدار الساعة. يمكنك الذهاب إليها ليلًا ونهارًا، مع أطفالك أيضًا. دار حماية النساء في زيورخ Violetta: 044 350 04 04.",
+            "ti": "ገዛውቲ ሓለዋ ደቀንስትዮ 24 ሰዓት ይርከቡ። መዓልትን ለይትን ክትከዲ ትኽእሊ፡ ምስ ደቅኺ እውን። ገዛ ሓለዋ ደቀንስትዮ ዙሪክ Violetta: 044 350 04 04።",
+            "tr": "Kadın sığınma evlerine 24 saat ulaşılabilir. Gece gündüz gidebilirsin, çocuklarınla da. Zürih Kadın Sığınma Evi Violetta: 044 350 04 04.",
+            "uk": "Жіночі притулки доступні цілодобово. Ти можеш прийти туди вдень і вночі, також із дітьми. Жіночий притулок Цюрих Violetta: 044 350 04 04."
+          },
+          "src": [
+            "zh-hilfe",
+            "bif-not"
+          ]
+        },
+        {
+          "text": {
+            "de": "Wurdest du verletzt? Geh ins Spital. Forensic Nurses sichern Spuren, auch ohne Anzeige. Telefon: 0800 09 09 09.",
+            "en": "Were you injured? Go to hospital. Forensic nurses secure evidence, even without a police report. Phone: 0800 09 09 09.",
+            "ar": "هل أُصبت؟ اذهبي إلى المستشفى. ممرضات الطب الشرعي يوثقن الآثار، حتى بدون بلاغ. الهاتف: 0800 09 09 09.",
+            "ti": "ተጎዲእኪ ዲኺ? ናብ ሆስፒታል ኪዲ። Forensic Nurses ኣሰራት ይስንዳ፡ ብዘይ ክሲ እውን። ተሌፎን፡ 0800 09 09 09።",
+            "tr": "Yaralandın mı? Hastaneye git. Adli hemşireler izleri kayıt altına alır, şikâyet olmadan da. Telefon: 0800 09 09 09.",
+            "uk": "Тебе травмували? Іди в лікарню. Судово-медичні медсестри фіксують сліди, навіть без заяви. Телефон: 0800 09 09 09."
+          },
+          "src": [
+            "zh-hilfe-ls",
+            "bif-not"
+          ]
+        },
+        {
+          "text": {
+            "de": "Ein Anruf bei der 142 erscheint nicht auf der Telefonrechnung. Er steht aber in der Anrufliste auf deinem Handy. Diese kannst du von Hand löschen.",
+            "en": "A call to 142 does not appear on the phone bill. But it does appear in the call list on your phone. You can delete it by hand.",
+            "ar": "المكالمة إلى 142 لا تظهر في فاتورة الهاتف. لكنها تظهر في قائمة المكالمات على هاتفك. يمكنك حذفها يدويًا.",
+            "ti": "ናብ 142 ዝግበር ጻውዒት ኣብ ሕሳብ ተሌፎን ኣይርአን። ግን ኣብ ዝርዝር ጻውዒታት ሞባይልኪ ይርአ። ብኢድኪ ክትድምስስዮ ትኽእሊ።",
+            "tr": "142'ye yapılan arama telefon faturasında görünmez. Ama telefonundaki arama listesinde görünür. Bunu elle silebilirsin.",
+            "uk": "Дзвінок на 142 не відображається в рахунку за телефон. Але він є в списку викликів на твоєму телефоні. Його можна видалити вручну."
+          },
+          "src": [
+            "ohs-beratung"
+          ]
+        }
+      ]
+    }
+  ]
+}

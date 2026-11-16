@@ -1,0 +1,14 @@
+{
+  "name": "kompass-chat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "dev": "wrangler dev --remote",
+    "deploy": "wrangler deploy",
+    "chat": "node scripts/ask.js"
+  },
+  "devDependencies": {
+    "wrangler": "4.40.0"
+  }
+}

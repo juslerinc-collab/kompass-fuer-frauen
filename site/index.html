@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <title>Kompass</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230076bd'/%3E%3Ccircle cx='31' cy='27' r='8' fill='white'/%3E%3Cpath d='M14 60c2-15 9-21 17-21s15 6 17 21z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-t="skip">Zum Inhalt</a>
+
+  <div class="banner" id="banner"></div>
+
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="brand" href="#start">
+        <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="inner"><circle cx="32" cy="32" r="24"/></clipPath></defs><circle cx="32" cy="32" r="32" fill="currentColor"/><circle cx="32" cy="32" r="24.5" fill="none" stroke="#fff" stroke-width="1.6" opacity=".55"/><path d="M32 2.5l4.2 9h-8.4z" fill="#fff"/><g clip-path="url(#inner)" fill="#fff"><circle cx="31" cy="27.5" r="7.2"/><circle cx="37.6" cy="21.6" r="3.6"/><rect x="28.6" y="33" width="4.8" height="5" rx="1"/><path d="M13 60c1.5-14 9-21.5 18-21.5S48.5 46 50 60z"/></g></svg>
+        <span class="brand-text">
+          <span class="brand-name">Kompass</span>
+          <span class="brand-tag" data-t="tagline"></span>
+        </span>
+      </a>
+      <button id="burger" class="burger" type="button" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i><span data-t="menu">Menu</span></button>
+    </div>
+    <div class="wrap"><nav id="langs" class="langs" aria-label="Sprache / Language / اللغة"></nav></div>
+  </header>
+
+  <aside class="rail" aria-label="Notfall">
+    <button id="exit" class="rail-exit" type="button"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span data-t="exitShort">Weg</span></button>
+    <div class="rail-sos" id="railSos"></div>
+  </aside>
+
+  <nav id="menu" class="menu" hidden aria-label="Menu">
+    <button id="menuClose" class="menu-close" type="button"><svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg><span data-t="close">Schliessen</span></button>
+    <div class="wrap menu-inner">
+      <a href="#start" data-t="home"></a>
+      <a href="#check" data-t="checkTitle"></a>
+      <a href="#frage" data-t="askTitle"></a>
+      <a href="#themen" data-t="topics"></a>
+      <a href="#hilfe" data-t="helpTitle"></a>
+    </div>
+  </nav>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="foot">
+    <div class="wrap foot-grid">
+      <div class="foot-icons">
+        <a href="tel:142" aria-label="142"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.6a1 1 0 01-.25 1z"/></svg></a>
+        <a href="#frage" aria-label="?"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></a>
+        <a href="#hilfe" aria-label="+"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><circle cx="16.5" cy="9.5" r="2.6"/><path d="M3 20c.6-3.6 3-5.5 6-5.5s5.4 1.9 6 5.5M14.5 14.6c2.8-.4 5.6 1.1 6.3 4.9"/></svg></a>
+      </div>
+      <div>
+        <p class="em" id="emergency"></p>
+        <p data-t="footerNote"></p>
+      </div>
+      <div>
+        <p data-t="historyTip"></p>
+        <p data-t="exitHint"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

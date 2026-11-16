@@ -1,0 +1,141 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "de": "Kontrolliert jemand dein Handy, deine Nachrichten oder wo du bist?",
+        "en": "Does someone check your phone, your messages or where you are?",
+        "ar": "هل يراقب أحدٌ هاتفك أو رسائلك أو مكان وجودك؟",
+        "ti": "ሓደ ሰብ ሞባይልኪ፣ መልእኽትታትኪ ወይ ኣበይ ከም ዘለኺ ይቆጻጸር ድዩ?",
+        "tr": "Biri telefonunu, mesajlarını veya nerede olduğunu kontrol ediyor mu?",
+        "uk": "Хтось перевіряє твій телефон, повідомлення або де ти перебуваєш?"
+      },
+      "leadsTo": [
+        "kontrolle",
+        "stalking"
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "de": "Darfst du Freundinnen oder Familie nur selten oder gar nicht treffen?",
+        "en": "Are you allowed to see friends or family only rarely, or not at all?",
+        "ar": "هل يُسمح لك برؤية صديقاتك أو عائلتك نادرًا فقط أو لا يُسمح أبدًا؟",
+        "ti": "ንኣዕሩኽትኺ ወይ ንስድራኺ ሓሓሊፉ ጥራይ ወይ ፈጺሙ ክትርእዪ ኣይፍቀደልክን ድዩ?",
+        "tr": "Arkadaşlarını veya aileni sadece nadiren mi görebiliyorsun, yoksa hiç mi göremiyorsun?",
+        "uk": "Тобі дозволяють бачитися з подругами чи родиною лише зрідка або взагалі ні?"
+      },
+      "leadsTo": [
+        "kontrolle"
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "de": "Hast du kein eigenes Geld oder musst du jede Ausgabe erklären?",
+        "en": "Do you have no money of your own, or must you explain every expense?",
+        "ar": "هل ليس لديك مال خاص بك، أو يجب أن تبرري كل مصروف؟",
+        "ti": "ናይ ገዛእ ርእስኺ ገንዘብ የብልክን ድዩ፣ ወይ ነፍሲ ወከፍ ወጻኢ ክትገልጺ ይግደደኪ ድዩ?",
+        "tr": "Kendi paran yok mu, ya da her harcamanı açıklamak zorunda mısın?",
+        "uk": "У тебе немає власних грошей або ти мусиш пояснювати кожну витрату?"
+      },
+      "leadsTo": [
+        "geld",
+        "getrennt-leben"
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "de": "Wirst du oft beleidigt, ausgelacht oder klein gemacht?",
+        "en": "Are you often insulted, laughed at or put down?",
+        "ar": "هل تتعرضين كثيرًا للإهانة أو السخرية أو التقليل من شأنك؟",
+        "ti": "ብተደጋጋሚ ትጽረፊ፣ ይስሕቑልኪ ወይ የናእሱኺ ድዮም?",
+        "tr": "Sık sık hakaret ediliyor, alay ediliyor veya küçümseniyor musun?",
+        "uk": "Тебе часто ображають, висміюють або принижують?"
+      },
+      "leadsTo": [
+        "psychisch"
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "de": "Hast du Angst, Nein zu sagen oder deine Meinung zu sagen?",
+        "en": "Are you afraid to say no or to say what you think?",
+        "ar": "هل تخافين أن تقولي لا أو أن تعبّري عن رأيك؟",
+        "ti": "ኣይፋል ክትብሊ ወይ ርእይቶኺ ክትገልጺ ትፈርሒ ዲኺ?",
+        "tr": "Hayır demekten veya fikrini söylemekten korkuyor musun?",
+        "uk": "Ти боїшся сказати «ні» або висловити свою думку?"
+      },
+      "leadsTo": [
+        "psychisch",
+        "spirale"
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "de": "Droht jemand, dass du deine Bewilligung verlierst oder die Kinder nicht mehr siehst?",
+        "en": "Does someone threaten that you will lose your permit or not see your children again?",
+        "ar": "هل يهددك أحد بأنك ستفقدين تصريح إقامتك أو لن تري أطفالك بعد الآن؟",
+        "ti": "ሓደ ሰብ ፍቓድ መንበሪኺ ከም እትስእኒ ወይ ንደቅኺ ከም ዘይትርእዪ የፈራርሓኪ ድዩ?",
+        "tr": "Biri seni oturma izninin elinden alınacağı veya çocuklarını bir daha göremeyeceğin ile tehdit ediyor mu?",
+        "uk": "Хтось погрожує, що ти втратиш дозвіл на проживання або більше не побачиш дітей?"
+      },
+      "leadsTo": [
+        "aufenthalt",
+        "kinder",
+        "aufenthalt-nachweis"
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "de": "Drängt dich deine Familie zu einer Heirat, oder bestimmt sie, wen du heiratest?",
+        "en": "Is your family pressuring you to marry, or deciding whom you marry?",
+        "ar": "هل تضغط عليك عائلتك للزواج، أو تقرر من ستتزوجين؟",
+        "ti": "ስድራኺ ንመርዓ የገድዱኺ ድዮም፣ ወይ መን ከም እትምርዒ ይውስኑ ድዮም?",
+        "tr": "Ailen seni evlenmeye zorluyor mu, ya da kiminle evleneceğine onlar mı karar veriyor?",
+        "uk": "Твоя родина тисне на тебе, щоб ти вийшла заміж, або вирішує, за кого?"
+      },
+      "leadsTo": [
+        "zwangsheirat"
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "de": "Entschuldigt er sich nach einem Streit, verspricht Besserung, und dann beginnt alles wieder?",
+        "en": "After a fight, does he apologise and promise to change, and then it all starts again?",
+        "ar": "بعد الشجار، هل يعتذر ويَعِد بالتغيير ثم يبدأ كل شيء من جديد؟",
+        "ti": "ድሕሪ ባእሲ ይቕረታ ሓቲቱ ክመሓየሽ ቃል ይኣቱ፣ ድሕሪኡ ኩሉ ደጊሙ ይጅምር ድዩ?",
+        "tr": "Bir kavgadan sonra özür dileyip değişeceğine söz veriyor, sonra her şey yeniden mi başlıyor?",
+        "uk": "Після сварки він вибачається, обіцяє змінитися, а потім усе починається знову?"
+      },
+      "leadsTo": [
+        "spirale"
+      ]
+    },
+    {
+      "id": "q9",
+      "urgent": true,
+      "text": {
+        "de": "Wurdest du schon gestossen, festgehalten, geschlagen oder zu Sex gezwungen?",
+        "en": "Have you ever been pushed, held down, hit or forced into sex?",
+        "ar": "هل تعرضتِ من قبل للدفع أو الإمساك بالقوة أو الضرب أو الإجبار على الجنس؟",
+        "ti": "ቅድሚ ሕጂ ተደፊእኪ፣ ብሓይሊ ተታሒዝኪ፣ ተወቒዕኪ ወይ ንጾታዊ ርክብ ተገዲድኪ ዶ?",
+        "tr": "Hiç itildin mi, zorla tutuldun mu, dövüldün mü veya cinsel ilişkiye zorlandın mı?",
+        "uk": "Тебе колись штовхали, силою утримували, били або змушували до сексу?"
+      },
+      "leadsTo": [
+        "schutz",
+        "anzeige",
+        "notfall"
+      ]
+    }
+  ],
+  "always": [
+    "opferhilfe"
+  ]
+}

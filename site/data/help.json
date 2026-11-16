@@ -1,0 +1,315 @@
+{
+  "emergency": [
+    {
+      "number": "117",
+      "label": {
+        "de": "Polizei",
+        "en": "Police",
+        "ar": "الشرطة",
+        "ti": "ፖሊስ",
+        "tr": "Polis",
+        "uk": "Поліція"
+      }
+    },
+    {
+      "number": "144",
+      "label": {
+        "de": "Sanität",
+        "en": "Ambulance",
+        "ar": "الإسعاف",
+        "ti": "ኣምቡላንስ",
+        "tr": "Ambulans",
+        "uk": "Швидка допомога"
+      }
+    },
+    {
+      "number": "142",
+      "label": {
+        "de": "Opferhilfe, 24/7",
+        "en": "Victim support, 24/7",
+        "ar": "مساعدة الضحايا، على مدار الساعة",
+        "ti": "ሓገዝ ግዳያት፡ 24/7",
+        "tr": "Mağdur yardımı, 7/24",
+        "uk": "Допомога жертвам, 24/7"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "142",
+      "name": {
+        "de": "Opferhilfe-Telefon 142",
+        "en": "Victim support line 142",
+        "ar": "هاتف مساعدة الضحايا 142",
+        "ti": "ተሌፎን ሓገዝ ግዳያት 142",
+        "tr": "Mağdur yardım hattı 142",
+        "uk": "Телефон допомоги жертвам 142"
+      },
+      "what": {
+        "de": "Erste Anlaufstelle bei Gewalt. Tag und Nacht, kostenlos, auf Wunsch anonym. Vermittelt dich an eine passende Beratungsstelle.",
+        "en": "First point of contact for violence. Day and night, free, anonymous if you wish. Refers you to a suitable counselling service.",
+        "ar": "أول جهة تتواصلين معها عند العنف. ليلًا ونهارًا، مجانًا، ومجهولة الهوية إذا رغبت. يوجهك إلى مركز استشارة مناسب.",
+        "ti": "ኣብ ዓመጽ ቀዳማይ መራኸቢ። መዓልትን ለይትን፡ ብነጻ፡ እንተ ደሊኺ ብዘይ ስም። ናብ ዝሰማማዕ ማእከል ምኽሪ የራኽበኪ።",
+        "tr": "Şiddet durumunda ilk başvuru yeri. Gece gündüz, ücretsiz, istersen isimsiz. Seni uygun bir danışma merkezine yönlendirir.",
+        "uk": "Перше місце звернення при насильстві. Вдень і вночі, безкоштовно, за бажанням анонімно. Скеровує тебе до відповідної консультаційної служби."
+      },
+      "phone": "142",
+      "tags": [
+        "opferhilfe",
+        "opferhilfe-geld",
+        "notfall",
+        "kontrolle",
+        "psychisch"
+      ],
+      "src": [
+        "beob-142",
+        "zh-hilfe-ls",
+        "zh-142"
+      ]
+    },
+    {
+      "id": "bif",
+      "name": {
+        "de": "BIF – Beratungsstelle für Frauen gegen Gewalt in Ehe und Partnerschaft",
+        "en": "BIF – Counselling for women against violence in marriage and partnership",
+        "ar": "BIF – مركز استشارة للنساء ضد العنف في الزواج والعلاقة",
+        "ti": "BIF – ማእከል ምኽሪ ንደቀንስትዮ ኣንጻር ዓመጽ ኣብ መርዓን ርክብን",
+        "tr": "BIF – Evlilik ve ilişkide şiddete karşı kadın danışma merkezi",
+        "uk": "BIF – консультаційна служба для жінок проти насильства в шлюбі та стосунках"
+      },
+      "what": {
+        "de": "Beratung für Frauen im Kanton Zürich, per Telefon, online oder persönlich. Kostenlos, vertraulich, freiwillig. Vermittelt auch Fachstellen für Migrationsrecht.",
+        "en": "Counselling for women in the canton of Zurich, by phone, online or in person. Free, confidential, voluntary. Also refers you to specialist services for migration law.",
+        "ar": "استشارة للنساء في كانتون زيورخ، عبر الهاتف أو الإنترنت أو شخصيًا. مجانية، سرية، طوعية. توجهك أيضًا إلى مراكز متخصصة في قانون الهجرة.",
+        "ti": "ኣብ ካንቶን ዙሪክ ንደቀንስትዮ ምኽሪ፡ ብተሌፎን፡ ብኢንተርነት ወይ ብኣካል። ብነጻ፡ ምስጢራዊ፡ ብፍቓድ። ናብ ማእከላት ሕጊ ስደት እውን የራኽብ።",
+        "tr": "Zürih kantonunda kadınlar için danışmanlık, telefonla, online veya yüz yüze. Ücretsiz, gizli, gönüllü. Göç hukuku uzman merkezlerine de yönlendirir.",
+        "uk": "Консультації для жінок у кантоні Цюрих, телефоном, онлайн або особисто. Безкоштовно, конфіденційно, добровільно. Також скеровує до фахових служб з міграційного права."
+      },
+      "phone": "044 278 99 99",
+      "url": "https://online.bif-frauenberatung.ch",
+      "urlLabel": {
+        "de": "Onlineberatung",
+        "en": "Online counselling",
+        "ar": "استشارة عبر الإنترنت",
+        "ti": "ምኽሪ ብኢንተርነት",
+        "tr": "Online danışmanlık",
+        "uk": "Онлайн-консультація"
+      },
+      "tags": [
+        "kontrolle",
+        "psychisch",
+        "geld",
+        "spirale",
+        "aufenthalt",
+        "aufenthalt-nachweis",
+        "opferhilfe",
+        "opferhilfe-geld",
+        "getrennt-leben",
+        "schutz",
+        "anzeige",
+        "kinder",
+        "stalking"
+      ],
+      "src": [
+        "bif-faq",
+        "zh-opferberatung"
+      ]
+    },
+    {
+      "id": "opferberatung-zh",
+      "name": {
+        "de": "Opferberatung Zürich",
+        "en": "Opferberatung Zürich (victim counselling)",
+        "ar": "Opferberatung Zürich (استشارة الضحايا)",
+        "ti": "Opferberatung Zürich (ምኽሪ ግዳያት)",
+        "tr": "Opferberatung Zürich (mağdur danışmanlığı)",
+        "uk": "Opferberatung Zürich (консультації для потерпілих)"
+      },
+      "what": {
+        "de": "Opferberatungsstelle für alle Menschen, auch bei häuslicher Gewalt. Kostenlos und vertraulich.",
+        "en": "Victim counselling for everyone, including domestic violence. Free and confidential.",
+        "ar": "مركز استشارة للضحايا لجميع الناس، بما في ذلك العنف الأسري. مجاني وسري.",
+        "ti": "ንኹሉ ሰብ ማእከል ምኽሪ ግዳያት፡ ንዓመጽ ስድራቤት እውን። ብነጻን ምስጢራውን።",
+        "tr": "Herkes için mağdur danışma merkezi, aile içi şiddette de. Ücretsiz ve gizli.",
+        "uk": "Консультаційна служба для всіх потерпілих, також у разі домашнього насильства. Безкоштовно і конфіденційно."
+      },
+      "phone": "044 299 40 50",
+      "url": "https://www.obzh.ch",
+      "urlLabel": {
+        "de": "obzh.ch",
+        "en": "obzh.ch",
+        "ar": "obzh.ch",
+        "ti": "obzh.ch",
+        "tr": "obzh.ch",
+        "uk": "obzh.ch"
+      },
+      "tags": [
+        "opferhilfe",
+        "opferhilfe-geld",
+        "anzeige",
+        "schutz"
+      ],
+      "src": [
+        "zh-opferberatung"
+      ]
+    },
+    {
+      "id": "fiera",
+      "name": {
+        "de": "fiera Opferberatung Winterthur",
+        "en": "fiera victim counselling Winterthur",
+        "ar": "fiera استشارة الضحايا في فينترتور",
+        "ti": "fiera ምኽሪ ግዳያት ቪንተርቱር",
+        "tr": "fiera mağdur danışmanlığı Winterthur",
+        "uk": "fiera консультації для потерпілих, Вінтертур"
+      },
+      "what": {
+        "de": "Beratung für Frauen bei körperlicher, sexueller oder psychischer Gewalt und häuslicher Gewalt, Region Winterthur.",
+        "en": "Counselling for women after physical, sexual or psychological violence and domestic violence, Winterthur region.",
+        "ar": "استشارة للنساء بعد العنف الجسدي أو الجنسي أو النفسي والعنف الأسري، منطقة فينترتور.",
+        "ti": "ድሕሪ ኣካላዊ፡ ጾታዊ ወይ ስነ-ኣእምሮኣዊ ዓመጽን ዓመጽ ስድራቤትን ንደቀንስትዮ ምኽሪ፡ ከባቢ ቪንተርቱር።",
+        "tr": "Bedensel, cinsel veya psikolojik şiddet ve aile içi şiddet yaşayan kadınlar için danışmanlık, Winterthur bölgesi.",
+        "uk": "Консультації для жінок після фізичного, сексуального чи психологічного насильства та домашнього насильства, регіон Вінтертур."
+      },
+      "phone": "052 213 61 61",
+      "url": "https://www.fiera-opferberatung.ch",
+      "urlLabel": {
+        "de": "fiera-opferberatung.ch",
+        "en": "fiera-opferberatung.ch",
+        "ar": "fiera-opferberatung.ch",
+        "ti": "fiera-opferberatung.ch",
+        "tr": "fiera-opferberatung.ch",
+        "uk": "fiera-opferberatung.ch"
+      },
+      "tags": [
+        "opferhilfe",
+        "kontrolle",
+        "schutz",
+        "anzeige"
+      ],
+      "src": [
+        "zh-opferberatung"
+      ]
+    },
+    {
+      "id": "frauenhaus",
+      "name": {
+        "de": "Frauenhaus Zürich Violetta",
+        "en": "Women's shelter Zurich Violetta",
+        "ar": "دار حماية النساء في زيورخ Violetta",
+        "ti": "ገዛ ሓለዋ ደቀንስትዮ ዙሪክ Violetta",
+        "tr": "Zürih Kadın Sığınma Evi Violetta",
+        "uk": "Жіночий притулок Цюрих Violetta"
+      },
+      "what": {
+        "de": "Geschützte Unterkunft für dich und deine Kinder, wenn du nicht mehr zu Hause bleiben kannst. Tag und Nacht erreichbar.",
+        "en": "Safe accommodation for you and your children if you can no longer stay at home. Available day and night.",
+        "ar": "سكن آمن لك ولأطفالك إذا لم تعودي قادرة على البقاء في البيت. متاح ليلًا ونهارًا.",
+        "ti": "ኣብ ገዛ ክትጸንሒ እንተ ዘይከኣልኪ ንዓኺን ንደቅኽን ውሑስ መንበሪ። መዓልትን ለይትን ይርከብ።",
+        "tr": "Artık evde kalamıyorsan senin ve çocukların için güvenli konaklama. Gece gündüz ulaşılabilir.",
+        "uk": "Безпечне житло для тебе і твоїх дітей, якщо ти більше не можеш залишатися вдома. Доступний вдень і вночі."
+      },
+      "phone": "044 350 04 04",
+      "tags": [
+        "schutz",
+        "notfall",
+        "spirale",
+        "kinder"
+      ],
+      "src": [
+        "bif-not",
+        "zh-hilfe"
+      ]
+    },
+    {
+      "id": "zwangsheirat",
+      "name": {
+        "de": "Fachstelle Zwangsheirat",
+        "en": "Forced Marriage Service",
+        "ar": "المركز المتخصص في الزواج القسري",
+        "ti": "ማእከል ፍሉይ ሞያ ናይ ግዴታ መርዓ",
+        "tr": "Zorla Evlendirme Uzman Merkezi",
+        "uk": "Фахова служба з питань примусових шлюбів"
+      },
+      "what": {
+        "de": "Beratung bei Druck zur Heirat oder in der Ehe. Kostenlos, vertraulich, auf Wunsch anonym.",
+        "en": "Advice on pressure to marry or within a marriage. Free, confidential, anonymous if you wish.",
+        "ar": "استشارة عند الضغط للزواج أو داخل الزواج. مجانية، سرية، ومجهولة الهوية إذا رغبت.",
+        "ti": "ኣብ ጸቕጢ ምምርዓው ወይ ኣብ ውሽጢ መርዓ ምኽሪ። ብነጻ፡ ምስጢራዊ፡ እንተ ደሊኺ ብዘይ ስም።",
+        "tr": "Evlenme baskısında veya evlilik içinde danışmanlık. Ücretsiz, gizli, istersen isimsiz.",
+        "uk": "Консультації при тиску щодо шлюбу або в шлюбі. Безкоштовно, конфіденційно, за бажанням анонімно."
+      },
+      "phone": "0800 800 007",
+      "tags": [
+        "zwangsheirat"
+      ],
+      "src": [
+        "zh-zwang"
+      ]
+    },
+    {
+      "id": "kokon",
+      "name": {
+        "de": "kokon – Beratung für Kinder und Jugendliche",
+        "en": "kokon – counselling for children and young people",
+        "ar": "kokon – استشارة للأطفال والشباب",
+        "ti": "kokon – ምኽሪ ንቆልዑን መንእሰያትን",
+        "tr": "kokon – çocuklar ve gençler için danışmanlık",
+        "uk": "kokon – консультації для дітей і підлітків"
+      },
+      "what": {
+        "de": "Opferberatung für Kinder, Jugendliche und junge Erwachsene, auch wenn sie häusliche Gewalt miterleben.",
+        "en": "Victim counselling for children, young people and young adults, also when they witness domestic violence.",
+        "ar": "استشارة للضحايا من الأطفال والشباب والشباب البالغين، أيضًا عندما يشهدون العنف الأسري.",
+        "ti": "ንቆልዑ፡ መንእሰያትን ንኣሽቱ ዓበይትን ምኽሪ ግዳያት፡ ዓመጽ ስድራቤት እንተ ረኣዩ እውን።",
+        "tr": "Çocuklar, gençler ve genç yetişkinler için mağdur danışmanlığı, aile içi şiddete tanık olduklarında da.",
+        "uk": "Консультації для дітей, підлітків і молодих дорослих, які постраждали від насильства, також якщо вони є свідками домашнього насильства."
+      },
+      "phone": "044 545 45 40",
+      "url": "https://www.kokon-zh.ch",
+      "urlLabel": {
+        "de": "kokon-zh.ch",
+        "en": "kokon-zh.ch",
+        "ar": "kokon-zh.ch",
+        "ti": "kokon-zh.ch",
+        "tr": "kokon-zh.ch",
+        "uk": "kokon-zh.ch"
+      },
+      "tags": [
+        "kinder"
+      ],
+      "src": [
+        "zh-opferberatung"
+      ]
+    },
+    {
+      "id": "forensic",
+      "name": {
+        "de": "Forensic Nurses",
+        "en": "Forensic Nurses",
+        "ar": "ممرضات الطب الشرعي (Forensic Nurses)",
+        "ti": "Forensic Nurses (ነርሳት ፎረንሲክ)",
+        "tr": "Forensic Nurses (adli hemşireler)",
+        "uk": "Forensic Nurses (судово-медичні медсестри)"
+      },
+      "what": {
+        "de": "Sichern Spuren von Gewalt kostenlos, auch ohne Anzeige. Rund um die Uhr.",
+        "en": "Secure evidence of violence free of charge, even without a police report. Around the clock.",
+        "ar": "يوثقن آثار العنف مجانًا، حتى بدون بلاغ. على مدار الساعة.",
+        "ti": "ኣሰራት ዓመጽ ብነጻ ይስንዳ፡ ብዘይ ክሲ እውን። 24 ሰዓት።",
+        "tr": "Şiddet izlerini ücretsiz kayıt altına alır, şikâyet olmadan da. 24 saat.",
+        "uk": "Безкоштовно фіксують сліди насильства, навіть без заяви. Цілодобово."
+      },
+      "phone": "0800 09 09 09",
+      "tags": [
+        "anzeige",
+        "aufenthalt-nachweis",
+        "notfall"
+      ],
+      "src": [
+        "bif-not",
+        "zh-hilfe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Kompass chat worker (Cloudflare Workers, free plan is enough for the prototype)
+name = "kompass-chat"
+main = "src/index.js"
+compatibility_date = "2025-11-01"
+
+# No request logs, no traces: questions must not be stored anywhere.
+[observability]
+enabled = false
+logs = { enabled = false }
+
+[ai]
+binding = "AI"
+
+[vars]
+# Exact origin of the GitHub Pages site, e.g. "https://dom.github.io". Comma-separated for several.
+ALLOWED_ORIGINS = ""
+ALLOW_LOCALHOST = "true"
+MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+
+# Max 10 questions per minute per visitor. Counter lives only in memory.
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 10, period = 60 }
