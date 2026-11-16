@@ -135,6 +135,7 @@ function servicesFor(entryIds) {
 }
 
 // ---------- views ----------
+const HINTS = ["kontrolle", "geld", "psychisch", "aufenthalt"];
 const POPULAR = ["kontrolle", "geld", "aufenthalt", "zwangsheirat"];
 
 function askForm(id, placeholder) {
@@ -152,6 +153,7 @@ function viewHome() {
     <div class="illu" aria-hidden="true">${illustration()}</div>
     <div class="wrap hero-inner">
       <h1 class="enter">${esc(t("heroTitle"))}<span>${esc(t("heroSub"))}</span></h1>
+      <ul class="hints enter enter-2">${HINTS.map((id, i) => `<li><a href="#thema-${id}">${esc((ui[lang].hints || ui.de.hints)[i])}</a></li>`).join("")}</ul>
       <div class="enter enter-2">${askForm("homeAsk", t("askPlaceholder"))}</div>
       <div class="quick enter enter-3">
         <a class="btn btn-line" href="#check">${esc(t("quickCheck"))} <span class="mins">${esc(t("minutes"))}</span></a>

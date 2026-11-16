@@ -11,7 +11,7 @@
     "machine": "",
     "contentNote": "",
     "heroTitle": "Etwas fühlt sich nicht richtig an?",
-    "heroSub": "Frag einfach. Die Antwort kommt aus geprüften Quellen.",
+    "heroSub": "Wenn dein Partner oder deine Familie dich kontrolliert, unter Druck setzt oder dir Angst macht. Frag einfach.",
     "askPlaceholder": "Was möchtest du wissen?",
     "send": "Fragen",
     "quickCheck": "Kurzer Selbst-Check",
@@ -65,7 +65,13 @@
       "Verliere ich meine Bewilligung bei einer Trennung?",
       "Meine Eltern wollen, dass ich heirate"
     ],
-    "minutes": "2 Min."
+    "minutes": "2 Min.",
+    "hints": [
+      "Mein Handy wird kontrolliert",
+      "Ich habe kein eigenes Geld",
+      "Ich habe Angst, Nein zu sagen",
+      "Angst um meine Bewilligung"
+    ]
   },
   "en": {
     "langName": "English",
@@ -79,7 +85,7 @@
     "machine": "Machine-translated from German, not yet checked by professionals.",
     "contentNote": "The topic pages are still in German. The chat already answers in English.",
     "heroTitle": "Something doesn't feel right?",
-    "heroSub": "Just ask. Answers come from checked sources.",
+    "heroSub": "When your partner or family controls you, pressures you or makes you afraid. Just ask.",
     "askPlaceholder": "What would you like to know?",
     "send": "Ask",
     "quickCheck": "Short self-check",
@@ -133,7 +139,13 @@
       "Will I lose my permit if I leave?",
       "My parents want me to marry"
     ],
-    "minutes": "2 min"
+    "minutes": "2 min",
+    "hints": [
+      "My phone is being checked",
+      "I have no money of my own",
+      "I'm afraid to say no",
+      "Worried about my permit"
+    ]
   },
   "ar": {
     "langName": "العربية",
@@ -147,7 +159,7 @@
     "machine": "مترجم آليًا من الألمانية، لم يراجعه مختصون بعد.",
     "contentNote": "صفحات المواضيع ما زالت بالألمانية. المحادثة تجيب بالعربية من الآن.",
     "heroTitle": "هل تشعرين أن شيئًا ما ليس على ما يرام؟",
-    "heroSub": "اسألي فقط. الإجابات تأتي من مصادر موثوقة.",
+    "heroSub": "عندما يتحكم بك شريكك أو عائلتك، أو يضغطون عليك، أو يخيفونك. اسألي فقط.",
     "askPlaceholder": "ماذا تريدين أن تعرفي؟",
     "send": "اسألي",
     "quickCheck": "اختبار ذاتي قصير",
@@ -201,7 +213,13 @@
       "هل أفقد تصريح إقامتي إذا انفصلت؟",
       "أهلي يريدون أن أتزوج"
     ],
-    "minutes": "دقيقتان"
+    "minutes": "دقيقتان",
+    "hints": [
+      "هاتفي مراقَب",
+      "ليس لدي مال خاص بي",
+      "أخاف أن أقول لا",
+      "قلقة على تصريح إقامتي"
+    ]
   },
   "ti": {
     "langName": "ትግርኛ",
@@ -215,7 +233,7 @@
     "machine": "ካብ ጀርመንኛ ብማሽን ዝተተርጐመ፣ ገና ብክኢላታት ኣይተመርመረን።",
     "contentNote": "ገጻት ኣርእስትታት ገና ብጀርመንኛ እዮም። እቲ ዕላል ግን ብትግርኛ ይምልስ።",
     "heroTitle": "ገለ ነገር ቅኑዕ ኣይመስለኪን ዲዩ?",
-    "heroSub": "ሕተቲ ጥራይ። መልስታት ካብ ዝተመርመሩ ምንጭታት እዮም።",
+    "heroSub": "መጻምድኺ ወይ ስድራኺ ክቆጻጸሩኺ፣ ጸቕጢ ክገብሩልኪ ወይ ከፍርሑኺ ከለዉ። ሕተቲ ጥራይ።",
     "askPlaceholder": "እንታይ ክትፈልጢ ትደልዪ?",
     "send": "ሕተቲ",
     "quickCheck": "ሓጺር ርእሰ-ምርመራ",
@@ -269,7 +287,13 @@
       "እንተ ተፈላሊና ፍቓድ መንበሪየ ይጠፍእ ድዩ?",
       "ስድራይ ክምርዖ ይደልዩ"
     ],
-    "minutes": "2 ደቒቕ"
+    "minutes": "2 ደቒቕ",
+    "hints": [
+      "ሞባይለይ ይቆጻጸሩ",
+      "ናይ ገዛእ ርእሰይ ገንዘብ የብለይን",
+      "ኣይፋል ክብል እፈርህ",
+      "ብዛዕባ ፍቓድ መንበሪየ እሻቐል"
+    ]
   },
   "tr": {
     "langName": "Türkçe",
@@ -283,7 +307,7 @@
     "machine": "Almancadan makine çevirisiyle çevrildi, henüz uzmanlar tarafından kontrol edilmedi.",
     "contentNote": "Konu sayfaları şimdilik Almanca. Sohbet şimdiden Türkçe yanıt veriyor.",
     "heroTitle": "Bir şeyler doğru gelmiyor mu?",
-    "heroSub": "Sadece sor. Yanıtlar kontrol edilmiş kaynaklardan gelir.",
+    "heroSub": "Partnerin ya da ailen seni kontrol ediyor, baskı yapıyor veya korkutuyorsa. Sadece sor.",
     "askPlaceholder": "Ne öğrenmek istiyorsun?",
     "send": "Sor",
     "quickCheck": "Kısa öz değerlendirme",
@@ -337,7 +361,13 @@
       "Ayrılırsam oturma iznimi kaybeder miyim?",
       "Ailem evlenmemi istiyor"
     ],
-    "minutes": "2 dk."
+    "minutes": "2 dk.",
+    "hints": [
+      "Telefonum kontrol ediliyor",
+      "Kendi param yok",
+      "Hayır demekten korkuyorum",
+      "Oturma iznim için endişeliyim"
+    ]
   },
   "uk": {
     "langName": "Українська",
@@ -351,7 +381,7 @@
     "machine": "Машинний переклад з німецької, ще не перевірений фахівцями.",
     "contentNote": "Сторінки тем поки що німецькою. Чат уже відповідає українською.",
     "heroTitle": "Щось здається неправильним?",
-    "heroSub": "Просто запитай. Відповіді беруться з перевірених джерел.",
+    "heroSub": "Коли партнер або родина контролюють тебе, тиснуть на тебе чи лякають. Просто запитай.",
     "askPlaceholder": "Що ти хочеш дізнатися?",
     "send": "Запитати",
     "quickCheck": "Короткий самотест",
@@ -405,6 +435,12 @@
       "Чи втрачу я дозвіл, якщо розлучуся?",
       "Батьки хочуть, щоб я вийшла заміж"
     ],
-    "minutes": "2 хв"
+    "minutes": "2 хв",
+    "hints": [
+      "Мій телефон перевіряють",
+      "У мене немає власних грошей",
+      "Я боюся сказати «ні»",
+      "Боюся за свій дозвіл"
+    ]
   }
 }
