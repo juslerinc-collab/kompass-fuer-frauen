@@ -1,11 +1,11 @@
-import { search } from "./retrieve.js";
+import { search } from "./retrieve.js?v=__V__";
 
 const EXIT_URL = "https://www.meteoschweiz.admin.ch/";
 const RTL = new Set(["ar", "fa", "he", "ur"]);
 const cfg = window.KOMPASS_CONFIG || {};
 
 const [ui, kb, help, check] = await Promise.all(
-  ["data/ui.json", "data/knowledge.json", "data/help.json", "data/selfcheck.json"].map((u) => fetch(u).then((r) => r.json()))
+  ["data/ui.json", "data/knowledge.json", "data/help.json", "data/selfcheck.json"].map((u) => fetch(u + "?v=__V__").then((r) => r.json()))
 );
 
 const langs = Object.keys(ui);
