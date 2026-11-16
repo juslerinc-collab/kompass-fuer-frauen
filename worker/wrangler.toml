@@ -13,8 +13,8 @@ binding = "AI"
 
 [vars]
 # Exact origin of the GitHub Pages site, e.g. "https://dom.github.io". Comma-separated for several.
-ALLOWED_ORIGINS = ""
-ALLOW_LOCALHOST = "true"
+ALLOWED_ORIGINS = "https://juslerinc-collab.github.io"
+ALLOW_LOCALHOST = "false"
 MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
 
 # Max 10 questions per minute per visitor. Counter lives only in memory.
