@@ -72,7 +72,9 @@
       "Ich habe Angst, Nein zu sagen",
       "Angst um meine Bewilligung"
     ],
-    "eg": "z. B."
+    "eg": "z. B.",
+    "newChat": "Neues Gespräch",
+    "followUp": "Weiter fragen …"
   },
   "en": {
     "langName": "English",
@@ -147,7 +149,9 @@
       "I'm afraid to say no",
       "Worried about my permit"
     ],
-    "eg": "e.g."
+    "eg": "e.g.",
+    "newChat": "New conversation",
+    "followUp": "Ask a follow-up …"
   },
   "ar": {
     "langName": "العربية",
@@ -222,7 +226,9 @@
       "أخاف أن أقول لا",
       "قلقة على تصريح إقامتي"
     ],
-    "eg": "مثلًا:"
+    "eg": "مثلًا:",
+    "newChat": "محادثة جديدة",
+    "followUp": "اطرحي سؤالًا آخر …"
   },
   "ti": {
     "langName": "ትግርኛ",
@@ -297,7 +303,9 @@
       "ኣይፋል ክብል እፈርህ",
       "ብዛዕባ ፍቓድ መንበሪየ እሻቐል"
     ],
-    "eg": "ንኣብነት:"
+    "eg": "ንኣብነት:",
+    "newChat": "ሓድሽ ዝርርብ",
+    "followUp": "ካልእ ሕቶ ሕተቲ …"
   },
   "tr": {
     "langName": "Türkçe",
@@ -372,7 +380,9 @@
       "Hayır demekten korkuyorum",
       "Oturma iznim için endişeliyim"
     ],
-    "eg": "örn."
+    "eg": "örn.",
+    "newChat": "Yeni sohbet",
+    "followUp": "Devam sorusu sor …"
   },
   "uk": {
     "langName": "Українська",
@@ -447,6 +457,8 @@
       "Я боюся сказати «ні»",
       "Боюся за свій дозвіл"
     ],
-    "eg": "напр."
+    "eg": "напр.",
+    "newChat": "Нова розмова",
+    "followUp": "Постав наступне питання …"
   }
 }

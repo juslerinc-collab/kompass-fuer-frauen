@@ -168,12 +168,14 @@ function viewHome() {
   <section class="hero">
     <div class="illu" aria-hidden="true">${illustration()}</div>
     <div class="wrap hero-inner">
-      <h1 class="enter">${esc(t("heroTitle"))}<span>${esc(t("heroSub"))}</span></h1>
+      <div class="hero-title enter">
+        <a class="sticker" href="#check"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>${esc(t("quickCheck"))} <span>${esc(t("minutes"))}</span></a>
+        <h1>${esc(t("heroTitle"))}<span>${esc(t("heroSub"))}</span></h1>
+      </div>
       <div class="enter enter-2 hero-ask">${askForm("homeAsk", t("askPlaceholder"))}
         <ul class="hints">${HINTS.map((id, i) => `<li><a href="#thema-${id}">${esc(hintText(i))}</a></li>`).join("")}</ul>
       </div>
       <div class="quick enter enter-3">
-        <a class="btn btn-line" href="#check">${esc(t("quickCheck"))} <span class="mins">${esc(t("minutes"))}</span></a>
         <a class="textlink" href="#themen">${esc(t("quickRights"))} ${ICON.arrow}</a>
       </div>
     </div>
@@ -276,13 +278,17 @@ const chatLog = []; // in memory only (rendered HTML)
 const chatHistory = []; // in memory only, sent to the worker for follow-up questions
 function viewAsk() {
   const examples = ui[lang].examples || ui.de.examples || [];
+  const started = chatLog.length > 0;
   return `
-  <div class="wrap narrow ask-page">
-  <h1>${esc(t("askTitle"))}</h1>
-  <p>${esc(t("askIntro"))}</p>
-  <div class="chat" id="chat">${chatLog.join("")}</div>
-  ${chatLog.length ? "" : `<div class="chips">${examples.map((x) => `<button class="chip" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div>`}
-  ${askForm("askForm", t("askPlaceholder"))}
+  <div class="wrap narrow ask-page${started ? " chatting" : ""}">
+  <div class="chat-head">
+    <h1>${esc(t("askTitle"))}</h1>
+    ${started ? `<button class="textlink newchat" type="button" data-newchat>${esc(t("newChat"))}</button>` : ""}
+  </div>
+  ${started ? "" : `<p>${esc(t("askIntro"))}</p>`}
+  <div class="chat" id="chat" aria-live="polite">${chatLog.join("")}</div>
+  ${started ? "" : `<div class="chips">${examples.map((x) => `<button class="chip" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div>`}
+  <div class="composer">${askForm("askForm", started ? t("followUp") : t("askPlaceholder"))}</div>
   </div>`;
 }
 
@@ -295,8 +301,8 @@ function sourcesHtml(sources) {
 
 function offlineAnswer(question, prefix) {
   const hits = search(kb, question, 3);
-  if (!hits.length) return `<div class="bubble">${esc(t("noResult"))}</div>`;
-  return `<div class="bubble"><p>${esc(prefix)}</p>${entryRows(hits)}</div>`;
+  if (!hits.length) return `<div class="bubble bot">${esc(t("noResult"))}</div>`;
+  return `<div class="bubble bot"><p>${esc(prefix)}</p>${entryRows(hits)}</div>`;
 }
 
 function formatAnswer(text) {
@@ -307,16 +313,18 @@ function formatAnswer(text) {
     .join("");
 }
 
+let asking = false;
 async function ask(question) {
   question = question.trim();
-  if (!question) return;
+  if (!question || asking) return;
+  asking = true;
   chatLog.push(`<div class="bubble me">${esc(question)}</div>`);
   render();
   const chat = document.getElementById("chat");
-  const wait = document.createElement("div");
-  wait.className = "bubble";
-  wait.textContent = t("thinking");
-  chat.appendChild(wait);
+  const input = document.getElementById("askFormInput");
+  if (input) input.disabled = true;
+  chat.insertAdjacentHTML("beforeend", `<div class="bubble bot typing" aria-label="${esc(t("thinking"))}"><i></i><i></i><i></i></div>`);
+  chat.lastElementChild.scrollIntoView({ block: "end", behavior: "smooth" });
 
   let html;
   if (cfg.chatUrl) {
@@ -333,8 +341,9 @@ async function ask(question) {
         chatHistory.push({ role: "user", content: question }, { role: "assistant", content: data.answer });
         const more = (data.entries || []).map(entryById).filter(Boolean);
         html =
+          `<div class="bubble bot">` +
           (data.emergency ? urgentBox(t("dangerTitle"), t("dangerText")) : "") +
-          `<div class="bubble">${formatAnswer(data.answer)}${sourcesHtml(data.sources)}` +
+          `${formatAnswer(data.answer)}${sourcesHtml(data.sources)}` +
           (more.length ? entryRows(more) : "") +
           `<div class="note">${esc(t("aiNote"))}</div></div>`;
       } else {
@@ -347,8 +356,13 @@ async function ask(question) {
     html = offlineAnswer(question, t("searchMode"));
   }
   chatLog.push(html);
+  asking = false;
+  // Only redraw if she is still on the chat; never pull her back from another page.
+  if (!document.getElementById("chat")) return;
   render();
-  document.getElementById("askFormInput")?.focus();
+  const last = document.getElementById("chat").lastElementChild;
+  last?.scrollIntoView({ block: "start", behavior: "smooth" });
+  if (matchMedia("(pointer: fine)").matches) document.getElementById("askFormInput")?.focus({ preventScroll: true });
 }
 
 // ---------- router ----------
@@ -362,6 +376,7 @@ function render() {
 }
 
 main.addEventListener("click", (e) => {
+  if (e.target.closest("[data-newchat]")) { chatLog.length = 0; chatHistory.length = 0; render(); return; }
   const sc = e.target.closest("[data-scroll]");
   if (sc) { e.preventDefault(); document.getElementById(sc.dataset.scroll)?.scrollIntoView({ behavior: "smooth" }); return; }
   const a = e.target.closest("[data-a]");
