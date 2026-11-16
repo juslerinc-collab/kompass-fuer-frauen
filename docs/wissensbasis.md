@@ -166,6 +166,7 @@ _In jedem Kanton gibt es Opferberatungsstellen und Frauenhäuser. Die 142 funkti
 - Opferberatungsstellen gibt es in allen Kantonen. Du darfst die Stelle frei wählen, auch ausserhalb deines Wohnkantons. Eine Liste nach Kanton findest du bei Opferhilfe Schweiz. [ohs-wo]
 - In der Deutschschweiz gibt es auch eine Chat- und Onlineberatung: onlineopferberatung.ch. [ohs-wo]
 - Frauenhäuser gibt es in vielen Regionen, zum Beispiel in Bern, Basel, Luzern, St. Gallen, Aargau und Winterthur. Alle Adressen findest du bei der Dachorganisation der Frauenhäuser. [dao, ebg-hilfe]
+- Auch in anderen Kantonen kann die Polizei eine gewalttätige Person aus der Wohnung weisen. Wie lange, ist je nach Kanton verschieden: 10 bis 20 Tage. [skp-zuhause]
 
 ## Schutz
 
@@ -300,4 +301,5 @@ _Hör zu, verurteile sie nicht und dräng sie nicht. Bei akuter Gefahr ruf die P
 - `fgc-netz`: [Netzwerk gegen Mädchenbeschneidung Schweiz (Caritas)](https://www.female-genital-cutting.ch/)
 - `zh-fgmhelp`: [Kanton Zürich – Anlaufstelle FGMhelp (Feb. 2025)](https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2025/02/jubilaeum-der-anlaufstelle-gegen-weibliche-genitalbeschneidung-staerkung-der-praevention.html)
 - `fs-zwangsheirat`: [Fachstelle Zwangsheirat](https://www.zwangsheirat.ch/)
+- `skp-zuhause`: [Schweizerische Kriminalprävention – Broschüre «Zuhause im Unglück» (2024)](https://www.sz.ch/public/upload/assets/12590/Zuhause_im_Unglueck.pdf?fp=5)
 - `ebg-hilfe`: [EBG – Hilfe bei Gewalt gegen Frauen und häuslicher Gewalt](https://www.ebg.admin.ch/en/get-help-violence)

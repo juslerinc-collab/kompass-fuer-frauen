@@ -187,6 +187,10 @@
       "title": "Fachstelle Zwangsheirat",
       "url": "https://www.zwangsheirat.ch/"
     },
+    "skp-zuhause": {
+      "title": "Schweizerische Kriminalprävention – Broschüre «Zuhause im Unglück» (2024)",
+      "url": "https://www.sz.ch/public/upload/assets/12590/Zuhause_im_Unglueck.pdf?fp=5"
+    },
     "ebg-hilfe": {
       "title": "EBG – Hilfe bei Gewalt gegen Frauen und häuslicher Gewalt",
       "url": "https://www.ebg.admin.ch/en/get-help-violence"
@@ -2156,6 +2160,19 @@
           "src": [
             "dao",
             "ebg-hilfe"
+          ]
+        },
+        {
+          "text": {
+            "de": "Auch in anderen Kantonen kann die Polizei eine gewalttätige Person aus der Wohnung weisen. Wie lange, ist je nach Kanton verschieden: 10 bis 20 Tage.",
+            "en": "In other cantons, too, the police can order a violent person to leave the home. How long depends on the canton: 10 to 20 days.",
+            "ar": "في الكانتونات الأخرى أيضًا يمكن للشرطة إبعاد الشخص العنيف من المسكن. المدة تختلف حسب الكانتون: من 10 إلى 20 يومًا.",
+            "ti": "ኣብ ካልኦት ካንቶናት እውን ፖሊስ ንዓመጸኛ ሰብ ካብ ገዛ ከውጽኦ ይኽእል። ክንደይ ግዜ ከም ዝጸንሕ ብካንቶን ይፈላለ፡ ካብ 10 ክሳዕ 20 መዓልቲ።",
+            "tr": "Diğer kantonlarda da polis şiddet uygulayan kişiyi evden uzaklaştırabilir. Ne kadar süreceği kantona göre değişir: 10 ila 20 gün.",
+            "uk": "В інших кантонах поліція теж може виселити людину, яка чинить насильство, з житла. Як довго, залежить від кантону: від 10 до 20 днів."
+          },
+          "src": [
+            "skp-zuhause"
           ]
         }
       ]
